@@ -1,0 +1,5389 @@
+{
+  "time" : "2024-11-21T11:16:34.409359700Z",
+  "type" : "LOG_HEADER",
+  "eventId" : 53148,
+  "nanoTime" : 966596597200,
+  "codeqlVersion" : "2.19.2",
+  "logVersion" : "0.5.0"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.660279900Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53149,
+  "nanoTime" : 966846961300,
+  "raHash" : "5eae15v2qgrj5gssbrdbvcd1fa0",
+  "predicateName" : "TypeTrackingImpl::Cached::WithoutContent#16d81881",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::WithoutContent#16d81881" : [ 35 ],
+    "DataFlowImplCommon::Cached::typeStrongerThanCached/2#bdfc1d95" : [ 36 ],
+    "DataFlowImplCommon::Cached::paramMustFlow/2#aa0ec96e" : [ 36 ],
+    "DataFlowImplCommon::Cached::UnreachableSet.getEnclosingCallable/0#dispred#0bb5a6c2" : [ 36 ],
+    "DataFlowImplCommon::Cached::UnreachableSet.contains/1#dispred#923b2185" : [ 36 ],
+    "DataFlowImplCommon::Cached::expectsContentCached/2#4dbd4bf1" : [ 36 ],
+    "DataFlowImplCommon::Cached::TSpecificLocalCall#555519ba" : [ 36 ],
+    "DataFlowImplCommon::Cached::isUnreachableInCallCached/2#b33bb0f0" : [ 36 ],
+    "DataFlowImplCommon::Cached::getUnreachableSet/1#840389b1" : [ 36 ]
+  },
+  "isCached" : true,
+  "sentinelRaHash" : "e373e3np8rgil76s4pqke1rd293"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.660279900Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53150,
+  "nanoTime" : 966847022900,
+  "raHash" : "c6e512e4n0poi703tjjgdl1ioq5",
+  "predicateName" : "TypeTrackingImpl::Cached::LoadStoreStep#ca0e7fcb",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::LoadStoreStep#ca0e7fcb" : [ 35 ]
+  },
+  "isCached" : true,
+  "sentinelRaHash" : "f8d7786gpql76ainv7a4st46sc6"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.660279900Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53151,
+  "nanoTime" : 966847089900,
+  "raHash" : "dd80efqj4pa1c9amtq641mki9e4",
+  "predicateName" : "TypeTrackingImpl::Cached::WithContent#fdf14f7b",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::WithContent#fdf14f7b" : [ 35 ],
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::recordDataFlowCallSiteUnreachable/2#4c5e82a4" : [ 36 ]
+  },
+  "isCached" : true,
+  "sentinelRaHash" : "8b751dltakr7dk7idsesbc2sf88"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.660279900Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53152,
+  "nanoTime" : 966849527000,
+  "raHash" : "bdb5a5gsveocan56i6er3do4ma2",
+  "predicateName" : "DataFlowImplCommon::Cached::UnreachableSet.toString/0#dispred#0bd92907",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::UnreachableSet.toString/0#dispred#0bd92907" : [ 36 ]
+  },
+  "isCached" : true,
+  "sentinelRaHash" : "39df17f91qigrn9m2n4grond0lb"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.660279900Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53153,
+  "nanoTime" : 966849713300,
+  "raHash" : "ed38f730ehhheb7cdldc7dd9t2d",
+  "predicateName" : "DataFlowImplCommon::Cached::UnreachableSet#1b7f4bfd",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::UnreachableSet#1b7f4bfd" : [ 36 ]
+  },
+  "isCached" : true,
+  "sentinelRaHash" : "065717fbkiiglsk7e71nni0k0k3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.660279900Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53154,
+  "nanoTime" : 966849763000,
+  "raHash" : "d72f121i4tr21ctsi029amubmk5",
+  "predicateName" : "DataFlowImplCommon::Cached::castNode/1#73c54309",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::castNode/1#73c54309" : [ 36 ]
+  },
+  "isCached" : true,
+  "sentinelRaHash" : "04fe93g31o0us9hn31v6dcbk025"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.675911800Z",
+  "type" : "QUERY_STARTED",
+  "eventId" : 53155,
+  "nanoTime" : 966854878900,
+  "queryName" : "f:\\projects\\git_clone\\LLMScheduling\\codeql-custom-queries-python\\new_global.ql",
+  "stages" : [ 32, 33, 34, 35, 36, 37, 38, 39 ]
+}
+
+{
+  "time" : "2024-11-21T11:16:34.675911800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53156,
+  "nanoTime" : 966863190900,
+  "raHash" : "27a41artqsknttt09a43jfiue82",
+  "predicateName" : "Files::Impl::Container.splitAbsolutePath/2#dispred#324a3985",
+  "appearsAs" : {
+    "Files::Impl::Container.splitAbsolutePath/2#dispred#324a3985" : [ 32 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 3019
+}
+
+{
+  "time" : "2024-11-21T11:16:34.675911800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53157,
+  "nanoTime" : 966863539300,
+  "raHash" : "e6c8ebe5lsfc5qun42vk7e61el1",
+  "predicateName" : "Module::moduleNameFromFile/1#a01d5f51",
+  "appearsAs" : {
+    "Module::moduleNameFromFile/1#a01d5f51" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 809
+}
+
+{
+  "time" : "2024-11-21T11:16:34.675911800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53158,
+  "nanoTime" : 966863735400,
+  "raHash" : "d325122skqb297gn1j68q9s14c4",
+  "predicateName" : "ApiGraphModels::ModelOutput::relevantSummaryModel/6#53d509c9",
+  "appearsAs" : {
+    "ApiGraphModels::ModelOutput::relevantSummaryModel/6#53d509c9" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 34
+}
+
+{
+  "time" : "2024-11-21T11:16:34.675911800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53159,
+  "nanoTime" : 966863886500,
+  "raHash" : "cd4382go4mbv3s70kpummk2hopd",
+  "predicateName" : "Flow::SequenceNode.getElement/1#dispred#4cc4068f",
+  "appearsAs" : {
+    "Flow::SequenceNode.getElement/1#dispred#4cc4068f" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 20465
+}
+
+{
+  "time" : "2024-11-21T11:16:34.675911800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53160,
+  "nanoTime" : 966864194400,
+  "raHash" : "5f3c9164c18efjlp8hjkro69j88",
+  "predicateName" : "Flow::BasicBlock.strictlyDominates/1#dispred#65ae2ca3",
+  "appearsAs" : {
+    "Flow::BasicBlock.strictlyDominates/1#dispred#65ae2ca3" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 2222091
+}
+
+{
+  "time" : "2024-11-21T11:16:34.675911800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53161,
+  "nanoTime" : 966864461900,
+  "raHash" : "4aa6a8tjonkt6g14vboqq3gcf66",
+  "predicateName" : "DataFlowImplCommon::Cached::getContentApproxCached/1#655c9a2e",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::getContentApproxCached/1#655c9a2e" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 5648
+}
+
+{
+  "time" : "2024-11-21T11:16:34.675911800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53162,
+  "nanoTime" : 966864701400,
+  "raHash" : "d052b47tiduu4pdr7gcsmj612ud",
+  "predicateName" : "DataFlowImplCommon::Cached::TApproxFrontHead#734001bd",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TApproxFrontHead#734001bd" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.675911800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53163,
+  "nanoTime" : 966864867600,
+  "raHash" : "436e3539ca8j0dtbpsk0kq5e2k7",
+  "predicateName" : "AstExtended::AstNode.getAFlowNode/0#dispred#fcebb9ee",
+  "appearsAs" : {
+    "AstExtended::AstNode.getAFlowNode/0#dispred#fcebb9ee" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 660610
+}
+
+{
+  "time" : "2024-11-21T11:16:34.675911800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53164,
+  "nanoTime" : 966865210700,
+  "raHash" : "c8be2d1ilkda36gp0str90qhks3",
+  "predicateName" : "Import::ImportStar.getModuleExpr/0#dispred#8ab9ce73",
+  "appearsAs" : {
+    "Import::ImportStar.getModuleExpr/0#dispred#8ab9ce73" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 60
+}
+
+{
+  "time" : "2024-11-21T11:16:34.675911800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53165,
+  "nanoTime" : 966865579000,
+  "raHash" : "6b82a94ofc6913omg4eubt4of64",
+  "predicateName" : "Flow::ControlFlowNode.getScope/0#dispred#b061daac",
+  "appearsAs" : {
+    "Flow::ControlFlowNode.getScope/0#dispred#b061daac" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 660610
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53166,
+  "nanoTime" : 966865929900,
+  "raHash" : "17a98fn0r8rmn7hquc393lehqb7",
+  "predicateName" : "Flow::BasicBlock.getASuccessor/0#dispred#7249dd96",
+  "appearsAs" : {
+    "Flow::BasicBlock.getASuccessor/0#dispred#7249dd96" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 188488
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53167,
+  "nanoTime" : 966866121400,
+  "raHash" : "c7d7a04h6u1n5aeqgtvfgouhjkc",
+  "predicateName" : "Flow::DefinitionNode#e8809c3b",
+  "appearsAs" : {
+    "Flow::DefinitionNode#e8809c3b" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 59237
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53168,
+  "nanoTime" : 966866322800,
+  "raHash" : "242063vdjmmpid2g5694089tbl6",
+  "predicateName" : "Flow::BasicBlock.getImmediateDominator/0#dispred#0f15e8ec",
+  "appearsAs" : {
+    "Flow::BasicBlock.getImmediateDominator/0#dispred#0f15e8ec" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 99301
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53169,
+  "nanoTime" : 966866447100,
+  "raHash" : "edc0bb1pslrb5qsdhaas4sptuid",
+  "predicateName" : "VariableCapture::Flow::CaptureSsa::TPhiReadNode#57c8fe08",
+  "appearsAs" : {
+    "VariableCapture::Flow::CaptureSsa::TPhiReadNode#57c8fe08" : [ 34 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 496
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53170,
+  "nanoTime" : 966866588300,
+  "raHash" : "d91aa2b4dqtmie57qnp63becq73",
+  "predicateName" : "VariableCapture::Flow::CaptureSsa::TPhiNode#04d597fb",
+  "appearsAs" : {
+    "VariableCapture::Flow::CaptureSsa::TPhiNode#04d597fb" : [ 34 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 27
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53171,
+  "nanoTime" : 966866717600,
+  "raHash" : "499ec3ehqirqr7mb1013lqcdat3",
+  "predicateName" : "Essa::TEssaNodeDefinition#96e9ebfe",
+  "appearsAs" : {
+    "Essa::TEssaNodeDefinition#96e9ebfe" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 111684
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53172,
+  "nanoTime" : 966866964600,
+  "raHash" : "fde3ccb7jngshmua2jjn18el442",
+  "predicateName" : "SsaDefinitions::SsaSource::parameter_definition/2#40b2fede",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::parameter_definition/2#40b2fede" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 14049
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53173,
+  "nanoTime" : 966867095700,
+  "raHash" : "2b6ed3abmuvhnv945a4sju8h8q4",
+  "predicateName" : "SsaDefinitions::SsaSource::init_module_submodule_defn/2#64b1af7d",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::init_module_submodule_defn/2#64b1af7d" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 3
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53174,
+  "nanoTime" : 966867297000,
+  "raHash" : "fa8591scv6hkpuil47vt4oq39v4",
+  "predicateName" : "SsaCompute::AdjacentUses::firstUse/2#ca053ce0",
+  "appearsAs" : {
+    "SsaCompute::AdjacentUses::firstUse/2#ca053ce0" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 81110
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53175,
+  "nanoTime" : 966867461000,
+  "raHash" : "20a4fa4n1cgqbo1gt5t74has6mf",
+  "predicateName" : "SsaCompute::AdjacentUses::adjacentUseUse/2#c094915e",
+  "appearsAs" : {
+    "SsaCompute::AdjacentUses::adjacentUseUse/2#c094915e" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 138497
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53176,
+  "nanoTime" : 966867577500,
+  "raHash" : "800171fk39a27fl7v7et4ruue69",
+  "predicateName" : "VariableCapture::Flow::CaptureSsa::TWriteDef#038f202f",
+  "appearsAs" : {
+    "VariableCapture::Flow::CaptureSsa::TWriteDef#038f202f" : [ 34 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 542
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53177,
+  "nanoTime" : 966867726500,
+  "raHash" : "4df94flqvpfmjp03t10mavcbn60",
+  "predicateName" : "SsaDefinitions::SsaSource::pattern_alias_definition/2#e55586af",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::pattern_alias_definition/2#e55586af" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53178,
+  "nanoTime" : 966867826900,
+  "raHash" : "9c665dffeg73nej24vbu8mis8m3",
+  "predicateName" : "Essa::PatternAliasDefinition#9de11591",
+  "appearsAs" : {
+    "Essa::PatternAliasDefinition#9de11591" : [ 35, 36 ]
+  },
+  "sentinelRaHash" : "4df94flqvpfmjp03t10mavcbn60"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53179,
+  "nanoTime" : 966867873700,
+  "raHash" : "0332cau14k4gjrvm62dtfn63joc",
+  "predicateName" : "Essa::PatternAliasDefinition#9de11591",
+  "appearsAs" : {
+    "Essa::PatternAliasDefinition#9de11591" : [ 38 ]
+  },
+  "sentinelRaHash" : "4df94flqvpfmjp03t10mavcbn60"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53180,
+  "nanoTime" : 966868031400,
+  "raHash" : "ee9d8capblng9uggl4ur7vbd9oe",
+  "predicateName" : "SsaDefinitions::SsaSource::pattern_capture_definition/2#77b3ae42",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::pattern_capture_definition/2#77b3ae42" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53181,
+  "nanoTime" : 966868080100,
+  "raHash" : "1d29266qva7j2152pa4l6iifn9f",
+  "predicateName" : "Essa::PatternCaptureDefinition#26207ec8",
+  "appearsAs" : {
+    "Essa::PatternCaptureDefinition#26207ec8" : [ 35, 36 ]
+  },
+  "sentinelRaHash" : "ee9d8capblng9uggl4ur7vbd9oe"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53182,
+  "nanoTime" : 966868107500,
+  "raHash" : "a4e7789abtp3kd3pmf9hhluv0s1",
+  "predicateName" : "Essa::PatternCaptureDefinition#26207ec8",
+  "appearsAs" : {
+    "Essa::PatternCaptureDefinition#26207ec8" : [ 38 ]
+  },
+  "sentinelRaHash" : "ee9d8capblng9uggl4ur7vbd9oe"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.691535300Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53183,
+  "nanoTime" : 966868275400,
+  "raHash" : "fbbf2aks9jn6u5kesbjnldprmge",
+  "predicateName" : "SsaDefinitions::SsaSource::with_definition/2#e1888ceb",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::with_definition/2#e1888ceb" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 519
+}
+
+{
+  "time" : "2024-11-21T11:16:34.694168800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53184,
+  "nanoTime" : 966868434400,
+  "raHash" : "393f4283nhr7dneq1q3ogqdmhea",
+  "predicateName" : "SsaDefinitions::SsaSource::assignment_definition/3#a5ba4d99",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::assignment_definition/3#a5ba4d99" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 47120
+}
+
+{
+  "time" : "2024-11-21T11:16:34.694374Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53185,
+  "nanoTime" : 966868563600,
+  "raHash" : "e1c558pspfuseds99mk986ltr67",
+  "predicateName" : "SsaDefinitions::SsaSource::multi_assignment_definition/4#1d17889e",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::multi_assignment_definition/4#1d17889e" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 2666
+}
+
+{
+  "time" : "2024-11-21T11:16:34.694396400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53186,
+  "nanoTime" : 966868737400,
+  "raHash" : "e8de4cs80tncbeuu252bntmvs64",
+  "predicateName" : "AstExtended::AstNode.getLocation/0#dispred#6b4dcb62",
+  "appearsAs" : {
+    "AstExtended::AstNode.getLocation/0#dispred#6b4dcb62" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 660967
+}
+
+{
+  "time" : "2024-11-21T11:16:34.694396400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53187,
+  "nanoTime" : 966868889700,
+  "raHash" : "405fbag2ma2bdc03ls36cfsv2oc",
+  "predicateName" : "Essa::TEssaNodeRefinement#8de2de42",
+  "appearsAs" : {
+    "Essa::TEssaNodeRefinement#8de2de42" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 170452
+}
+
+{
+  "time" : "2024-11-21T11:16:34.694396400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53188,
+  "nanoTime" : 966869092100,
+  "raHash" : "a9cd37recb0cskfus3aknu29kh6",
+  "predicateName" : "Essa::TEssaEdgeDefinition#be4738bc",
+  "appearsAs" : {
+    "Essa::TEssaEdgeDefinition#be4738bc" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 45714
+}
+
+{
+  "time" : "2024-11-21T11:16:34.694396400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53189,
+  "nanoTime" : 966869219100,
+  "raHash" : "43303ao5m2sf39nki6gdu4cd299",
+  "predicateName" : "Essa::TPhiFunction#dfb6fe3b",
+  "appearsAs" : {
+    "Essa::TPhiFunction#dfb6fe3b" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 69288
+}
+
+{
+  "time" : "2024-11-21T11:16:34.695199400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53190,
+  "nanoTime" : 966869457500,
+  "raHash" : "564d0e8kr4mchpi4usi3tiq1a4b",
+  "predicateName" : "SsaCompute::SsaDefinitions::reachesUse/4#216dc4f6",
+  "appearsAs" : {
+    "SsaCompute::SsaDefinitions::reachesUse/4#216dc4f6" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 749890
+}
+
+{
+  "time" : "2024-11-21T11:16:34.695199400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53191,
+  "nanoTime" : 966869590400,
+  "raHash" : "4d006926477dprvl94nnhsmfok2",
+  "predicateName" : "SsaDefinitions::SsaSource::import_star_refinement/3#1675f8e2",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::import_star_refinement/3#1675f8e2" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 6485
+}
+
+{
+  "time" : "2024-11-21T11:16:34.695199400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53192,
+  "nanoTime" : 966869710800,
+  "raHash" : "bf82eadmbad2apb9dshu0f8bkm5",
+  "predicateName" : "SsaDefinitions::SsaSource::attribute_assignment_refinement/3#5f777592",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::attribute_assignment_refinement/3#5f777592" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 3258
+}
+
+{
+  "time" : "2024-11-21T11:16:34.695199400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53193,
+  "nanoTime" : 966869835100,
+  "raHash" : "0cdda7os9ilqvfmcebbthllo669",
+  "predicateName" : "SsaDefinitions::SsaSource::attribute_deletion_refinement/3#7de1bd7a",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::attribute_deletion_refinement/3#7de1bd7a" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 2
+}
+
+{
+  "time" : "2024-11-21T11:16:34.695199400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53194,
+  "nanoTime" : 966869942300,
+  "raHash" : "5b6c9frk1dad312po9pah1qt609",
+  "predicateName" : "SsaDefinitions::SsaSource::method_call_refinement/3#3634d2a9",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::method_call_refinement/3#3634d2a9" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 18567
+}
+
+{
+  "time" : "2024-11-21T11:16:34.695199400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53195,
+  "nanoTime" : 966870046300,
+  "raHash" : "c4d74cbgj1pnf1hpg6bcie1t5n6",
+  "predicateName" : "SsaDefinitions::SsaSource::argument_refinement/3#615fb3a9",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::argument_refinement/3#615fb3a9" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 7747
+}
+
+{
+  "time" : "2024-11-21T11:16:34.695199400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53196,
+  "nanoTime" : 966870147400,
+  "raHash" : "db06ed6h13bud9htunumimr2hie",
+  "predicateName" : "SsaDefinitions::SsaSource::test_refinement/3#2cbdf557",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::test_refinement/3#2cbdf557" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 871
+}
+
+{
+  "time" : "2024-11-21T11:16:34.695199400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53197,
+  "nanoTime" : 966870241400,
+  "raHash" : "71864aoaln1lq3ismel0flerj56",
+  "predicateName" : "SsaDefinitions::SsaSource::deletion_definition/2#e74a17e3",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::deletion_definition/2#e74a17e3" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.695199400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53198,
+  "nanoTime" : 966870342200,
+  "raHash" : "a55212doljcjo00vtdal7vi3ovc",
+  "predicateName" : "SsaDefinitions::SsaSource::exception_group_capture/2#d53f492d",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::exception_group_capture/2#d53f492d" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.696201400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53199,
+  "nanoTime" : 966870502200,
+  "raHash" : "ddd43d6vga1576qdqhafjcs3hke",
+  "predicateName" : "SsaDefinitions::SsaSource::exception_capture/2#fd0779df",
+  "appearsAs" : {
+    "SsaDefinitions::SsaSource::exception_capture/2#fd0779df" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1706
+}
+
+{
+  "time" : "2024-11-21T11:16:34.696201400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53200,
+  "nanoTime" : 966870654700,
+  "raHash" : "f7d193n7jkh5fnqu39gi20adjm3",
+  "predicateName" : "Essa::PhiFunction.getInput/1#dispred#f797e1b9",
+  "appearsAs" : {
+    "Essa::PhiFunction.getInput/1#dispred#f797e1b9" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 860236
+}
+
+{
+  "time" : "2024-11-21T11:16:34.696201400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53201,
+  "nanoTime" : 966870846100,
+  "raHash" : "1291e3jbb72vaibub1m9aqrmal2",
+  "predicateName" : "ApiGraphs::API::Impl::edge/3#8453bf65",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::edge/3#8453bf65" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 872798
+}
+
+{
+  "time" : "2024-11-21T11:16:34.696201400Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53202,
+  "nanoTime" : 966871154000,
+  "raHash" : "2f2b2851r51r1raf7r51tj3s2f6",
+  "predicateName" : "LocalSources::LocalSourceNode#2491029a",
+  "appearsAs" : {
+    "LocalSources::LocalSourceNode#2491029a" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 468203
+}
+
+{
+  "time" : "2024-11-21T11:16:34.697201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53203,
+  "nanoTime" : 966871439200,
+  "raHash" : "2032fdmbln6gk1kbku84sk2sct4",
+  "predicateName" : "ApiGraphs::API::Impl::use/2#d5fdb6f7#origOrder",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::use/2#d5fdb6f7#origOrder" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 179230
+}
+
+{
+  "time" : "2024-11-21T11:16:34.697201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53204,
+  "nanoTime" : 966871565900,
+  "raHash" : "2c7a30ue4cjlm8ccljbft1npjv8",
+  "predicateName" : "ImportStar::ImportStar::globalNameDefinedInModule/2#83dd766e",
+  "appearsAs" : {
+    "ImportStar::ImportStar::globalNameDefinedInModule/2#83dd766e" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 14980
+}
+
+{
+  "time" : "2024-11-21T11:16:34.697201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53205,
+  "nanoTime" : 966871690800,
+  "raHash" : "7f7d8b9cpbats3vldetnejfc5j8",
+  "predicateName" : "ApiGraphs::API::Impl::prefix_member/3#2bc325da",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::prefix_member/3#2bc325da" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 498
+}
+
+{
+  "time" : "2024-11-21T11:16:34.697201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53206,
+  "nanoTime" : 966871816400,
+  "raHash" : "9de3746eus9a6hbprg9rin35qk5",
+  "predicateName" : "ImportStar::ImportStar::namePossiblyDefinedInImportStar/3#59306aa3",
+  "appearsAs" : {
+    "ImportStar::ImportStar::namePossiblyDefinedInImportStar/3#59306aa3" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1046
+}
+
+{
+  "time" : "2024-11-21T11:16:34.697201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53207,
+  "nanoTime" : 966871928200,
+  "raHash" : "eeb468dqqor1ka0ctoi8lbfnoi2",
+  "predicateName" : "ApiGraphs::API::Impl::MkModuleImport#28fb9873",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::MkModuleImport#28fb9873" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 655
+}
+
+{
+  "time" : "2024-11-21T11:16:34.697201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53208,
+  "nanoTime" : 966872058700,
+  "raHash" : "d6312bnqkiho707erav9rn995me",
+  "predicateName" : "ImportStar::ImportStar::getStarImported/1#fb356881",
+  "appearsAs" : {
+    "ImportStar::ImportStar::getStarImported/1#fb356881" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 59
+}
+
+{
+  "time" : "2024-11-21T11:16:34.697201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53209,
+  "nanoTime" : 966872190600,
+  "raHash" : "ed9d6bj92t7bgfvr48lf4oa11lf",
+  "predicateName" : "DataFlowImplCommon::Cached::TNodeNormal#98558652",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TNodeNormal#98558652" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 948741
+}
+
+{
+  "time" : "2024-11-21T11:16:34.697201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53210,
+  "nanoTime" : 966872413000,
+  "raHash" : "77cb34gjtmnpfask204bkn2c809",
+  "predicateName" : "DataFlowDispatch::resolveCall/3#454c02d8#origOrder",
+  "appearsAs" : {
+    "DataFlowDispatch::resolveCall/3#454c02d8#origOrder" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 14893
+}
+
+{
+  "time" : "2024-11-21T11:16:34.698200900Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53211,
+  "nanoTime" : 966872531400,
+  "raHash" : "eeba11h6hm1a8m9h6ujti8r0nj4",
+  "predicateName" : "DataFlowDispatch::getCallArg/5#21589076",
+  "appearsAs" : {
+    "DataFlowDispatch::getCallArg/5#21589076" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 55105
+}
+
+{
+  "time" : "2024-11-21T11:16:34.698200900Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53212,
+  "nanoTime" : 966872643500,
+  "raHash" : "d8b1b7cuu65k6fh1nc6sddnlc18",
+  "predicateName" : "DataFlowDispatch::normalCallArg/3#148d8505",
+  "appearsAs" : {
+    "DataFlowDispatch::normalCallArg/3#148d8505" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 98566
+}
+
+{
+  "time" : "2024-11-21T11:16:34.698200900Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53213,
+  "nanoTime" : 966872764200,
+  "raHash" : "68c282nl0trftjkd6eq9ea3sl43",
+  "predicateName" : "LocalSources::Cached::hasLocalSource/2#8b3ee0ec",
+  "appearsAs" : {
+    "LocalSources::Cached::hasLocalSource/2#8b3ee0ec" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 669217
+}
+
+{
+  "time" : "2024-11-21T11:16:34.698200900Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53214,
+  "nanoTime" : 966872957100,
+  "raHash" : "c0882apjj90qa1bh24ukiq43jfc",
+  "predicateName" : "ApiGraphModels::ModelOutput::resolvedSummaryBase/3#92186d2b",
+  "appearsAs" : {
+    "ApiGraphModels::ModelOutput::resolvedSummaryBase/3#92186d2b" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 119
+}
+
+{
+  "time" : "2024-11-21T11:16:34.698200900Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53215,
+  "nanoTime" : 966873365000,
+  "raHash" : "291391imb5dc6jmteg68g9eosv9",
+  "predicateName" : "ApiGraphModels::ModelOutput::resolvedSummaryRefBase/3#baf53b9e",
+  "appearsAs" : {
+    "ApiGraphModels::ModelOutput::resolvedSummaryRefBase/3#baf53b9e" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 107
+}
+
+{
+  "time" : "2024-11-21T11:16:34.699201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53216,
+  "nanoTime" : 966873544800,
+  "raHash" : "7f9527lh504ao4a3o2ocnh4b8ad",
+  "predicateName" : "ApiGraphs::API::Impl::trackUseNode/1#1af3a9ea",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::trackUseNode/1#1af3a9ea" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 656293
+}
+
+{
+  "time" : "2024-11-21T11:16:34.699201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53217,
+  "nanoTime" : 966873649500,
+  "raHash" : "e85b31p4jp00frnd3mlsro2sci1",
+  "predicateName" : "ImportStar::ImportStar::importStarResolvesTo/2#0505d926",
+  "appearsAs" : {
+    "ImportStar::ImportStar::importStarResolvesTo/2#0505d926" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1040
+}
+
+{
+  "time" : "2024-11-21T11:16:34.699201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53218,
+  "nanoTime" : 966873750900,
+  "raHash" : "41f58974trskhmbsp3c62arrtse",
+  "predicateName" : "ApiGraphModels::ModelOutput::getATypeNode/1#7c79b7e3",
+  "appearsAs" : {
+    "ApiGraphModels::ModelOutput::getATypeNode/1#7c79b7e3" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1104
+}
+
+{
+  "time" : "2024-11-21T11:16:34.699201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53219,
+  "nanoTime" : 966873973200,
+  "raHash" : "195c91j9vgfcddfj81loqmcf1dd",
+  "predicateName" : "TypeTrackingImpl::Cached::MkTypeTracker#ff50e2d8",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::MkTypeTracker#ff50e2d8" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 7348
+}
+
+{
+  "time" : "2024-11-21T11:16:34.699201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53220,
+  "nanoTime" : 966874125600,
+  "raHash" : "02f9e0q7nvplge3got3a6l43a64",
+  "predicateName" : "TypeTrackingImpl::Cached::stepNoCall/3#738db09e",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::stepNoCall/3#738db09e" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 243201
+}
+
+{
+  "time" : "2024-11-21T11:16:34.699201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53221,
+  "nanoTime" : 966874260200,
+  "raHash" : "ea7619tmufdp5arerd1u7faqg41",
+  "predicateName" : "TypeTrackingImpl::Cached::stepCall/3#6fb30736#origOrder",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::stepCall/3#6fb30736#origOrder" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 205484
+}
+
+{
+  "time" : "2024-11-21T11:16:34.699201800Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53222,
+  "nanoTime" : 966874375900,
+  "raHash" : "c3b0bdfvues5ibfs46v9jsleaj3",
+  "predicateName" : "TypeTrackingImpl::Cached::append/2#8b389f01",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::append/2#8b389f01" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 38064
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53223,
+  "nanoTime" : 966874622800,
+  "raHash" : "5e975djcj832730s0a6ma6te1qb",
+  "predicateName" : "DataFlowImplCommon::Cached::viableReturnPosOut/3#b5716bfe",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::viableReturnPosOut/3#b5716bfe" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 49997
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53224,
+  "nanoTime" : 966874736400,
+  "raHash" : "0b10aak8cv5grbdvnnad1elaa97",
+  "predicateName" : "DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53225,
+  "nanoTime" : 966874788600,
+  "raHash" : "4854f570ncki41ph0kiqajgl810",
+  "predicateName" : "DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_102#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_102#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "0b10aak8cv5grbdvnnad1elaa97"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53226,
+  "nanoTime" : 966874822400,
+  "raHash" : "59fa37sd0tjvveeeotbmu3evv4b",
+  "predicateName" : "DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_021#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_021#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "0b10aak8cv5grbdvnnad1elaa97"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53227,
+  "nanoTime" : 966874885700,
+  "raHash" : "ce4d0x5ljpgsokqonfli1sbjnp1",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage1::viableImplInSomeFwdFlowCallContextExt/1#15555e59",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage1::viableImplInSomeFwdFlowCallContextExt/1#15555e59" : [ 39 ]
+  },
+  "sentinelRaHash" : "4854f570ncki41ph0kiqajgl810"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53228,
+  "nanoTime" : 966874913400,
+  "raHash" : "937755129fgcokurl9nt3ln8l7c",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a" : [ 39 ]
+  },
+  "sentinelRaHash" : "59fa37sd0tjvveeeotbmu3evv4b"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53229,
+  "nanoTime" : 966874938500,
+  "raHash" : "abeb8eal6s8kvil87nml4n6ltaf",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#d243b085",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#d243b085" : [ 39 ]
+  },
+  "sentinelRaHash" : "59fa37sd0tjvveeeotbmu3evv4b"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53230,
+  "nanoTime" : 966874966800,
+  "raHash" : "60391ct39l5rpf8sbpbliehpubf",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3cc30f11",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3cc30f11" : [ 39 ]
+  },
+  "sentinelRaHash" : "59fa37sd0tjvveeeotbmu3evv4b"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53231,
+  "nanoTime" : 966874989600,
+  "raHash" : "b73bbdk24s4ekh9pdsm3rfci3d3",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#fcabedb8",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#fcabedb8" : [ 39 ]
+  },
+  "sentinelRaHash" : "59fa37sd0tjvveeeotbmu3evv4b"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53232,
+  "nanoTime" : 966875151700,
+  "raHash" : "e71448rdvmocv2ia2rclmsudoha",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3daabca5",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3daabca5" : [ 39 ]
+  },
+  "sentinelRaHash" : "59fa37sd0tjvveeeotbmu3evv4b"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53233,
+  "nanoTime" : 966875186500,
+  "raHash" : "2ac71e4vsc9ppf5aolmcngbq3d8",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#9407d476",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#9407d476" : [ 39 ]
+  },
+  "sentinelRaHash" : "59fa37sd0tjvveeeotbmu3evv4b"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53234,
+  "nanoTime" : 966875237000,
+  "raHash" : "84685fqu16f5m0v6ddprb4c7ip0",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#9888f908",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#9888f908" : [ 39 ]
+  },
+  "sentinelRaHash" : "59fa37sd0tjvveeeotbmu3evv4b"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53235,
+  "nanoTime" : 966875317200,
+  "raHash" : "56e4aetalgs9o177vhighhgfe59",
+  "predicateName" : "project#DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a",
+  "appearsAs" : {
+    "project#DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a" : [ 39 ]
+  },
+  "sentinelRaHash" : "937755129fgcokurl9nt3ln8l7c"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53236,
+  "nanoTime" : 966875340600,
+  "raHash" : "241c90nb35kbp8c6sf5ckifdl6d",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a_23401_1#count_range",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a_23401_1#count_range" : [ 39 ]
+  },
+  "sentinelRaHash" : "937755129fgcokurl9nt3ln8l7c"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53237,
+  "nanoTime" : 966875364000,
+  "raHash" : "1d01eeccoibdbjkabj0ltion010",
+  "predicateName" : "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#d243b085",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#d243b085" : [ 39 ]
+  },
+  "sentinelRaHash" : "abeb8eal6s8kvil87nml4n6ltaf"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53238,
+  "nanoTime" : 966875384200,
+  "raHash" : "cee567jspi9qt00220fbtcip3d3",
+  "predicateName" : "_DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::__#join_rhs",
+  "appearsAs" : {
+    "_DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::__#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "abeb8eal6s8kvil87nml4n6ltaf"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53239,
+  "nanoTime" : 966875407000,
+  "raHash" : "38c12aqn1uhhgnata9g1totjmff",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getAReducedViableEdge/1#5e365a70",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getAReducedViableEdge/1#5e365a70" : [ 39 ]
+  },
+  "sentinelRaHash" : "abeb8eal6s8kvil87nml4n6ltaf"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53240,
+  "nanoTime" : 966875430500,
+  "raHash" : "ed37a52baejn7534avqai730rr1",
+  "predicateName" : "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3cc30f11",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3cc30f11" : [ 39 ]
+  },
+  "sentinelRaHash" : "60391ct39l5rpf8sbpbliehpubf"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53241,
+  "nanoTime" : 966875453200,
+  "raHash" : "16a5a3ng6i1ujmpi9b1du1m87p5",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3cc30f11_021#count_range",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3cc30f11_021#count_range" : [ 39 ]
+  },
+  "sentinelRaHash" : "60391ct39l5rpf8sbpbliehpubf"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53242,
+  "nanoTime" : 966875472400,
+  "raHash" : "ebc3b10h0g2nvll41kd4jn8hnbf",
+  "predicateName" : "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#fcabedb8",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#fcabedb8" : [ 39 ]
+  },
+  "sentinelRaHash" : "b73bbdk24s4ekh9pdsm3rfci3d3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53243,
+  "nanoTime" : 966875493000,
+  "raHash" : "e18d6e7l0cos84q6a8ttfsgtd45",
+  "predicateName" : "_DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::__#join_rhs",
+  "appearsAs" : {
+    "_DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::__#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "b73bbdk24s4ekh9pdsm3rfci3d3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53244,
+  "nanoTime" : 966875517800,
+  "raHash" : "8558a7hum0kv54dit3obkcod2o8",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getAReducedViableEdge/1#9b6891c1",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getAReducedViableEdge/1#9b6891c1" : [ 39 ]
+  },
+  "sentinelRaHash" : "b73bbdk24s4ekh9pdsm3rfci3d3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53245,
+  "nanoTime" : 966875539300,
+  "raHash" : "845dbcddrnjlrmf4s52607bcm98",
+  "predicateName" : "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3daabca5",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3daabca5" : [ 39 ]
+  },
+  "sentinelRaHash" : "e71448rdvmocv2ia2rclmsudoha"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53246,
+  "nanoTime" : 966875559800,
+  "raHash" : "fde4catiqqr3rnfucbkdoufve62",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3daabca5_021#count_range",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3daabca5_021#count_range" : [ 39 ]
+  },
+  "sentinelRaHash" : "e71448rdvmocv2ia2rclmsudoha"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53247,
+  "nanoTime" : 966875580600,
+  "raHash" : "253460dm3daon9gnajrkhe9rud4",
+  "predicateName" : "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#9407d476",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#9407d476" : [ 39 ]
+  },
+  "sentinelRaHash" : "2ac71e4vsc9ppf5aolmcngbq3d8"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53248,
+  "nanoTime" : 966875599300,
+  "raHash" : "f8101abeuuiarl892ttjfufl1r0",
+  "predicateName" : "_DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::__#join_rhs",
+  "appearsAs" : {
+    "_DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::__#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "2ac71e4vsc9ppf5aolmcngbq3d8"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53249,
+  "nanoTime" : 966875629200,
+  "raHash" : "d940c6labbhd64duf300icje7o1",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getAReducedViableEdge/1#4d2e336e",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getAReducedViableEdge/1#4d2e336e" : [ 39 ]
+  },
+  "sentinelRaHash" : "2ac71e4vsc9ppf5aolmcngbq3d8"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53250,
+  "nanoTime" : 966875656900,
+  "raHash" : "e6841ccosc5rklfo1akfok7f3e7",
+  "predicateName" : "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#9888f908",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#9888f908" : [ 39 ]
+  },
+  "sentinelRaHash" : "84685fqu16f5m0v6ddprb4c7ip0"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53251,
+  "nanoTime" : 966875676000,
+  "raHash" : "1878e5hfdvnffleu9e56qmci068",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#9888f908_021#count_range",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#9888f908_021#count_range" : [ 39 ]
+  },
+  "sentinelRaHash" : "84685fqu16f5m0v6ddprb4c7ip0"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53252,
+  "nanoTime" : 966875695600,
+  "raHash" : "d98255n6raontlip53el4qj1nlf",
+  "predicateName" : "_DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a_23401_1#count_range#join_rhs",
+  "appearsAs" : {
+    "_DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a_23401_1#count_range#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "241c90nb35kbp8c6sf5ckifdl6d"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53253,
+  "nanoTime" : 966875718200,
+  "raHash" : "92f8a70jo9gg7ij1dl82dgb390a",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSets::getSet#f621d125",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSets::getSet#f621d125" : [ 39 ]
+  },
+  "sentinelRaHash" : "38c12aqn1uhhgnata9g1totjmff"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53254,
+  "nanoTime" : 966875861400,
+  "raHash" : "4c5e4cdh4uuv783ii5pmp9v7946",
+  "predicateName" : "_DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::__#join_rhs#1",
+  "appearsAs" : {
+    "_DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::__#join_rhs#1" : [ 39 ]
+  },
+  "sentinelRaHash" : "16a5a3ng6i1ujmpi9b1du1m87p5"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53255,
+  "nanoTime" : 966875889100,
+  "raHash" : "90b1caejreftifbqmejtpenm7a9",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#fa8ee45b",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#fa8ee45b" : [ 39 ]
+  },
+  "sentinelRaHash" : "16a5a3ng6i1ujmpi9b1du1m87p5"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53256,
+  "nanoTime" : 966875913300,
+  "raHash" : "1069ce6ud1efmta6koi67mqbv76",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSets::getSet#a6792fca",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSets::getSet#a6792fca" : [ 39 ]
+  },
+  "sentinelRaHash" : "8558a7hum0kv54dit3obkcod2o8"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53257,
+  "nanoTime" : 966875932700,
+  "raHash" : "34945193pvmr6g970epipcbvt55",
+  "predicateName" : "_DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::__#join_rhs#1",
+  "appearsAs" : {
+    "_DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::__#join_rhs#1" : [ 39 ]
+  },
+  "sentinelRaHash" : "fde4catiqqr3rnfucbkdoufve62"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53258,
+  "nanoTime" : 966875954800,
+  "raHash" : "f3b6b72tu39gvb7mgqufgaui610",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#2912bb7d",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#2912bb7d" : [ 39 ]
+  },
+  "sentinelRaHash" : "fde4catiqqr3rnfucbkdoufve62"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53259,
+  "nanoTime" : 966875976400,
+  "raHash" : "6cefb3vgqs9e7p2ku3vij2of6a5",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSets::getSet#84fb721a",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSets::getSet#84fb721a" : [ 39 ]
+  },
+  "sentinelRaHash" : "d940c6labbhd64duf300icje7o1"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53260,
+  "nanoTime" : 966875995900,
+  "raHash" : "cf0c37ulq83ukb2mmds9l6slmvb",
+  "predicateName" : "_DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::__#join_rhs#1",
+  "appearsAs" : {
+    "_DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::__#join_rhs#1" : [ 39 ]
+  },
+  "sentinelRaHash" : "1878e5hfdvnffleu9e56qmci068"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53261,
+  "nanoTime" : 966876013500,
+  "raHash" : "a1e668lcj6h77lgm5rds2mddeof",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#d7d880d6",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#d7d880d6" : [ 39 ]
+  },
+  "sentinelRaHash" : "1878e5hfdvnffleu9e56qmci068"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53262,
+  "nanoTime" : 966876032300,
+  "raHash" : "96f7a6pcp0kee0a1180u5q4hhr2",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSets::Set.contains#d1551d2c",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSets::Set.contains#d1551d2c" : [ 39 ]
+  },
+  "sentinelRaHash" : "92f8a70jo9gg7ij1dl82dgb390a"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53263,
+  "nanoTime" : 966876049400,
+  "raHash" : "f170f8ufrggt5j5ceam17ltidlc",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#dom#2a0c98df",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#dom#2a0c98df" : [ 39 ]
+  },
+  "sentinelRaHash" : "92f8a70jo9gg7ij1dl82dgb390a"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53264,
+  "nanoTime" : 966876065800,
+  "raHash" : "af767b8kvqid02mohlg68dhkb4c",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSets::getSet#f621d125_0#antijoin_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSets::getSet#f621d125_0#antijoin_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "92f8a70jo9gg7ij1dl82dgb390a"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53265,
+  "nanoTime" : 966876087500,
+  "raHash" : "cee7e9b546gvp418829idu5ccia",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#fa8ee45b_021#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#fa8ee45b_021#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "90b1caejreftifbqmejtpenm7a9"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53266,
+  "nanoTime" : 966876106100,
+  "raHash" : "fe28aba4ju7tavq1596s5lpb4g3",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSets::Set.contains#0e53ca1b",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSets::Set.contains#0e53ca1b" : [ 39 ]
+  },
+  "sentinelRaHash" : "1069ce6ud1efmta6koi67mqbv76"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53267,
+  "nanoTime" : 966876158900,
+  "raHash" : "5c8f73g2aq1tbid4imnm8pcppt7",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#dom#10805dfb",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#dom#10805dfb" : [ 39 ]
+  },
+  "sentinelRaHash" : "1069ce6ud1efmta6koi67mqbv76"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53268,
+  "nanoTime" : 966876176700,
+  "raHash" : "d22685m4s4hta1jp6rnpiml5hb3",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSets::getSet#a6792fca_0#antijoin_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSets::getSet#a6792fca_0#antijoin_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "1069ce6ud1efmta6koi67mqbv76"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53269,
+  "nanoTime" : 966876201500,
+  "raHash" : "ace7c54ua0lmns9hpjohrbvrp4e",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#2912bb7d_021#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#2912bb7d_021#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "f3b6b72tu39gvb7mgqufgaui610"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53270,
+  "nanoTime" : 966876225900,
+  "raHash" : "0c1042u7g6kglm2k0jg2fipcfn2",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSets::Set.contains#ac8a7411",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSets::Set.contains#ac8a7411" : [ 39 ]
+  },
+  "sentinelRaHash" : "6cefb3vgqs9e7p2ku3vij2of6a5"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53271,
+  "nanoTime" : 966876247700,
+  "raHash" : "220b321kvd5gotpgr5jeoff522b",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#dom#452f8be8",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#dom#452f8be8" : [ 39 ]
+  },
+  "sentinelRaHash" : "6cefb3vgqs9e7p2ku3vij2of6a5"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53272,
+  "nanoTime" : 966876275900,
+  "raHash" : "a111a0vqi3dgm060f4j0b512a12",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSets::getSet#84fb721a_0#antijoin_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSets::getSet#84fb721a_0#antijoin_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "6cefb3vgqs9e7p2ku3vij2of6a5"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53273,
+  "nanoTime" : 966876303600,
+  "raHash" : "8ff4a8pmdnsghdrigqju1ti49e4",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#d7d880d6_021#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#d7d880d6_021#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "a1e668lcj6h77lgm5rds2mddeof"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53274,
+  "nanoTime" : 966876330400,
+  "raHash" : "89fe29cmhsmjl66spqrvgl6ndh0",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#f2297ab4",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#f2297ab4" : [ 39 ]
+  },
+  "sentinelRaHash" : "96f7a6pcp0kee0a1180u5q4hhr2"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53275,
+  "nanoTime" : 966876360200,
+  "raHash" : "a64bb7b7m638t5k8rpe6mlj3ah9",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#0f7da28e",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#0f7da28e" : [ 39 ]
+  },
+  "sentinelRaHash" : "f170f8ufrggt5j5ceam17ltidlc"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53276,
+  "nanoTime" : 966876383800,
+  "raHash" : "bf79be6kb4rad3vh2aum4rgqo25",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3::viableImplCallContextReducedReverseRestricted/2#0d322359",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3::viableImplCallContextReducedReverseRestricted/2#0d322359" : [ 39 ]
+  },
+  "sentinelRaHash" : "cee7e9b546gvp418829idu5ccia"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53277,
+  "nanoTime" : 966876408600,
+  "raHash" : "4ec047g0kmen2lrjftp44pork27",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#8630df8d",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#8630df8d" : [ 39 ]
+  },
+  "sentinelRaHash" : "fe28aba4ju7tavq1596s5lpb4g3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53278,
+  "nanoTime" : 966876428200,
+  "raHash" : "6c9ce1e4scit1nlustorq0gdt79",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#8342b6a2",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#8342b6a2" : [ 39 ]
+  },
+  "sentinelRaHash" : "5c8f73g2aq1tbid4imnm8pcppt7"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53279,
+  "nanoTime" : 966876445300,
+  "raHash" : "afcb5cotnmb0fvpa5pnl0n2nu59",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5::viableImplCallContextReducedReverseRestricted/2#696b06cf",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5::viableImplCallContextReducedReverseRestricted/2#696b06cf" : [ 39 ]
+  },
+  "sentinelRaHash" : "ace7c54ua0lmns9hpjohrbvrp4e"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53280,
+  "nanoTime" : 966876467800,
+  "raHash" : "8dccc8cdhojksa1k4u138phuqt0",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#bb172fb3",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#bb172fb3" : [ 39 ]
+  },
+  "sentinelRaHash" : "0c1042u7g6kglm2k0jg2fipcfn2"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53281,
+  "nanoTime" : 966876488400,
+  "raHash" : "9f5d8488jft47s19qv2gqlg0c13",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#37002aab",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#37002aab" : [ 39 ]
+  },
+  "sentinelRaHash" : "220b321kvd5gotpgr5jeoff522b"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53282,
+  "nanoTime" : 966876509800,
+  "raHash" : "f24cc1cokuqrn388ru0t3bfvm34",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6::viableImplCallContextReducedReverseRestricted/2#3782d44e",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6::viableImplCallContextReducedReverseRestricted/2#3782d44e" : [ 39 ]
+  },
+  "sentinelRaHash" : "8ff4a8pmdnsghdrigqju1ti49e4"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53283,
+  "nanoTime" : 966876530000,
+  "raHash" : "892210u5dvr3st6s3bnav5ntst3",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#abbfbdbe",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#abbfbdbe" : [ 39 ]
+  },
+  "sentinelRaHash" : "a64bb7b7m638t5k8rpe6mlj3ah9"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53284,
+  "nanoTime" : 966876548300,
+  "raHash" : "d14d25imklpq9vaeep366lphas2",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3::FwdFlowInNoThrough::viableImplCallContextReducedRestricted/2#9c7f28b5",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3::FwdFlowInNoThrough::viableImplCallContextReducedRestricted/2#9c7f28b5" : [ 39 ]
+  },
+  "sentinelRaHash" : "89fe29cmhsmjl66spqrvgl6ndh0"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53285,
+  "nanoTime" : 966876568900,
+  "raHash" : "53f635hdta5nsado8tbljf7g9f7",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3::FwdFlowInThrough::viableImplCallContextReducedRestricted/2#ffd2f050",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3::FwdFlowInThrough::viableImplCallContextReducedRestricted/2#ffd2f050" : [ 39 ]
+  },
+  "sentinelRaHash" : "89fe29cmhsmjl66spqrvgl6ndh0"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53286,
+  "nanoTime" : 966876604900,
+  "raHash" : "72a1c7cm4okt63ne3ug7dc005cb",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#09936626",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#09936626" : [ 39 ]
+  },
+  "sentinelRaHash" : "6c9ce1e4scit1nlustorq0gdt79"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53287,
+  "nanoTime" : 966876624000,
+  "raHash" : "7955cf356mv8a8u99am47695ief",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5::FwdFlowInNoThrough::viableImplCallContextReducedRestricted/2#36dc5d7f",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5::FwdFlowInNoThrough::viableImplCallContextReducedRestricted/2#36dc5d7f" : [ 39 ]
+  },
+  "sentinelRaHash" : "4ec047g0kmen2lrjftp44pork27"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53288,
+  "nanoTime" : 966876640800,
+  "raHash" : "3ce93115m9rpff5blo8pkl0l6g5",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5::FwdFlowInThrough::viableImplCallContextReducedRestricted/2#e4e8a2af",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5::FwdFlowInThrough::viableImplCallContextReducedRestricted/2#e4e8a2af" : [ 39 ]
+  },
+  "sentinelRaHash" : "4ec047g0kmen2lrjftp44pork27"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53289,
+  "nanoTime" : 966876675400,
+  "raHash" : "5c9f6dvt1neddriakdc551rdr00",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#1662d125",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#1662d125" : [ 39 ]
+  },
+  "sentinelRaHash" : "9f5d8488jft47s19qv2gqlg0c13"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53290,
+  "nanoTime" : 966876701900,
+  "raHash" : "2f118a73ao471fegebke7ulaor1",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6::FwdFlowInNoThrough::viableImplCallContextReducedRestricted/2#a685727d",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6::FwdFlowInNoThrough::viableImplCallContextReducedRestricted/2#a685727d" : [ 39 ]
+  },
+  "sentinelRaHash" : "8dccc8cdhojksa1k4u138phuqt0"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53291,
+  "nanoTime" : 966876724000,
+  "raHash" : "71a791sn1heulh3s59o8k3nlhee",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6::FwdFlowInThrough::viableImplCallContextReducedRestricted/2#c83d8a3f",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6::FwdFlowInThrough::viableImplCallContextReducedRestricted/2#c83d8a3f" : [ 39 ]
+  },
+  "sentinelRaHash" : "8dccc8cdhojksa1k4u138phuqt0"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53292,
+  "nanoTime" : 966876755600,
+  "raHash" : "375fc4r90ssn909f1qe5uu4ksje",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#abbfbdbe_10#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#abbfbdbe_10#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "892210u5dvr3st6s3bnav5ntst3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53293,
+  "nanoTime" : 966876774300,
+  "raHash" : "96a61dqop3fhifaoejtu95cradb",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#09936626_10#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#09936626_10#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "72a1c7cm4okt63ne3ug7dc005cb"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53294,
+  "nanoTime" : 966876796500,
+  "raHash" : "2b959ds9o4n798na4b7lfonpu3d",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#1662d125_10#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#1662d125_10#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "5c9f6dvt1neddriakdc551rdr00"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53295,
+  "nanoTime" : 966877783600,
+  "raHash" : "c2fb50eei2u9lbnsp0poirrqb2e",
+  "predicateName" : "DataFlowImplCommon::Cached::readSet/3#5eccc2af",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::readSet/3#5eccc2af" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 191818
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53296,
+  "nanoTime" : 966877968100,
+  "raHash" : "b4b510q14b72mv0b90ki5ari2fa",
+  "predicateName" : "DataFlowImplCommon::Cached::store/5#14a39b82",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::store/5#14a39b82" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 150200
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53297,
+  "nanoTime" : 966878079800,
+  "raHash" : "911b11523pcnl35pev233k1iuc5",
+  "predicateName" : "DataFlowImplCommon::Cached::argumentNode/3#216ac396",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::argumentNode/3#216ac396" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 185623
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53298,
+  "nanoTime" : 966878221900,
+  "raHash" : "d66bd5v95alfeitqtltlp5889pb",
+  "predicateName" : "DataFlowImplCommon::Cached::viableParamArg/3#d616dbd4",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::viableParamArg/3#d616dbd4" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 70639
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53299,
+  "nanoTime" : 966878364200,
+  "raHash" : "bb4052val4j85a0kd9vpnprbrkc",
+  "predicateName" : "DataFlowImplCommon::Cached::parameterNode/3#b3273c8e",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::parameterNode/3#b3273c8e" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 46474
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53300,
+  "nanoTime" : 966878470300,
+  "raHash" : "5930f99g82eb7huh1osrfpdf04c",
+  "predicateName" : "DataFlowImplCommon::Cached::jumpStepCached/2#b974c0dc",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::jumpStepCached/2#b974c0dc" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 98194
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53301,
+  "nanoTime" : 966878583100,
+  "raHash" : "c101ff6c8fufqi37dgs23kmvot8",
+  "predicateName" : "DataFlowImplCommon::Cached::TNodeImplicitRead#9bd6e348",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TNodeImplicitRead#9bd6e348" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 948741
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53302,
+  "nanoTime" : 966878683700,
+  "raHash" : "71d31fkkemoh53rcila4ifhalia",
+  "predicateName" : "DataFlowImplCommon::Cached::getAnOutNodeExt/2#ef26de27",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::getAnOutNodeExt/2#ef26de27" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 294516
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53303,
+  "nanoTime" : 966878781100,
+  "raHash" : "34175bklqtl7mgl125io4rvhpn7",
+  "predicateName" : "DataFlowImplCommon::Cached::TParamUpdate#20ddffb6",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TParamUpdate#20ddffb6" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 2922
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53304,
+  "nanoTime" : 966879032900,
+  "raHash" : "367f24rqv0tjrbmknd5rj7qc3b5",
+  "predicateName" : "DataFlowImplCommon::Cached::TValueReturn#beec3496",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TValueReturn#beec3496" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53305,
+  "nanoTime" : 966879136600,
+  "raHash" : "aae08aemgcao2qb261q05jd6bnb",
+  "predicateName" : "LocalSources::Cached::namedAttrRef/3#338b0f13",
+  "appearsAs" : {
+    "LocalSources::Cached::namedAttrRef/3#338b0f13" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 71388
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53306,
+  "nanoTime" : 966879239300,
+  "raHash" : "431650se55uf99rgo75etu619pc",
+  "predicateName" : "LocalSources::Cached::call/2#510bc692",
+  "appearsAs" : {
+    "LocalSources::Cached::call/2#510bc692" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 52417
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53307,
+  "nanoTime" : 966879341100,
+  "raHash" : "687dcaciib4q03qaatr61rqrg6c",
+  "predicateName" : "ApiGraphs::API::Impl::rhs/2#a616b63f",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::rhs/2#a616b63f" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 163186
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53308,
+  "nanoTime" : 966879525700,
+  "raHash" : "cb987akoed0o0qcv71cur5fu06f",
+  "predicateName" : "ApiGraphs::API::Impl::trackDefNode/1#7e78e336",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::trackDefNode/1#7e78e336" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1141665
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53309,
+  "nanoTime" : 966879625800,
+  "raHash" : "263fe84on3uhddlt6idbc40r8d2",
+  "predicateName" : "TypeTrackingImpl::Cached::MkTypeBackTracker#9a736cf0",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::MkTypeBackTracker#9a736cf0" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 6828
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53310,
+  "nanoTime" : 966879727200,
+  "raHash" : "8543daevdkpa410uk9r946j4ei2",
+  "predicateName" : "TypeTrackingImpl::Cached::prepend/2#dd9d3b63",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::prepend/2#dd9d3b63" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 35724
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53311,
+  "nanoTime" : 966879836600,
+  "raHash" : "839c8bpqfgmt59t5bpmbdlqkpf5",
+  "predicateName" : "DataFlowPublic::Node.getLocation/0#dispred#039fdc34",
+  "appearsAs" : {
+    "DataFlowPublic::Node.getLocation/0#dispred#039fdc34" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 898660
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53312,
+  "nanoTime" : 966879948200,
+  "raHash" : "de8b559n2t7hufritd6ti4g47j3",
+  "predicateName" : "TaintTrackingPrivate::localAdditionalTaintStep/3#088b9750",
+  "appearsAs" : {
+    "TaintTrackingPrivate::localAdditionalTaintStep/3#088b9750" : [ 37 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 102095
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53313,
+  "nanoTime" : 966880047200,
+  "raHash" : "6b2f1dj98btmddg1pkm9s2ajre4",
+  "predicateName" : "TaintTrackingPrivate::defaultAdditionalTaintStep/3#eecc3690",
+  "appearsAs" : {
+    "TaintTrackingPrivate::defaultAdditionalTaintStep/3#eecc3690" : [ 38 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 103954
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53314,
+  "nanoTime" : 966880153100,
+  "raHash" : "565fbfopvddg59aleblm9aa7k22",
+  "predicateName" : "DataFlowImplCommon::Cached::nodeEnclosingCallable/2#dfa5b091",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::nodeEnclosingCallable/2#dfa5b091" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 948741
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53315,
+  "nanoTime" : 966880263400,
+  "raHash" : "27fc47kp73gik6sbhrrgi5afpa8",
+  "predicateName" : "DataFlowImplCommon::Cached::localFlowStepExImpl/3#5949d868",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::localFlowStepExImpl/3#5949d868" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 444440
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53316,
+  "nanoTime" : 966880362700,
+  "raHash" : "1c4878phh1vfmljhko64cl04acd",
+  "predicateName" : "DataFlowImplCommon::Cached::getReturnPositionEx/1#759b108c",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::getReturnPositionEx/1#759b108c" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 30280
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53317,
+  "nanoTime" : 966880491700,
+  "raHash" : "1dceafhqk2s0a9b951otrecr187",
+  "predicateName" : "DataFlowImplCommon::Cached::TParamReturnNode#c77603f5",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TParamReturnNode#c77603f5" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 9140
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53318,
+  "nanoTime" : 966880587900,
+  "raHash" : "ec9b330fupel8n0v66n25ghe6g6",
+  "predicateName" : "DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53319,
+  "nanoTime" : 966880623700,
+  "raHash" : "803969v87852nd9kl0tehiiq4i5",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<Cached::CachedCallContextSensitivity::CallContextSensitivityInput>::PrunedViableImpl<Cached::CachedCallContextSensitivity::PrunedViableImplInput>::recordDataFlowCallSiteDispatch/2#ce18b3e9",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<Cached::CachedCallContextSensitivity::CallContextSensitivityInput>::PrunedViableImpl<Cached::CachedCallContextSensitivity::PrunedViableImplInput>::recordDataFlowCallSiteDispatch/2#ce18b3e9" : [ 39 ]
+  },
+  "sentinelRaHash" : "ec9b330fupel8n0v66n25ghe6g6"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53320,
+  "nanoTime" : 966880646000,
+  "raHash" : "d36c57nr6c5ckbnm9bb457fo8s3",
+  "predicateName" : "project#DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf" : [ 39 ]
+  },
+  "sentinelRaHash" : "ec9b330fupel8n0v66n25ghe6g6"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53321,
+  "nanoTime" : 966880666400,
+  "raHash" : "2f8683sbmlujqr4k95phf3hqghf",
+  "predicateName" : "project#DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf#2",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf#2" : [ 39 ]
+  },
+  "sentinelRaHash" : "ec9b330fupel8n0v66n25ghe6g6"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53322,
+  "nanoTime" : 966880689800,
+  "raHash" : "4c16beeuo0evtlin22a3mv3qfl4",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba" : [ 39 ]
+  },
+  "sentinelRaHash" : "ec9b330fupel8n0v66n25ghe6g6"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53323,
+  "nanoTime" : 966880740100,
+  "raHash" : "ce4d01wljpgsokqonfli1sbjnp5",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage1::fwdFlowInReducedViableImplInSomeCallContext/4#4bfb1184#reorder_0_3_1_2",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage1::fwdFlowInReducedViableImplInSomeCallContext/4#4bfb1184#reorder_0_3_1_2" : [ 39 ]
+  },
+  "sentinelRaHash" : "d36c57nr6c5ckbnm9bb457fo8s3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53324,
+  "nanoTime" : 966880763200,
+  "raHash" : "2712834gh2k720b44qqba99115f",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::recordDataFlowCallSiteDispatch/2#5caf98d4",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::recordDataFlowCallSiteDispatch/2#5caf98d4" : [ 39 ]
+  },
+  "sentinelRaHash" : "4c16beeuo0evtlin22a3mv3qfl4"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53325,
+  "nanoTime" : 966880783800,
+  "raHash" : "6f73c48vrbihqvpeh7i5d9u4ut3",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba_120#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba_120#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "4c16beeuo0evtlin22a3mv3qfl4"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53326,
+  "nanoTime" : 966880804400,
+  "raHash" : "30e7dejtmoqqdl22av64e4f1vv9",
+  "predicateName" : "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba" : [ 39 ]
+  },
+  "sentinelRaHash" : "4c16beeuo0evtlin22a3mv3qfl4"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53327,
+  "nanoTime" : 966880824100,
+  "raHash" : "bbea9ai7sn79cjaag4lk0vplu45",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a" : [ 39 ]
+  },
+  "sentinelRaHash" : "4c16beeuo0evtlin22a3mv3qfl4"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53328,
+  "nanoTime" : 966880887500,
+  "raHash" : "8310e22ud72fh286l2m7bubrd2a",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getACallWithReducedViableImpl/1#991d2fc0",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getACallWithReducedViableImpl/1#991d2fc0" : [ 39 ]
+  },
+  "sentinelRaHash" : "6f73c48vrbihqvpeh7i5d9u4ut3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53329,
+  "nanoTime" : 966880909300,
+  "raHash" : "309c4edgjsiud882dmba1v8ce1a",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::recordDataFlowCallSiteDispatch/2#6f1e5301",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::recordDataFlowCallSiteDispatch/2#6f1e5301" : [ 39 ]
+  },
+  "sentinelRaHash" : "bbea9ai7sn79cjaag4lk0vplu45"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53330,
+  "nanoTime" : 966880927800,
+  "raHash" : "f724f2ib73rc9bpmo2vq0h82m90",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a_120#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a_120#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "bbea9ai7sn79cjaag4lk0vplu45"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53331,
+  "nanoTime" : 966880947700,
+  "raHash" : "4eb9fcj7t4r51552u5dni006a48",
+  "predicateName" : "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a" : [ 39 ]
+  },
+  "sentinelRaHash" : "bbea9ai7sn79cjaag4lk0vplu45"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53332,
+  "nanoTime" : 966880971400,
+  "raHash" : "4ccc3esj4ebe8vgp18j40053vob",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#0e29c362",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#0e29c362" : [ 39 ]
+  },
+  "sentinelRaHash" : "bbea9ai7sn79cjaag4lk0vplu45"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53333,
+  "nanoTime" : 966880995500,
+  "raHash" : "3beeed5fc4tcn5l2klai9hn94l3",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::getSet#133f3abe",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::getSet#133f3abe" : [ 39 ]
+  },
+  "sentinelRaHash" : "8310e22ud72fh286l2m7bubrd2a"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53334,
+  "nanoTime" : 966881029500,
+  "raHash" : "a7fcb3elijvt6l2vlc2qolrbkj7",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getACallWithReducedViableImpl/1#3cde0fb4",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getACallWithReducedViableImpl/1#3cde0fb4" : [ 39 ]
+  },
+  "sentinelRaHash" : "f724f2ib73rc9bpmo2vq0h82m90"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53335,
+  "nanoTime" : 966881051800,
+  "raHash" : "020513th1pk18qimfvk2225g288",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::recordDataFlowCallSiteDispatch/2#cc2620d4",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::recordDataFlowCallSiteDispatch/2#cc2620d4" : [ 39 ]
+  },
+  "sentinelRaHash" : "4ccc3esj4ebe8vgp18j40053vob"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53336,
+  "nanoTime" : 966881069100,
+  "raHash" : "93c382c9pfae63h64742dn4altc",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#0e29c362_120#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#0e29c362_120#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "4ccc3esj4ebe8vgp18j40053vob"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53337,
+  "nanoTime" : 966881087300,
+  "raHash" : "8adc07oa50r0pnl3djc2fj4llk0",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::Set.contains#95f794c9",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::Set.contains#95f794c9" : [ 39 ]
+  },
+  "sentinelRaHash" : "3beeed5fc4tcn5l2klai9hn94l3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53338,
+  "nanoTime" : 966881107300,
+  "raHash" : "eb24059uk7nv3mk9scemm4gmkj3",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSetOption::TSome#dom#c2fd184e",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSetOption::TSome#dom#c2fd184e" : [ 39 ]
+  },
+  "sentinelRaHash" : "3beeed5fc4tcn5l2klai9hn94l3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53339,
+  "nanoTime" : 966881124600,
+  "raHash" : "ee6b18iqramoe8clv55r4j5vt37",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::getSet#133f3abe_0#antijoin_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::getSet#133f3abe_0#antijoin_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "3beeed5fc4tcn5l2klai9hn94l3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53340,
+  "nanoTime" : 966881143700,
+  "raHash" : "d9d45bfnrlhifvk74cvv8tl1hnb",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::hasCtx/4#178bbaa5",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::hasCtx/4#178bbaa5" : [ 39 ]
+  },
+  "sentinelRaHash" : "3beeed5fc4tcn5l2klai9hn94l3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53341,
+  "nanoTime" : 966881162000,
+  "raHash" : "702da1veht0dqo0jcks8lpou25f",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::getSet#607cae72",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::getSet#607cae72" : [ 39 ]
+  },
+  "sentinelRaHash" : "a7fcb3elijvt6l2vlc2qolrbkj7"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53342,
+  "nanoTime" : 966881193400,
+  "raHash" : "b1cf9d7d41grcsqgnv3b5vjih8a",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getACallWithReducedViableImpl/1#c621a78d",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getACallWithReducedViableImpl/1#c621a78d" : [ 39 ]
+  },
+  "sentinelRaHash" : "93c382c9pfae63h64742dn4altc"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53343,
+  "nanoTime" : 966881214400,
+  "raHash" : "b2095c0jgrs3a4lus3e6m99qada",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::callContextAffectsDispatch/2#d82a9bdd",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::callContextAffectsDispatch/2#d82a9bdd" : [ 39 ]
+  },
+  "sentinelRaHash" : "8adc07oa50r0pnl3djc2fj4llk0"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53344,
+  "nanoTime" : 966881236100,
+  "raHash" : "d682cfeu0p6avlpc89a3qaekec3",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSetOption::TSome#b93ddb89",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSetOption::TSome#b93ddb89" : [ 39 ]
+  },
+  "sentinelRaHash" : "eb24059uk7nv3mk9scemm4gmkj3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53345,
+  "nanoTime" : 966881257900,
+  "raHash" : "7ea030iuu31l6sa1jlpmgpe2j3b",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TSpecificCall#dom#b7ac0d4c",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TSpecificCall#dom#b7ac0d4c" : [ 39 ]
+  },
+  "sentinelRaHash" : "d9d45bfnrlhifvk74cvv8tl1hnb"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53346,
+  "nanoTime" : 966881277200,
+  "raHash" : "c1e30avr04b0q8sba518t4orc94",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::Set.contains#99e4fc40",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::Set.contains#99e4fc40" : [ 39 ]
+  },
+  "sentinelRaHash" : "702da1veht0dqo0jcks8lpou25f"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53347,
+  "nanoTime" : 966881294400,
+  "raHash" : "5725f87bcs6mk5a69loh6dc4up0",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSetOption::TSome#dom#8358a448",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSetOption::TSome#dom#8358a448" : [ 39 ]
+  },
+  "sentinelRaHash" : "702da1veht0dqo0jcks8lpou25f"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53348,
+  "nanoTime" : 966881312100,
+  "raHash" : "fe9d2bskd5u7oilavu3614739cf",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::getSet#607cae72_0#antijoin_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::getSet#607cae72_0#antijoin_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "702da1veht0dqo0jcks8lpou25f"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53349,
+  "nanoTime" : 966881335400,
+  "raHash" : "d455d04ra87333r09mmiinj94gc",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::hasCtx/4#4c071a4f",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::hasCtx/4#4c071a4f" : [ 39 ]
+  },
+  "sentinelRaHash" : "702da1veht0dqo0jcks8lpou25f"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53350,
+  "nanoTime" : 966881356900,
+  "raHash" : "d4e638li4opki3ip3020givtapf",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::getSet#01139cf3",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::getSet#01139cf3" : [ 39 ]
+  },
+  "sentinelRaHash" : "b1cf9d7d41grcsqgnv3b5vjih8a"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53351,
+  "nanoTime" : 966881384600,
+  "raHash" : "7dc031b6c11nftngvsdcjdkjvne",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TSpecificCall#680a4f87",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TSpecificCall#680a4f87" : [ 39 ]
+  },
+  "sentinelRaHash" : "7ea030iuu31l6sa1jlpmgpe2j3b"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53352,
+  "nanoTime" : 966881406100,
+  "raHash" : "07760c6vp8r691hdedn3lh3jks6",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#5a9bebbc",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#5a9bebbc" : [ 39 ]
+  },
+  "sentinelRaHash" : "d682cfeu0p6avlpc89a3qaekec3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53353,
+  "nanoTime" : 966881435400,
+  "raHash" : "427d550397f2o25o3rf4ek3cq6d",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::callContextAffectsDispatch/2#e77a0adb",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::callContextAffectsDispatch/2#e77a0adb" : [ 39 ]
+  },
+  "sentinelRaHash" : "c1e30avr04b0q8sba518t4orc94"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53354,
+  "nanoTime" : 966881455100,
+  "raHash" : "cc4a144re8tu8vnf0edfe7mnei9",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSetOption::TSome#1a594323",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSetOption::TSome#1a594323" : [ 39 ]
+  },
+  "sentinelRaHash" : "5725f87bcs6mk5a69loh6dc4up0"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53355,
+  "nanoTime" : 966881474100,
+  "raHash" : "2349d38o1erb0cs0hfiquf2i7n6",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TSpecificCall#dom#3c8352c0",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TSpecificCall#dom#3c8352c0" : [ 39 ]
+  },
+  "sentinelRaHash" : "d455d04ra87333r09mmiinj94gc"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53356,
+  "nanoTime" : 966881493400,
+  "raHash" : "e625c5bheok4gomkqog34v1h8k8",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::Set.contains#4885011b",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::Set.contains#4885011b" : [ 39 ]
+  },
+  "sentinelRaHash" : "d4e638li4opki3ip3020givtapf"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53357,
+  "nanoTime" : 966881512300,
+  "raHash" : "27d94a0muav9u3r290fgqs4gto6",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSetOption::TSome#dom#1edb5982",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSetOption::TSome#dom#1edb5982" : [ 39 ]
+  },
+  "sentinelRaHash" : "d4e638li4opki3ip3020givtapf"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53358,
+  "nanoTime" : 966881527300,
+  "raHash" : "d77aacltepuqdaueflemvihvjq0",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::getSet#01139cf3_0#antijoin_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::getSet#01139cf3_0#antijoin_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "d4e638li4opki3ip3020givtapf"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53359,
+  "nanoTime" : 966881548200,
+  "raHash" : "733cf5tbfrc79hmh3u93lfn7v16",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::hasCtx/4#fe42fd26",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::hasCtx/4#fe42fd26" : [ 39 ]
+  },
+  "sentinelRaHash" : "d4e638li4opki3ip3020givtapf"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53360,
+  "nanoTime" : 966881572800,
+  "raHash" : "a6bdfa177dkrr415vd7dtkcs473",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#96079354",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#96079354" : [ 39 ]
+  },
+  "sentinelRaHash" : "7dc031b6c11nftngvsdcjdkjvne"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53361,
+  "nanoTime" : 966881595600,
+  "raHash" : "3dbd6feutarnmef8rqsl0cc0994",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#5a9bebbc_10#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#5a9bebbc_10#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "07760c6vp8r691hdedn3lh3jks6"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53362,
+  "nanoTime" : 966881618100,
+  "raHash" : "7ffcc4f1fdq8pod0elsmt30n2a9",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TSpecificCall#4005a11f",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TSpecificCall#4005a11f" : [ 39 ]
+  },
+  "sentinelRaHash" : "2349d38o1erb0cs0hfiquf2i7n6"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53363,
+  "nanoTime" : 966881640700,
+  "raHash" : "e74c8c0kp3edo1gaj02sivutboc",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#63c7eaf0",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#63c7eaf0" : [ 39 ]
+  },
+  "sentinelRaHash" : "cc4a144re8tu8vnf0edfe7mnei9"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53364,
+  "nanoTime" : 966881679200,
+  "raHash" : "ffb77daf9r7pmho6hoou42pqfde",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::callContextAffectsDispatch/2#730bf936",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::callContextAffectsDispatch/2#730bf936" : [ 39 ]
+  },
+  "sentinelRaHash" : "e625c5bheok4gomkqog34v1h8k8"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53365,
+  "nanoTime" : 966881704000,
+  "raHash" : "1a76b32cfunhu060jgmqbfrujfc",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSetOption::TSome#bc49e3f6",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSetOption::TSome#bc49e3f6" : [ 39 ]
+  },
+  "sentinelRaHash" : "27d94a0muav9u3r290fgqs4gto6"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53366,
+  "nanoTime" : 966881726600,
+  "raHash" : "b39f86idr44ce5pebclg55jq91e",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TSpecificCall#dom#f2c86d9f",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TSpecificCall#dom#f2c86d9f" : [ 39 ]
+  },
+  "sentinelRaHash" : "733cf5tbfrc79hmh3u93lfn7v16"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53367,
+  "nanoTime" : 966881748800,
+  "raHash" : "1a39c08d3sik69ied8hqhfga90b",
+  "predicateName" : "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#96079354",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#96079354" : [ 39 ]
+  },
+  "sentinelRaHash" : "a6bdfa177dkrr415vd7dtkcs473"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53368,
+  "nanoTime" : 966881782700,
+  "raHash" : "e1c08bm1o7n2t861unfqp2v22i4",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#c12065c1",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#c12065c1" : [ 39 ]
+  },
+  "sentinelRaHash" : "7ffcc4f1fdq8pod0elsmt30n2a9"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53369,
+  "nanoTime" : 966881805500,
+  "raHash" : "5d33c8300iaufcdj1818da0hvkd",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#63c7eaf0_10#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#63c7eaf0_10#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "e74c8c0kp3edo1gaj02sivutboc"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53370,
+  "nanoTime" : 966881826900,
+  "raHash" : "8fb317hkcbg4472hu1euk6dml70",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TSpecificCall#0a981d08",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TSpecificCall#0a981d08" : [ 39 ]
+  },
+  "sentinelRaHash" : "b39f86idr44ce5pebclg55jq91e"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53371,
+  "nanoTime" : 966881848500,
+  "raHash" : "ab589c7fs2tus7g7fsgnrdmi3ec",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#b326ce34",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#b326ce34" : [ 39 ]
+  },
+  "sentinelRaHash" : "1a76b32cfunhu060jgmqbfrujfc"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53372,
+  "nanoTime" : 966881894200,
+  "raHash" : "b1fa28mdu47m5notcs7k3js3tr0",
+  "predicateName" : "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#c12065c1",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#c12065c1" : [ 39 ]
+  },
+  "sentinelRaHash" : "e1c08bm1o7n2t861unfqp2v22i4"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53373,
+  "nanoTime" : 966881928900,
+  "raHash" : "9c824e58recivf73441eembacr6",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#a891e809",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#a891e809" : [ 39 ]
+  },
+  "sentinelRaHash" : "8fb317hkcbg4472hu1euk6dml70"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53374,
+  "nanoTime" : 966881955200,
+  "raHash" : "c4b00cbk7hg7qvogaoomf5mi4md",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#b326ce34_10#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#b326ce34_10#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "ab589c7fs2tus7g7fsgnrdmi3ec"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.700200100Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53375,
+  "nanoTime" : 966881989900,
+  "raHash" : "d10931ota8ce67alat1vj4dio8b",
+  "predicateName" : "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#a891e809",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#a891e809" : [ 39 ]
+  },
+  "sentinelRaHash" : "9c824e58recivf73441eembacr6"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53376,
+  "nanoTime" : 966884521600,
+  "raHash" : "23b1b5f9bhrmghf1tpfjvudbn54",
+  "predicateName" : "DataFlowImplCommon::Cached::nodeDataFlowType/2#6e9c065f",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::nodeDataFlowType/2#6e9c065f" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 948741
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53377,
+  "nanoTime" : 966884743700,
+  "raHash" : "bd692c8s4nlgkim1vuctm475s33",
+  "predicateName" : "DataFlowImplCommon::Cached::allowParameterReturnInSelfCached/1#3e97fb3a",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::allowParameterReturnInSelfCached/1#3e97fb3a" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 65
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53378,
+  "nanoTime" : 966885044000,
+  "raHash" : "9d3207a25m5fic31uob81oq7dkf",
+  "predicateName" : "DataFlowImplCommon::Cached::TReturnPosition0#c6ee188f",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TReturnPosition0#c6ee188f" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 28369
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53379,
+  "nanoTime" : 966885158600,
+  "raHash" : "21c7ffll8pcphhh3m6nk5182174",
+  "predicateName" : "DataFlowImplCommon::Cached::compatibleTypesCached/2#6fe2a79c",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::compatibleTypesCached/2#6fe2a79c" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53380,
+  "nanoTime" : 966885306800,
+  "raHash" : "1d3618ocjfbm3q28eib61afhu15",
+  "predicateName" : "DataFlowImplCommon::Cached::isTopType/1#5d44f660",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::isTopType/1#5d44f660" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53381,
+  "nanoTime" : 966885604300,
+  "raHash" : "556a2a9h01uuddh29khibp5gsuc",
+  "predicateName" : "DataFlowImplCommon::Cached::castingNode/1#7aa1ab20",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::castingNode/1#7aa1ab20" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 300186
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53382,
+  "nanoTime" : 966885758800,
+  "raHash" : "6269bf478t9g8rpdlungkdg0442",
+  "predicateName" : "DataFlowImplCommon::Cached::getSecondLevelScopeCached/1#a0ee2dd7",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::getSecondLevelScopeCached/1#a0ee2dd7" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 948741
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53383,
+  "nanoTime" : 966885862800,
+  "raHash" : "b45063ambj3omj9jfm5i9l60og7",
+  "predicateName" : "DataFlowImplCommon::Cached::mayBenefitFromCallContextExt/2#acb3f917",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::mayBenefitFromCallContextExt/2#acb3f917" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53384,
+  "nanoTime" : 966885908700,
+  "raHash" : "0aa0cbu78ncgsm64s1h9ntoh0ha",
+  "predicateName" : "project#DataFlowImplCommon::Cached::mayBenefitFromCallContextExt/2#acb3f917",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::Cached::mayBenefitFromCallContextExt/2#acb3f917" : [ 39 ]
+  },
+  "sentinelRaHash" : "b45063ambj3omj9jfm5i9l60og7"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53385,
+  "nanoTime" : 966885975600,
+  "raHash" : "1d4c4cfkuhlu4ar9vm9usk85bua",
+  "predicateName" : "_DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs___#shared",
+  "appearsAs" : {
+    "_DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs___#shared" : [ 39 ]
+  },
+  "sentinelRaHash" : "0aa0cbu78ncgsm64s1h9ntoh0ha"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53386,
+  "nanoTime" : 966886035400,
+  "raHash" : "cb7c312j7j34m6do3th32n0u471",
+  "predicateName" : "__DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs__#shared",
+  "appearsAs" : {
+    "__DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs__#shared" : [ 39 ]
+  },
+  "sentinelRaHash" : "1d4c4cfkuhlu4ar9vm9usk85bua"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53387,
+  "nanoTime" : 966886065300,
+  "raHash" : "df8cf0ast7o0fknvsfgtpf9385e",
+  "predicateName" : "__DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs__#max_range",
+  "appearsAs" : {
+    "__DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs__#max_range" : [ 39 ]
+  },
+  "sentinelRaHash" : "1d4c4cfkuhlu4ar9vm9usk85bua"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53388,
+  "nanoTime" : 966886090200,
+  "raHash" : "d40c907kmf98h1mmfji9i6874r0",
+  "predicateName" : "__DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs__#max_term",
+  "appearsAs" : {
+    "__DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs__#max_term" : [ 39 ]
+  },
+  "sentinelRaHash" : "1d4c4cfkuhlu4ar9vm9usk85bua"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53389,
+  "nanoTime" : 966886114600,
+  "raHash" : "4d3ff0st8inai7r6i3pp1sgsnce",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::ctxDispatchFanoutOnReturn/1#70e4b8b5",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::ctxDispatchFanoutOnReturn/1#70e4b8b5" : [ 39 ]
+  },
+  "sentinelRaHash" : "df8cf0ast7o0fknvsfgtpf9385e"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53390,
+  "nanoTime" : 966886140100,
+  "raHash" : "efc2e35au0mucq0l9pjtrsru220",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::ctxDispatchFanoutOnReturn/1#70e4b8b5_0#antijoin_rhs",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::ctxDispatchFanoutOnReturn/1#70e4b8b5_0#antijoin_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "4d3ff0st8inai7r6i3pp1sgsnce"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53391,
+  "nanoTime" : 966886346900,
+  "raHash" : "9b09fc0s4pr26tun92q5ejj3tl2",
+  "predicateName" : "DataFlowImplCommon::Cached::TNodeEx#ebee9ee3",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TNodeEx#ebee9ee3" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1906622
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53392,
+  "nanoTime" : 966886467000,
+  "raHash" : "151461avmuum6vgl305pskc6411",
+  "predicateName" : "DataFlowImplCommon::Cached::CachedCallContextSensitivity::viableImplCallContextReducedReverse/2#a7c034e7",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::viableImplCallContextReducedReverse/2#a7c034e7" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53393,
+  "nanoTime" : 966886510700,
+  "raHash" : "fbb93fr2to4u8r9n1begnk7df9e",
+  "predicateName" : "DataFlowImplCommon::Cached::CachedCallContextSensitivity::viableImplCallContextReducedReverse/2#a7c034e7_021#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::viableImplCallContextReducedReverse/2#a7c034e7_021#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "151461avmuum6vgl305pskc6411"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53394,
+  "nanoTime" : 966886570800,
+  "raHash" : "edff37jjcjsdk18r9i39jv79ae2",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage2::viableImplCallContextReducedReverseRestricted/2#496f859b",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage2::viableImplCallContextReducedReverseRestricted/2#496f859b" : [ 39 ]
+  },
+  "sentinelRaHash" : "fbb93fr2to4u8r9n1begnk7df9e"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53395,
+  "nanoTime" : 966886739500,
+  "raHash" : "59eae2jec27cm7k7kdmgehfqmuc",
+  "predicateName" : "DataFlowImplCommon::Cached::CachedCallContextSensitivity::instanceofCcNoCall/1#06def289",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::instanceofCcNoCall/1#06def289" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53396,
+  "nanoTime" : 966886889200,
+  "raHash" : "4a3bac1kq6fqags7on6d348oule",
+  "predicateName" : "DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextCall/2#b1ec491c",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextCall/2#b1ec491c" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53397,
+  "nanoTime" : 966886931500,
+  "raHash" : "811efeso9ig30cmodq6gqka1843",
+  "predicateName" : "project#DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextCall/2#b1ec491c",
+  "appearsAs" : {
+    "project#DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextCall/2#b1ec491c" : [ 39 ]
+  },
+  "sentinelRaHash" : "4a3bac1kq6fqags7on6d348oule"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53398,
+  "nanoTime" : 966887055000,
+  "raHash" : "d1c4d4v3dqqsp0rsmndi4f5vr03",
+  "predicateName" : "DataFlowImplCommon::Cached::TAnyLocalCall#e6933739",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TAnyLocalCall#e6933739" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53399,
+  "nanoTime" : 966887159200,
+  "raHash" : "9d08b7odlih9ti6ob378f06c425",
+  "predicateName" : "DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextReturn/2#8dfbacac",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextReturn/2#8dfbacac" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53400,
+  "nanoTime" : 966887198200,
+  "raHash" : "17dbcb7q9pqtnv7km4bkrpc8m41",
+  "predicateName" : "DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextReturn/2#8dfbacac_01#antijoin_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextReturn/2#8dfbacac_01#antijoin_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "9d08b7odlih9ti6ob378f06c425"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53401,
+  "nanoTime" : 966887315700,
+  "raHash" : "7a5ec15gsgm97jomgrmit81nqsb",
+  "predicateName" : "DataFlowImplCommon::Cached::CachedCallContextSensitivity::viableImplCallContextReduced/2#e3a6fd25",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::viableImplCallContextReduced/2#e3a6fd25" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53402,
+  "nanoTime" : 966887351900,
+  "raHash" : "acfb81llkan1u1j011fll2jgoa6",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage2::FwdFlowInNoThrough::viableImplCallContextReducedRestricted/2#5aa814c5",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage2::FwdFlowInNoThrough::viableImplCallContextReducedRestricted/2#5aa814c5" : [ 39 ]
+  },
+  "sentinelRaHash" : "7a5ec15gsgm97jomgrmit81nqsb"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53403,
+  "nanoTime" : 966887379800,
+  "raHash" : "48b3896nbjgjhepirkntuo55v8c",
+  "predicateName" : "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage2::FwdFlowInThrough::viableImplCallContextReducedRestricted/2#c5fea380",
+  "appearsAs" : {
+    "DataFlowImpl::Impl<new_global::MyFlow::C>::Stage2::FwdFlowInThrough::viableImplCallContextReducedRestricted/2#c5fea380" : [ 39 ]
+  },
+  "sentinelRaHash" : "7a5ec15gsgm97jomgrmit81nqsb"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53404,
+  "nanoTime" : 966887473400,
+  "raHash" : "047cfbges8afa6ivpr2v8hi2sq7",
+  "predicateName" : "DataFlowImplCommon::Cached::CachedCallContextSensitivity::callContextAffectsDispatch/2#3d71b27d",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::callContextAffectsDispatch/2#3d71b27d" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53405,
+  "nanoTime" : 966887589700,
+  "raHash" : "987575fi218m3m5qpq9gku9ngb8",
+  "predicateName" : "DataFlowImplCommon::Cached::CachedCallContextSensitivity::instanceofCc/1#f272ab56",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::instanceofCc/1#f272ab56" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 2
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53406,
+  "nanoTime" : 966887714400,
+  "raHash" : "596232vh9dllstsp4dpk3fusl37",
+  "predicateName" : "DataFlowImplCommon::Cached::CachedCallContextSensitivity::instanceofCcCall/1#de1cfd58",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::instanceofCcCall/1#de1cfd58" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53407,
+  "nanoTime" : 966887842900,
+  "raHash" : "3f02037mt4kuo9c3dabqvkkv3l6",
+  "predicateName" : "DataFlowImplCommon::Cached::TBooleanNone#56347b08",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TBooleanNone#56347b08" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53408,
+  "nanoTime" : 966887979000,
+  "raHash" : "9e24c0pr9mljcqbpk3ahs1solu3",
+  "predicateName" : "DataFlowImplCommon::Cached::TReturnCtxNone#88749d9f",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TReturnCtxNone#88749d9f" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53409,
+  "nanoTime" : 966888163800,
+  "raHash" : "1cafdf3u5vaprroohh3j1ctcj6b",
+  "predicateName" : "DataFlowImplCommon::Cached::TReturnCtxNoFlowThrough#3f4bfe30",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TReturnCtxNoFlowThrough#3f4bfe30" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53410,
+  "nanoTime" : 966888300100,
+  "raHash" : "1b3cf2u9ujsf91hnodr6g2fqav3",
+  "predicateName" : "DataFlowImplCommon::Cached::TBooleanSome#84d19974",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TBooleanSome#84d19974" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 2
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53411,
+  "nanoTime" : 966888418200,
+  "raHash" : "3a7cd535bfqfjhp9ivp17hfv57a",
+  "predicateName" : "DataFlowImplCommon::Cached::TReturnCtxMaybeFlowThrough#73202d32",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TReturnCtxMaybeFlowThrough#73202d32" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 28369
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53412,
+  "nanoTime" : 966888563000,
+  "raHash" : "131b53ova9qfohkl2ifaocol0e7",
+  "predicateName" : "DataFlowImplCommon::Cached::TApproxFrontNil#30098feb",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TApproxFrontNil#30098feb" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53413,
+  "nanoTime" : 966888755000,
+  "raHash" : "320884ghb4bh44c037rvnilrl28",
+  "predicateName" : "DataFlowImplCommon::Cached::TMkCallEdge#fe395858",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TMkCallEdge#fe395858" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 27516
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53414,
+  "nanoTime" : 966888877700,
+  "raHash" : "a2065ctuc99kctpqf1g8dfp5bn2",
+  "predicateName" : "DataFlowImplCommon::Cached::outNodeExt/1#5035155b",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::outNodeExt/1#5035155b" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 166168
+}
+
+{
+  "time" : "2024-11-21T11:16:34.708676600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53415,
+  "nanoTime" : 966888987600,
+  "raHash" : "dd66951cfhv1oltf5tgrrlorjud",
+  "predicateName" : "DataFlowImplCommon::Cached::clearsContentCached/2#ecbe0d21",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::clearsContentCached/2#ecbe0d21" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 8337
+}
+
+{
+  "time" : "2024-11-21T11:16:34.714891600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53416,
+  "nanoTime" : 966889128700,
+  "raHash" : "7f22a2nohqargdpndk6knu7out0",
+  "predicateName" : "DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInReturn/2#ce934fea",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInReturn/2#ce934fea" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.714891600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53417,
+  "nanoTime" : 966889237900,
+  "raHash" : "956600ds0sj8vchs23ko46i81e4",
+  "predicateName" : "DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInReturn/2#ce934fea_10#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInReturn/2#ce934fea_10#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "7f22a2nohqargdpndk6knu7out0"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.714891600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53418,
+  "nanoTime" : 966889295100,
+  "raHash" : "d9a889dcp4l0u8ss6qhma59cki8",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#50fc4ae0",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#50fc4ae0" : [ 39 ]
+  },
+  "sentinelRaHash" : "956600ds0sj8vchs23ko46i81e4"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.714891600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53419,
+  "nanoTime" : 966889338900,
+  "raHash" : "08b6b6mf58vipg7hk8pr1niqjj3",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TReturn#dc130454",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TReturn#dc130454" : [ 39 ]
+  },
+  "sentinelRaHash" : "d9a889dcp4l0u8ss6qhma59cki8"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.714891600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53420,
+  "nanoTime" : 966889356900,
+  "raHash" : "49f412hb4keenfreptsjklp8srf",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#50fc4ae0_10#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#50fc4ae0_10#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "d9a889dcp4l0u8ss6qhma59cki8"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.714891600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53421,
+  "nanoTime" : 966889371600,
+  "raHash" : "e35b43906b8e928oh16p12hq8pd",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TReturn#dc130454_01#antijoin_rhs",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TReturn#dc130454_01#antijoin_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "08b6b6mf58vipg7hk8pr1niqjj3"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.714891600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53422,
+  "nanoTime" : 966889398000,
+  "raHash" : "03db63celtk6kk3fk2gu39kafn7",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#c58236f3",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#c58236f3" : [ 39 ]
+  },
+  "sentinelRaHash" : "49f412hb4keenfreptsjklp8srf"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.714891600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53423,
+  "nanoTime" : 966889414700,
+  "raHash" : "146d1d7fc9ak731fk0barclgo57",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TReturn#cff43547",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TReturn#cff43547" : [ 39 ]
+  },
+  "sentinelRaHash" : "03db63celtk6kk3fk2gu39kafn7"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.714891600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53424,
+  "nanoTime" : 966889428900,
+  "raHash" : "f1d6c98n9sfbfdug14if51lmfg7",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#c58236f3_10#join_rhs",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#c58236f3_10#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "03db63celtk6kk3fk2gu39kafn7"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.714891600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53425,
+  "nanoTime" : 966889443000,
+  "raHash" : "01ba8d5rotak4rjae8eemeu1098",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TReturn#cff43547_01#antijoin_rhs",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TReturn#cff43547_01#antijoin_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "146d1d7fc9ak731fk0barclgo57"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.714891600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53426,
+  "nanoTime" : 966889800400,
+  "raHash" : "1db4ab01h47mlf8ja81uedvd2s1",
+  "predicateName" : "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#07da5094",
+  "appearsAs" : {
+    "DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#07da5094" : [ 39 ]
+  },
+  "sentinelRaHash" : "f1d6c98n9sfbfdug14if51lmfg7"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53427,
+  "nanoTime" : 966889848200,
+  "raHash" : "324946fqp8knpgjhofn2jrb3kpc",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TReturn#5c9b2bb3",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TReturn#5c9b2bb3" : [ 39 ]
+  },
+  "sentinelRaHash" : "1db4ab01h47mlf8ja81uedvd2s1"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53428,
+  "nanoTime" : 966889990500,
+  "raHash" : "98bb18qjfe4v6p7j5umq43g0ei0",
+  "predicateName" : "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TReturn#5c9b2bb3_01#antijoin_rhs",
+  "appearsAs" : {
+    "num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TReturn#5c9b2bb3_01#antijoin_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "324946fqp8knpgjhofn2jrb3kpc"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53429,
+  "nanoTime" : 966890748300,
+  "raHash" : "003810cknecad0mv65dtm94qss5",
+  "predicateName" : "DataFlowImplCommon::Cached::callEnclosingCallable/2#76ac3511",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::callEnclosingCallable/2#76ac3511" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 67685
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53430,
+  "nanoTime" : 966890961000,
+  "raHash" : "242473bkefge90qugti7d5hhomb",
+  "predicateName" : "DataFlowImplCommon::Cached::TApproxAccessPathFrontNone#65247674",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TApproxAccessPathFrontNone#65247674" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53431,
+  "nanoTime" : 966891088000,
+  "raHash" : "00b565r6hk3jm9ifltrea15o6e5",
+  "predicateName" : "DataFlowImplCommon::Cached::TApproxAccessPathFrontSome#009446fb",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TApproxAccessPathFrontSome#009446fb" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 2
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53432,
+  "nanoTime" : 966891206200,
+  "raHash" : "b2c0d6mr5qqi48fq8nbkonn71l7",
+  "predicateName" : "DataFlowImplCommon::Cached::TFrontHead#317ae733",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TFrontHead#317ae733" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 5648
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53433,
+  "nanoTime" : 966891295600,
+  "raHash" : "dbecb5mfgsjpa5lb7ekj44frok5",
+  "predicateName" : "DataFlowImplCommon::Cached::TFrontNil#44ee2a6c",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TFrontNil#44ee2a6c" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53434,
+  "nanoTime" : 966891474400,
+  "raHash" : "0656754tur3hk27h36n6fs8u15c",
+  "predicateName" : "DataFlowImplCommon::Cached::TAccessPathFrontNone#2eadd0b5",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TAccessPathFrontNone#2eadd0b5" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53435,
+  "nanoTime" : 966891586100,
+  "raHash" : "b8a926re5u9n9v9ccgs8k3kh7bd",
+  "predicateName" : "DataFlowImplCommon::Cached::TAccessPathFrontSome#918be2d2",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TAccessPathFrontSome#918be2d2" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 5649
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53436,
+  "nanoTime" : 966891675600,
+  "raHash" : "306eb2r0u95l84kcdsgtfep79t9",
+  "predicateName" : "ApiGraphModels::ModelOutput::getASinkNode/2#ca35e673",
+  "appearsAs" : {
+    "ApiGraphModels::ModelOutput::getASinkNode/2#ca35e673" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53437,
+  "nanoTime" : 966891704200,
+  "raHash" : "d93d0bnciiq50213dq6tq26qiqe",
+  "predicateName" : "ApiGraphModels::ModelOutput::getASinkNode/2#ca35e673_21#join_rhs",
+  "appearsAs" : {
+    "ApiGraphModels::ModelOutput::getASinkNode/2#ca35e673_21#join_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "306eb2r0u95l84kcdsgtfep79t9"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53438,
+  "nanoTime" : 966891748600,
+  "raHash" : "49ed2197v6bn5jrlm526020gqkd",
+  "predicateName" : "DataFlowPrivate::knownSinkModel/2#7975241c#bf",
+  "appearsAs" : {
+    "DataFlowPrivate::knownSinkModel/2#7975241c#bf" : [ 39 ]
+  },
+  "sentinelRaHash" : "d93d0bnciiq50213dq6tq26qiqe"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "SENTINEL_EMPTY",
+  "eventId" : 53439,
+  "nanoTime" : 966891785600,
+  "raHash" : "cf3239hk703q8f8o09rlglk4bkc",
+  "predicateName" : "DataFlowPrivate::knownSinkModel/2#7975241c#bf_0#antijoin_rhs",
+  "appearsAs" : {
+    "DataFlowPrivate::knownSinkModel/2#7975241c#bf_0#antijoin_rhs" : [ 39 ]
+  },
+  "sentinelRaHash" : "49ed2197v6bn5jrlm526020gqkd"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53440,
+  "nanoTime" : 966891877700,
+  "raHash" : "c76e932a9bvqn62k07b6g3bc9n3",
+  "predicateName" : "ApiGraphModels::ModelOutput::getASourceNode/2#48850f6b",
+  "appearsAs" : {
+    "ApiGraphModels::ModelOutput::getASourceNode/2#48850f6b" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1814
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53441,
+  "nanoTime" : 966891988400,
+  "raHash" : "264cb36csd8elt6e4o743mua4v4",
+  "predicateName" : "DataFlowImplCommon::Cached::hiddenNode/1#f3158297",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::hiddenNode/1#f3158297" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 83738
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53442,
+  "nanoTime" : 966892174500,
+  "raHash" : "f85de7ovhp3fna6p1kb418use56",
+  "predicateName" : "Flow::ControlFlowNode.toString/0#dispred#e1af144b",
+  "appearsAs" : {
+    "Flow::ControlFlowNode.toString/0#dispred#e1af144b" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 660748
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53443,
+  "nanoTime" : 966892281600,
+  "raHash" : "0ef7b38sl8e8duaso834a306t7b",
+  "predicateName" : "DataFlowPublic::Node.toString/0#dispred#af9c307a",
+  "appearsAs" : {
+    "DataFlowPublic::Node.toString/0#dispred#af9c307a" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 948741
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53444,
+  "nanoTime" : 966892361400,
+  "raHash" : "1a5c136nssu20ditmarp5kkfbqe",
+  "predicateName" : "CachedStages::Stages::AST::ref/0#e52d92b5",
+  "appearsAs" : {
+    "CachedStages::Stages::AST::ref/0#e52d92b5" : [ 33 ],
+    "CachedStages::Stages::DataFlow::ref/0#cdb8ae28" : [ 35 ],
+    "CachedStages::Stages::TypeTracking::backref/0#7723e16b" : [ 35 ],
+    "CachedStages::Stages::TypeTracking::ref/0#5856c8b1" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53445,
+  "nanoTime" : 966892544000,
+  "raHash" : "24b995ov2aeckis5a9dg5crn5ma",
+  "predicateName" : "#select#query",
+  "appearsAs" : {
+    "#select#query" : [ 39 ]
+  },
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 700
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53446,
+  "nanoTime" : 966892621900,
+  "raHash" : "3a4613qcq9fp52g0oascqfilg20",
+  "predicateName" : "subpaths#query",
+  "appearsAs" : {
+    "subpaths#query" : [ 39 ]
+  },
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 388
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53447,
+  "nanoTime" : 966892689200,
+  "raHash" : "cc4ad45kok48uet8r0pqk6eoe3f",
+  "predicateName" : "nodes#query",
+  "appearsAs" : {
+    "nodes#query" : [ 39 ]
+  },
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1947
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53448,
+  "nanoTime" : 966892830800,
+  "raHash" : "5eb784g1agmb0t5v0ab0qfttei7",
+  "predicateName" : "edges#query",
+  "appearsAs" : {
+    "edges#query" : [ 39 ]
+  },
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 2863
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53449,
+  "nanoTime" : 966892961700,
+  "raHash" : "088ec4u9l8cbual2092e84q7soa",
+  "predicateName" : "DataFlowImplCommon::Cached::viableCallableCached/1#55306cc1",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::viableCallableCached/1#55306cc1" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 27516
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53450,
+  "nanoTime" : 966893049700,
+  "raHash" : "11d172ga5pi9ob8d7vn0m5pg0jd",
+  "predicateName" : "DataFlowImplCommon::Cached::viableCallableLambda/2#e32bc09c",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::viableCallableLambda/2#e32bc09c" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53451,
+  "nanoTime" : 966893132400,
+  "raHash" : "4fcf89k29b9pkq9ssc267s99ou9",
+  "predicateName" : "DataFlowImplCommon::Cached::TDataFlowCallNone#2015ab4f",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TDataFlowCallNone#2015ab4f" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53452,
+  "nanoTime" : 966893227500,
+  "raHash" : "3fd168c834v29netepr8063e8r8",
+  "predicateName" : "DataFlowImplCommon::Cached::TDataFlowCallOption#caaf932c",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TDataFlowCallOption#caaf932c" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 67686
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53453,
+  "nanoTime" : 966893306700,
+  "raHash" : "18ab52rn9hs3484689a6q086vsd",
+  "predicateName" : "DataFlowImplCommon::Cached::TDataFlowCallSome#b3918bcc",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TDataFlowCallSome#b3918bcc" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 67685
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53454,
+  "nanoTime" : 966893385500,
+  "raHash" : "ab93c2u20vj1qh4ubp5kuunm96d",
+  "predicateName" : "DataFlowImplCommon::Cached::TReturnKindExt#2df5b084",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TReturnKindExt#2df5b084" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 2923
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53455,
+  "nanoTime" : 966893461400,
+  "raHash" : "5b7672p0d042jjg0qqbj0dmg7bf",
+  "predicateName" : "DataFlowImplCommon::Cached::TCallEdge#1d81b179",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TCallEdge#1d81b179" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 27516
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53456,
+  "nanoTime" : 966893533300,
+  "raHash" : "649a87480mlsmg7qbbvcij65m83",
+  "predicateName" : "DataFlowImplCommon::Cached::TAccessPathFront#17403fb6",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TAccessPathFront#17403fb6" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 5649
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53457,
+  "nanoTime" : 966893615700,
+  "raHash" : "778258f28lo407ij7tlnpvqhbc6",
+  "predicateName" : "DataFlowImplCommon::Cached::TAccessPathFrontOption#ebff32a3",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TAccessPathFrontOption#ebff32a3" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 5650
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53458,
+  "nanoTime" : 966893686600,
+  "raHash" : "a2c0a7hs84odp7p959q62nuq999",
+  "predicateName" : "DataFlowImplCommon::Cached::TApproxAccessPathFront#b9346c9a",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TApproxAccessPathFront#b9346c9a" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 2
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53459,
+  "nanoTime" : 966893757900,
+  "raHash" : "beb77fhvfvel3ro63foh5vusib2",
+  "predicateName" : "DataFlowImplCommon::Cached::TApproxAccessPathFrontOption#fff62e68",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TApproxAccessPathFrontOption#fff62e68" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 3
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53460,
+  "nanoTime" : 966893826900,
+  "raHash" : "e287b0uvr3srf5g7gr5iet651pb",
+  "predicateName" : "DataFlowImplCommon::Cached::TBooleanOption#6f23d0e8",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TBooleanOption#6f23d0e8" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 3
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53461,
+  "nanoTime" : 966893904900,
+  "raHash" : "520506sr33067hpckg1k0mfiq9c",
+  "predicateName" : "DataFlowImplCommon::Cached::TLocalFlowCallContext#4fabb357",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TLocalFlowCallContext#4fabb357" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53462,
+  "nanoTime" : 966893977800,
+  "raHash" : "3b296bc9grbi2gadh4namrpggb8",
+  "predicateName" : "DataFlowImplCommon::Cached::FlowThrough::Final::argumentValueFlowsThrough/4#5460be1a",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::FlowThrough::Final::argumentValueFlowsThrough/4#5460be1a" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 13997
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53463,
+  "nanoTime" : 966894067400,
+  "raHash" : "c9c7e0mes8t4hae2iakg319fsm7",
+  "predicateName" : "DataFlowImplCommon::Cached::TReturnCtx#1880ad61",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TReturnCtx#1880ad61" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 28371
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53464,
+  "nanoTime" : 966894158500,
+  "raHash" : "570991bnr70s53s36brdshs2it3",
+  "predicateName" : "DataFlowImplCommon::Cached::TReturnPosition#387dfb5c",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::TReturnPosition#387dfb5c" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 28369
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53465,
+  "nanoTime" : 966894243800,
+  "raHash" : "9ce1df36pnm7r1vfls4i79kh1c6",
+  "predicateName" : "CachedStages::Stages::AST::backref/0#dddb3000",
+  "appearsAs" : {
+    "CachedStages::Stages::AST::backref/0#dddb3000" : [ 33 ],
+    "CachedStages::Stages::DataFlow::backref/0#a7c5a475" : [ 35 ],
+    "DataFlowImplCommon::Cached::forceCachingInSameStage/0#b0c6918e" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53466,
+  "nanoTime" : 966894326900,
+  "raHash" : "0f008a0k1jmp46hsbnj951in9g5",
+  "predicateName" : "DataFlowImplCommon::Cached::getParamReturnPosition/2#6216ef66",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::getParamReturnPosition/2#6216ef66" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 55555
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53467,
+  "nanoTime" : 966894410400,
+  "raHash" : "81d9ac6o8s2v32ruq27k8c2uts7",
+  "predicateName" : "DataFlowImplCommon::Cached::getValueReturnPosition/1#fb81402e",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::getValueReturnPosition/1#fb81402e" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 12439
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53468,
+  "nanoTime" : 966894478100,
+  "raHash" : "f452d4n6ktfl5qh9flemsa22sbb",
+  "predicateName" : "DataFlowImplCommon::Cached::simpleLocalFlowStepExt/3#e5158f99",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::simpleLocalFlowStepExt/3#e5158f99" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 415936
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53469,
+  "nanoTime" : 966894539800,
+  "raHash" : "43d97aqdp82j1um64sj9p8t2kcb",
+  "predicateName" : "DataFlowImplCommon::Cached::storeSet/5#bf1f42af",
+  "appearsAs" : {
+    "DataFlowImplCommon::Cached::storeSet/5#bf1f42af" : [ 36 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 150200
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53470,
+  "nanoTime" : 966894620400,
+  "raHash" : "3dd957mk44hfceg2732u428b38e",
+  "predicateName" : "TypeTrackingImpl::Cached::CallStep#8242b00f",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::CallStep#8242b00f" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53471,
+  "nanoTime" : 966894705600,
+  "raHash" : "339c72lbfnd2ec3cdmnql46eb06",
+  "predicateName" : "TypeTrackingImpl::Cached::JumpStep#b59a2ca6",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::JumpStep#b59a2ca6" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53472,
+  "nanoTime" : 966894776400,
+  "raHash" : "8c3da9rj92phes30shoj0d84o82",
+  "predicateName" : "TypeTrackingImpl::Cached::LevelStep#18f3a03d",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::LevelStep#18f3a03d" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53473,
+  "nanoTime" : 966894844100,
+  "raHash" : "f862cbufcg60qlr0eo75k9pqa85",
+  "predicateName" : "TypeTrackingImpl::Cached::LoadStep#a52af285",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::LoadStep#a52af285" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 3673
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53474,
+  "nanoTime" : 966894914700,
+  "raHash" : "e9ed686g4utm1qm6qbm4fr2lur3",
+  "predicateName" : "ApiGraphs::API::Impl::isImported/1#f726a2da",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::isImported/1#f726a2da" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 655
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53475,
+  "nanoTime" : 966895002400,
+  "raHash" : "136d5f9eruu2725tc68astoaqj8",
+  "predicateName" : "ApiGraphs::API::Impl::MkDef#51c2f877",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::MkDef#51c2f877" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 163186
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53476,
+  "nanoTime" : 966895074300,
+  "raHash" : "91b8e9eto9tbu0bc1aptlceoke5",
+  "predicateName" : "ImportStar::ImportStar::isDefinedLocally/1#ff167f35",
+  "appearsAs" : {
+    "ImportStar::ImportStar::isDefinedLocally/1#ff167f35" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 226267
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53477,
+  "nanoTime" : 966895141900,
+  "raHash" : "3792ba3i0nhih32os9lq3lpuclb",
+  "predicateName" : "ImportStar::ImportStar::potentialImportStarBase/1#920b005f",
+  "appearsAs" : {
+    "ImportStar::ImportStar::potentialImportStarBase/1#920b005f" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 60
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53478,
+  "nanoTime" : 966895227300,
+  "raHash" : "90a2d2l2d9ibfeqav9qktesrshb",
+  "predicateName" : "ApiGraphs::API::Impl::MkRoot#91562bd2",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::MkRoot#91562bd2" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53479,
+  "nanoTime" : 966895320000,
+  "raHash" : "281097uuuaeckiu1r83fhcodibb",
+  "predicateName" : "ApiGraphs::API::Impl::MkUse#871807e5",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::MkUse#871807e5" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 167501
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53480,
+  "nanoTime" : 966895397000,
+  "raHash" : "41509bilsvnafs0eucku7l2pch7",
+  "predicateName" : "ApiGraphs::API::Impl::use/3#e6c88b66",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::use/3#e6c88b66" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 389906
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53481,
+  "nanoTime" : 966895486300,
+  "raHash" : "4f3c61k15gggrvp46c07qdks0gb",
+  "predicateName" : "ApiGraphs::API::Impl::TApiNode#88a31bd8",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::TApiNode#88a31bd8" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 331343
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53482,
+  "nanoTime" : 966895553300,
+  "raHash" : "476cf5dhb40tv0nljsv4i11bv87",
+  "predicateName" : "TypeTrackingImpl::Cached::ReturnStep#baca7cda",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::ReturnStep#baca7cda" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53483,
+  "nanoTime" : 966895686600,
+  "raHash" : "c9911elere43eb2ve677qgaakt9",
+  "predicateName" : "TypeTrackingImpl::Cached::TTypeTracker#23982e38",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::TTypeTracker#23982e38" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 7348
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53484,
+  "nanoTime" : 966895789500,
+  "raHash" : "4effb2n4ks5onfo72pce357umk4",
+  "predicateName" : "LocalSources::Cached::await/2#6dc34707",
+  "appearsAs" : {
+    "LocalSources::Cached::await/2#6dc34707" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 4653
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53485,
+  "nanoTime" : 966895867800,
+  "raHash" : "e23e3dgqbaiv6b1c8u583hturs6",
+  "predicateName" : "LocalSources::Cached::dynamicAttrRef/2#d301c648",
+  "appearsAs" : {
+    "LocalSources::Cached::dynamicAttrRef/2#d301c648" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 182
+}
+
+{
+  "time" : "2024-11-21T11:16:34.715629600Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53486,
+  "nanoTime" : 966895990500,
+  "raHash" : "455256j234pv9kqi9qt28lk9217",
+  "predicateName" : "LocalSources::Cached::subscript/3#c2c816b7",
+  "appearsAs" : {
+    "LocalSources::Cached::subscript/3#c2c816b7" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 21044
+}
+
+{
+  "time" : "2024-11-21T11:16:34.721856700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53487,
+  "nanoTime" : 966896091600,
+  "raHash" : "2262d4ml7t5kdjbn1p6nsf43p97",
+  "predicateName" : "Awaited::awaited/1#2f6a02a1",
+  "appearsAs" : {
+    "Awaited::awaited/1#2f6a02a1" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 4552
+}
+
+{
+  "time" : "2024-11-21T11:16:34.721856700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53488,
+  "nanoTime" : 966896188500,
+  "raHash" : "e2edf7lr4ec4rod7ck4ojdgvstb",
+  "predicateName" : "TypeTrackingImpl::Cached::standardFlowsTo/2#6f90b79a",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::standardFlowsTo/2#6f90b79a" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 0
+}
+
+{
+  "time" : "2024-11-21T11:16:34.721856700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53489,
+  "nanoTime" : 966896265100,
+  "raHash" : "ac2a9frc6k1mmlevsdd1m9hleh5",
+  "predicateName" : "TypeTrackingImpl::Cached::smallStepNoCall/3#08e637dc",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::smallStepNoCall/3#08e637dc" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 240091
+}
+
+{
+  "time" : "2024-11-21T11:16:34.721856700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53490,
+  "nanoTime" : 966896331200,
+  "raHash" : "1a30ee83dh9p0fqgfs2glvqv189",
+  "predicateName" : "TypeTrackingImpl::Cached::StoreStep#b28a362b",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::StoreStep#b28a362b" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 3413
+}
+
+{
+  "time" : "2024-11-21T11:16:34.721856700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53491,
+  "nanoTime" : 966896399200,
+  "raHash" : "e66652oilpr21c6sin85h22c7u5",
+  "predicateName" : "TypeTrackingImpl::Cached::TStepSummary#2eed3c0a",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::TStepSummary#2eed3c0a" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 7090
+}
+
+{
+  "time" : "2024-11-21T11:16:34.721856700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53492,
+  "nanoTime" : 966896709600,
+  "raHash" : "efb19er51rihho4h1mhkqjf3kk5",
+  "predicateName" : "TypeTrackingImpl::Cached::smallStepCall/3#f8660c49",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::smallStepCall/3#f8660c49" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 145532
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53493,
+  "nanoTime" : 966896884100,
+  "raHash" : "bef36f2c50b80u1u7l89nogcpve",
+  "predicateName" : "ApiGraphs::API::Impl::rhs/3#2255afc6",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::rhs/3#2255afc6" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 484975
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53494,
+  "nanoTime" : 966896988400,
+  "raHash" : "671bdfavcao8ldqdttdtkkiuun1",
+  "predicateName" : "TypeTrackingImpl::Cached::TTypeBackTracker#c637f0a8",
+  "appearsAs" : {
+    "TypeTrackingImpl::Cached::TTypeBackTracker#c637f0a8" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 6828
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53495,
+  "nanoTime" : 966897152500,
+  "raHash" : "b22448huhl43dipcsblr5fceh2b",
+  "predicateName" : "LocalSources::LocalSourceNodeNotModuleVariableNode#bb09f09b",
+  "appearsAs" : {
+    "LocalSources::LocalSourceNodeNotModuleVariableNode#bb09f09b" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 436484
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53496,
+  "nanoTime" : 966897728500,
+  "raHash" : "7f49badon3miu74cl90a9fi34c0",
+  "predicateName" : "ApiGraphs::API::Impl::distanceFromRoot/1#42f937ef",
+  "appearsAs" : {
+    "ApiGraphs::API::Impl::distanceFromRoot/1#42f937ef" : [ 35 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 329299
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53497,
+  "nanoTime" : 966897921300,
+  "raHash" : "b5f654m8q9fj9e8q1a12redafp6",
+  "predicateName" : "VariableCapture::Flow::CaptureSsa::TDefinitionExt#64348171",
+  "appearsAs" : {
+    "VariableCapture::Flow::CaptureSsa::TDefinitionExt#64348171" : [ 34 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1065
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53498,
+  "nanoTime" : 966898029000,
+  "raHash" : "8c9039hfn5absqt70ei97dic3p1",
+  "predicateName" : "Essa::TEssaDefinition#4c062f56",
+  "appearsAs" : {
+    "Essa::TEssaDefinition#4c062f56" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 397138
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53499,
+  "nanoTime" : 966898125000,
+  "raHash" : "02d83a9bihcndbkqcuvopu0mjtc",
+  "predicateName" : "SsaCompute::EssaDefinitions::piNode/3#b1917f93",
+  "appearsAs" : {
+    "SsaCompute::EssaDefinitions::piNode/3#b1917f93" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 45714
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53500,
+  "nanoTime" : 966898217600,
+  "raHash" : "578245v0td3g1saadp1t0pg461f",
+  "predicateName" : "SsaCompute::AdjacentUses::adjacentUseUseSameVar/2#2eafd7db",
+  "appearsAs" : {
+    "SsaCompute::AdjacentUses::adjacentUseUseSameVar/2#2eafd7db" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 138497
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53501,
+  "nanoTime" : 966898287300,
+  "raHash" : "61c0def73o7loc21r7sn0ci8t49",
+  "predicateName" : "SsaCompute::AdjacentUses::adjacentVarRefs/5#de1f7cd5",
+  "appearsAs" : {
+    "SsaCompute::AdjacentUses::adjacentVarRefs/5#de1f7cd5" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 278822
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53502,
+  "nanoTime" : 966898364400,
+  "raHash" : "1fcc123kk4s4ht0vor3dsbop1uf",
+  "predicateName" : "SsaCompute::AdjacentUses::defSourceUseRank/4#ebad7bcb",
+  "appearsAs" : {
+    "SsaCompute::AdjacentUses::defSourceUseRank/4#ebad7bcb" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 299757
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53503,
+  "nanoTime" : 966898429000,
+  "raHash" : "58c30d23ble22oq4fv5pjl14ohe",
+  "predicateName" : "SsaCompute::SsaComputeImpl::variableDefine/4#79261f91",
+  "appearsAs" : {
+    "SsaCompute::SsaComputeImpl::variableDefine/4#79261f91" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 136635
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53504,
+  "nanoTime" : 966898504400,
+  "raHash" : "a4dbc53arc11anv5ek0r7dujfv9",
+  "predicateName" : "AstExtended::AstNode.getAChildNode/0#dispred#a130356d",
+  "appearsAs" : {
+    "AstExtended::AstNode.getAChildNode/0#dispred#a130356d" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 668351
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53505,
+  "nanoTime" : 966898678400,
+  "raHash" : "04807bl8m1eap6ffq30vvqama65",
+  "predicateName" : "SsaCompute::SsaDefinitions::reachesEndOfBlock/4#214bd902",
+  "appearsAs" : {
+    "SsaCompute::SsaDefinitions::reachesEndOfBlock/4#214bd902" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 2809926
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53506,
+  "nanoTime" : 966898803300,
+  "raHash" : "e74a6bku8fko90van9v5a9ljkdb",
+  "predicateName" : "SsaCompute::Liveness::liveAtExit/2#b6aa63f4",
+  "appearsAs" : {
+    "SsaCompute::Liveness::liveAtExit/2#b6aa63f4" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 3006668
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53507,
+  "nanoTime" : 966898932800,
+  "raHash" : "e438c9nduk1fs7u5f36d9f4sgt5",
+  "predicateName" : "SsaCompute::Liveness::liveAtEntry/2#bab3ea7c",
+  "appearsAs" : {
+    "SsaCompute::Liveness::liveAtEntry/2#bab3ea7c" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 3016594
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53508,
+  "nanoTime" : 966899028200,
+  "raHash" : "9ba049ftqtjlaa8h3mgk7ghsm55",
+  "predicateName" : "SsaCompute::SsaComputeImpl::defUseRank/4#782a2f48",
+  "appearsAs" : {
+    "SsaCompute::SsaComputeImpl::defUseRank/4#782a2f48" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 1094689
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53509,
+  "nanoTime" : 966899123000,
+  "raHash" : "2ebcb1gcs1mdga944dnngc3hho5",
+  "predicateName" : "SsaCompute::SsaComputeImpl::variableDef/4#38b3ef7e",
+  "appearsAs" : {
+    "SsaCompute::SsaComputeImpl::variableDef/4#38b3ef7e" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 319786
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53510,
+  "nanoTime" : 966899196100,
+  "raHash" : "6d1349h96ngrhe6ef61onahj84a",
+  "predicateName" : "SsaCompute::SsaComputeImpl::variableRefine/4#b20a3c26",
+  "appearsAs" : {
+    "SsaCompute::SsaComputeImpl::variableRefine/4#b20a3c26" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 183151
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53511,
+  "nanoTime" : 966899291400,
+  "raHash" : "47d71autkoq5hvu1q2cut5eg6u3",
+  "predicateName" : "SsaCompute::SsaComputeImpl::variableUse/4#da62dc30",
+  "appearsAs" : {
+    "SsaCompute::SsaComputeImpl::variableUse/4#da62dc30" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 774903
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53512,
+  "nanoTime" : 966899360200,
+  "raHash" : "252cf7m27gc3v230qtecap688g8",
+  "predicateName" : "SsaCompute::SsaComputeImpl::defRank/4#f608ea69",
+  "appearsAs" : {
+    "SsaCompute::SsaComputeImpl::defRank/4#f608ea69" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 319786
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53513,
+  "nanoTime" : 966899440900,
+  "raHash" : "1c1bcasa4pm06da6jbdaghodvl4",
+  "predicateName" : "SsaCompute::SsaComputeImpl::lastRank/2#6cfcb19d",
+  "appearsAs" : {
+    "SsaCompute::SsaComputeImpl::lastRank/2#6cfcb19d" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 425684
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53514,
+  "nanoTime" : 966899514900,
+  "raHash" : "3250c3fnfve7u4c42ivvgnikssa",
+  "predicateName" : "SsaCompute::EssaDefinitions::phiNode/2#4864b30d",
+  "appearsAs" : {
+    "SsaCompute::EssaDefinitions::phiNode/2#4864b30d" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 69288
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53515,
+  "nanoTime" : 966899596300,
+  "raHash" : "978b8cg3k0865vvap5copfukfaf",
+  "predicateName" : "SsaCompute::SsaComputeImpl::ssaDef/2#1ca5a11b",
+  "appearsAs" : {
+    "SsaCompute::SsaComputeImpl::ssaDef/2#1ca5a11b" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 298741
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53516,
+  "nanoTime" : 966899674100,
+  "raHash" : "3351d1k3otcsp7no7lhsj1dgsk0",
+  "predicateName" : "SsaCompute::EssaDefinitions::variableUpdate/5#c42159b9",
+  "appearsAs" : {
+    "SsaCompute::EssaDefinitions::variableUpdate/5#c42159b9" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 282136
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53517,
+  "nanoTime" : 966899749500,
+  "raHash" : "38dfcb62itfket8h6ro018a77f2",
+  "predicateName" : "SsaCompute::EssaDefinitions::variableDefinition/5#32b5d84f",
+  "appearsAs" : {
+    "SsaCompute::EssaDefinitions::variableDefinition/5#32b5d84f" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 111684
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53518,
+  "nanoTime" : 966899821900,
+  "raHash" : "89958f5c4o8h0bu0q2nt1ud6s30",
+  "predicateName" : "SsaCompute::EssaDefinitions::variableRefinement/5#4e891107",
+  "appearsAs" : {
+    "SsaCompute::EssaDefinitions::variableRefinement/5#4e891107" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 170452
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53519,
+  "nanoTime" : 966899905500,
+  "raHash" : "16ae7c5vkm7qkt9ov7j9d0jqm0f",
+  "predicateName" : "SsaCompute::SsaComputeImpl::ssaDefReachesRank/4#f19c6fee",
+  "appearsAs" : {
+    "SsaCompute::SsaComputeImpl::ssaDefReachesRank/4#f19c6fee" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 825446
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53520,
+  "nanoTime" : 966899979500,
+  "raHash" : "1f2e021m6ttfic81cjaehfptvg8",
+  "predicateName" : "Exprs::Expr.toString/0#dispred#7435dfcd",
+  "appearsAs" : {
+    "Exprs::Expr.toString/0#dispred#7435dfcd" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 510150
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53521,
+  "nanoTime" : 966900057100,
+  "raHash" : "f230882vqjjf55p4khlr7asokf4",
+  "predicateName" : "AstExtended::AstNode.getParentNode/0#dispred#c159e3ee",
+  "appearsAs" : {
+    "AstExtended::AstNode.getParentNode/0#dispred#c159e3ee" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 668351
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53522,
+  "nanoTime" : 966900133600,
+  "raHash" : "2eedb972hbabqudtm59pnq78uo6",
+  "predicateName" : "Flow::BasicBlock.strictlyReaches/1#dispred#12a5aa28",
+  "appearsAs" : {
+    "Flow::BasicBlock.strictlyReaches/1#dispred#12a5aa28" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 5216216
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53523,
+  "nanoTime" : 966900216000,
+  "raHash" : "93e612ohr9a1qqlid8scu7tqt2b",
+  "predicateName" : "SsaCompute::AdjacentUses::variableSourceUse/4#4525ef19",
+  "appearsAs" : {
+    "SsaCompute::AdjacentUses::variableSourceUse/4#4525ef19" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 163122
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53524,
+  "nanoTime" : 966900294700,
+  "raHash" : "1ce569tpf8e1hbaptdjdhuod574",
+  "predicateName" : "SsaCompute::AdjacentUses::definesAt/4#68130204",
+  "appearsAs" : {
+    "SsaCompute::AdjacentUses::definesAt/4#68130204" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 180972
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53525,
+  "nanoTime" : 966900367100,
+  "raHash" : "b9299e82uvrpr2phifvvq1kj4s8",
+  "predicateName" : "SsaCompute::AdjacentUses::useOfDef/2#16a7ee50",
+  "appearsAs" : {
+    "SsaCompute::AdjacentUses::useOfDef/2#16a7ee50" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 158217
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53526,
+  "nanoTime" : 966900434300,
+  "raHash" : "541da3b0itvp7n23fplupb03bu4",
+  "predicateName" : "SsaCompute::SsaDefinitions::reachesExit/3#a534505a",
+  "appearsAs" : {
+    "SsaCompute::SsaDefinitions::reachesExit/3#a534505a" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 89691
+}
+
+{
+  "time" : "2024-11-21T11:16:34.722586700Z",
+  "type" : "CACHE_LOOKUP",
+  "eventId" : 53527,
+  "nanoTime" : 966900517800,
+  "raHash" : "ce8e2duf6pa1q28jmq2lr5sdt30",
+  "predicateName" : "SsaCompute::SsaComputeImpl::ssaDefReachesUseWithinBlock/4#87a91e15",
+  "appearsAs" : {
+    "SsaCompute::SsaComputeImpl::ssaDefReachesUseWithinBlock/4#87a91e15" : [ 33 ]
+  },
+  "isCached" : true,
+  "cacheLookupResult" : "RELATION_CACHE_HIT",
+  "relationSize" : 425405
+}
+
+{
+  "time" : "2024-11-21T11:16:34.833513900Z",
+  "type" : "QUERY_COMPLETED",
+  "eventId" : 53528,
+  "nanoTime" : 967010312700,
+  "startEvent" : 53155,
+  "terminationType" : "COMPLETED_SUCCESSFULLY"
+}
+
+{
+  "time" : "2024-11-21T11:16:34.833513900Z",
+  "type" : "LOG_FOOTER",
+  "eventId" : 53529,
+  "nanoTime" : 967010562200
+}

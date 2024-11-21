@@ -1,0 +1,903 @@
+[2024-11-21 19:16:16] [SPAMMY] execute query-server2> runQuery called with f:\projects\git_clone\LLMScheduling\codeql-custom-queries-python\new_global.ql
+[2024-11-21 19:16:16] Calling plumbing command: codeql resolve library-path --additional-packs=f:\projects\git_clone\LLMScheduling --query=f:\projects\git_clone\LLMScheduling\codeql-custom-queries-python\new_global.ql --format=json
+[2024-11-21 19:16:16] [DETAILS] resolve library-path> Resolving query at normalized path F:\projects\git_clone\LLMScheduling\codeql-custom-queries-python\new_global.ql.
+[2024-11-21 19:16:16] [DETAILS] resolve library-path> Found enclosing pack 'getting-started/codeql-extra-queries-python' at F:\projects\git_clone\LLMScheduling\codeql-custom-queries-python.
+[2024-11-21 19:16:16] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\LightSmile\.codeql\compile-cache.
+[2024-11-21 19:16:16] [DETAILS] resolve library-path> QL pack dependencies for F:\projects\git_clone\LLMScheduling\codeql-custom-queries-python found in cache.
+[2024-11-21 19:16:16] [DETAILS] resolve library-path> Found dbscheme through QL packs: C:\Users\LightSmile\.codeql\packages\codeql\python-all\2.1.1\semmlecode.python.dbscheme.
+[2024-11-21 19:16:16] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "F:\\projects\\git_clone\\LLMScheduling\\codeql-custom-queries-python",
+                          "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1",
+                          "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\dataflow\\1.1.4",
+                          "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\mad\\1.0.10",
+                          "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\regex\\1.0.10",
+                          "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\ssa\\1.0.10",
+                          "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\threat-models\\1.0.10",
+                          "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\tutorial\\1.0.10",
+                          "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\typetracking\\1.0.10",
+                          "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\util\\1.0.10",
+                          "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\xml\\1.0.10",
+                          "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\yaml\\1.0.10"
+                        ],
+                        "dbscheme" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmlecode.python.dbscheme",
+                        "compilationCache" : [
+                          "C:\\Users\\LightSmile\\.codeql\\compile-cache"
+                        ],
+                        "relativeName" : "getting-started\\codeql-extra-queries-python\\new_global.ql",
+                        "qlPackName" : "getting-started/codeql-extra-queries-python"
+                      }
+[2024-11-21 19:16:16] [PROGRESS] execute query-server2> Compiling query plan for f:\projects\git_clone\LLMScheduling\codeql-custom-queries-python\new_global.ql.
+[2024-11-21 19:16:16] [DETAILS] execute query-server2> Resolving imports for f:\projects\git_clone\LLMScheduling\codeql-custom-queries-python\new_global.ql.
+[2024-11-21 19:16:19] Resolved file set for f:\projects\git_clone\LLMScheduling\codeql-custom-queries-python\new_global.ql hashes to 914edd3a33c918f8842135fa594dc2f56e5eab57.
+[2024-11-21 19:16:19] [DETAILS] execute query-server2> Checking QL for f:\projects\git_clone\LLMScheduling\codeql-custom-queries-python\new_global.ql.
+[2024-11-21 19:16:19] Stale frontend caches are invalidated based on import graph reachability.
+[2024-11-21 19:16:19] ExternalModuleBindingPass ...
+[2024-11-21 19:16:20] ExternalModuleBindingPass time: 00:00.580
+[2024-11-21 19:16:20] CollectInstantiationsPass ...
+[2024-11-21 19:16:20] CollectInstantiationsPass time: 00:00.361
+[2024-11-21 19:16:20] Ql checks ...
+[2024-11-21 19:16:22] Ql checks time: 00:01.892
+[2024-11-21 19:16:26] Compilation pipeline
+[2024-11-21 19:16:26] Type Inference ...
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: Best number of iterations,Maximum number of runs,Number of BDD variables,Size of BDD for typefacts
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,0,0
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,0,0
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,94,96
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,0,0
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,325,389
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,0,0
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,24,24
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,48,72
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,5,5
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,541,15421
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,12,13
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,6,6
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,9,9
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,10,11
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,10,10
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,8
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,9,9
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,8,10
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,44,54
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,17,17
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,10,10
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,9,9
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,8
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,9
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,6,7
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,41,52
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,8
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,1,1
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,4,4
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,9
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,2,2
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,3,3
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2024-11-21 19:16:27] CSV_TYPE_HIERARCHY: 0,0,7,7
+[2024-11-21 19:16:29] Type Inference time: 00:02.286
+[2024-11-21 19:16:29] [DETAILS] execute query-server2> Optimizing f:\projects\git_clone\LLMScheduling\codeql-custom-queries-python\new_global.ql.
+[2024-11-21 19:16:29] Processing compilation pipeline
+[2024-11-21 19:16:29] Started compiling a query
+[2024-11-21 19:16:29] Initialising compiler...
+[2024-11-21 19:16:29] 	 ... compiler initialised
+[2024-11-21 19:16:29] About to start query optimisation
+[2024-11-21 19:16:30] Compilation cache hit - skipping compilation.
+[2024-11-21 19:16:30] Compilation cache hit - skipping compilation.
+[2024-11-21 19:16:30] Compilation cache hit - skipping compilation.
+[2024-11-21 19:16:31] Compilation cache hit - skipping compilation.
+[2024-11-21 19:16:31] Compilation cache hit - skipping compilation.
+[2024-11-21 19:16:32] Compilation cache hit - skipping compilation.
+[2024-11-21 19:16:32] Compilation cache hit - skipping compilation.
+[2024-11-21 19:16:32] Compilation cache hit - skipping compilation.
+[2024-11-21 19:16:32] CSV_COMPILATION: NONE,MISC,RA_TRANSLATION,OPTIMISATIONS
+[2024-11-21 19:16:32] CSV_COMPILATION: 698,1838,0,0
+[2024-11-21 19:16:32] [PROGRESS] execute query-server2> No database upgrade/downgrade needed for f:\projects\git_clone\LLMScheduling\codeql-custom-queries-python\new_global.ql
+[2024-11-21 19:16:32] Calling plumbing command: codeql resolve extensions-by-pack --additional-packs=f:\projects\git_clone\LLMScheduling --include-extension-row-locations F:\projects\git_clone\LLMScheduling\codeql-custom-queries-python
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] getting-started/codeql-extra-queries-python: not 1.0.0 {root: getting-started/codeql-extra-queries-python@1.0.0}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DERIVATION] getting-started/codeql-extra-queries-python: 1.0.0 {getting-started/codeql-extra-queries-python: not 1.0.0 {root: getting-started/codeql-extra-queries-python@1.0.0}}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] getting-started/codeql-extra-queries-python: * [*], codeql/python-all: not * [*] {dependency: getting-started/codeql-extra-queries-python@* [*] requires codeql/python-all@^2.1.1}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DECISION 1] getting-started/codeql-extra-queries-python: 1.0.0
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql/python-all: * [*] {getting-started/codeql-extra-queries-python: * [*], codeql/python-all: not * [*] {dependency: getting-started/codeql-extra-queries-python@* [*] requires codeql/python-all@^2.1.1}}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/python-all: * [*], codeql/dataflow: not * [*] {dependency: codeql/python-all@* [*] requires codeql/dataflow@1.1.4}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/python-all: * [*], codeql/mad: not * [*] {dependency: codeql/python-all@* [*] requires codeql/mad@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/python-all: * [*], codeql/regex: not * [*] {dependency: codeql/python-all@* [*] requires codeql/regex@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/python-all: * [*], codeql/threat-models: not * [*] {dependency: codeql/python-all@* [*] requires codeql/threat-models@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/python-all: * [*], codeql/tutorial: not * [*] {dependency: codeql/python-all@* [*] requires codeql/tutorial@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/python-all: * [*], codeql/util: not * [*] {dependency: codeql/python-all@* [*] requires codeql/util@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/python-all: * [*], codeql/xml: not * [*] {dependency: codeql/python-all@* [*] requires codeql/xml@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/python-all: * [*], codeql/yaml: not * [*] {dependency: codeql/python-all@* [*] requires codeql/yaml@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DECISION 2] codeql/python-all: 2.1.1
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql/yaml: * [*] {codeql/python-all: * [*], codeql/yaml: not * [*] {dependency: codeql/python-all@* [*] requires codeql/yaml@1.0.10}}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql/xml: * [*] {codeql/python-all: * [*], codeql/xml: not * [*] {dependency: codeql/python-all@* [*] requires codeql/xml@1.0.10}}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql/util: * [*] {codeql/python-all: * [*], codeql/util: not * [*] {dependency: codeql/python-all@* [*] requires codeql/util@1.0.10}}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql/tutorial: * [*] {codeql/python-all: * [*], codeql/tutorial: not * [*] {dependency: codeql/python-all@* [*] requires codeql/tutorial@1.0.10}}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql/threat-models: * [*] {codeql/python-all: * [*], codeql/threat-models: not * [*] {dependency: codeql/python-all@* [*] requires codeql/threat-models@1.0.10}}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql/regex: * [*] {codeql/python-all: * [*], codeql/regex: not * [*] {dependency: codeql/python-all@* [*] requires codeql/regex@1.0.10}}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql/mad: * [*] {codeql/python-all: * [*], codeql/mad: not * [*] {dependency: codeql/python-all@* [*] requires codeql/mad@1.0.10}}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql/dataflow: * [*] {codeql/python-all: * [*], codeql/dataflow: not * [*] {dependency: codeql/python-all@* [*] requires codeql/dataflow@1.1.4}}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/dataflow: * [*], codeql/ssa: not * [*] {dependency: codeql/dataflow@* [*] requires codeql/ssa@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/dataflow: * [*], codeql/typetracking: not * [*] {dependency: codeql/dataflow@* [*] requires codeql/typetracking@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/dataflow: * [*], codeql/util: not * [*] {dependency: codeql/dataflow@* [*] requires codeql/util@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DECISION 3] codeql/dataflow: 1.1.4
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql/typetracking: * [*] {codeql/dataflow: * [*], codeql/typetracking: not * [*] {dependency: codeql/dataflow@* [*] requires codeql/typetracking@1.0.10}}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql/ssa: * [*] {codeql/dataflow: * [*], codeql/ssa: not * [*] {dependency: codeql/dataflow@* [*] requires codeql/ssa@1.0.10}}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/mad: * [*], codeql/dataflow: not * [*] {dependency: codeql/mad@* [*] requires codeql/dataflow@1.1.4}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/mad: * [*], codeql/util: not * [*] {dependency: codeql/mad@* [*] requires codeql/util@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DECISION 4] codeql/mad: 1.0.10
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/regex: * [*], codeql/util: not * [*] {dependency: codeql/regex@* [*] requires codeql/util@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DECISION 5] codeql/regex: 1.0.10
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/ssa: * [*], codeql/util: not * [*] {dependency: codeql/ssa@* [*] requires codeql/util@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DECISION 6] codeql/ssa: 1.0.10
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DECISION 7] codeql/threat-models: 1.0.10
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DECISION 8] codeql/tutorial: 1.0.10
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/typetracking: * [*], codeql/util: not * [*] {dependency: codeql/typetracking@* [*] requires codeql/util@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DECISION 9] codeql/typetracking: 1.0.10
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DECISION 10] codeql/util: 1.0.10
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/xml: * [*], codeql/util: not * [*] {dependency: codeql/xml@* [*] requires codeql/util@1.0.10}
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DECISION 11] codeql/xml: 1.0.10
+[2024-11-21 19:16:32] [SPAMMY] resolve extensions-by-pack> [DECISION 12] codeql/yaml: 1.0.10
+[2024-11-21 19:16:32] [PROGRESS] resolve extensions-by-pack> Loading data extensions in C:\Users\LightSmile\.codeql\packages\codeql\python-all\2.1.1\ext\default-threat-models-fixup.model.yml.
+[2024-11-21 19:16:32] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/threat-models:threatModelConfiguration: 1 tuples.
+[2024-11-21 19:16:33] [PROGRESS] resolve extensions-by-pack> Loading data extensions in C:\Users\LightSmile\.codeql\packages\codeql\python-all\2.1.1\semmle\python\frameworks\Asyncpg.model.yml.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:sinkModel: 5 tuples.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:typeModel: 6 tuples.
+[2024-11-21 19:16:33] [PROGRESS] resolve extensions-by-pack> Loading data extensions in C:\Users\LightSmile\.codeql\packages\codeql\python-all\2.1.1\semmle\python\frameworks\Stdlib.model.yml.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:sourceModel: 12 tuples.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:sinkModel: 1 tuples.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:summaryModel: 66 tuples.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:neutralModel: 0 tuples.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:typeModel: 0 tuples.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:typeVariableModel: 0 tuples.
+[2024-11-21 19:16:33] [PROGRESS] resolve extensions-by-pack> Loading data extensions in C:\Users\LightSmile\.codeql\packages\codeql\python-all\2.1.1\semmle\python\frameworks\data\internal\empty.model.yml.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:sourceModel: 0 tuples.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:sinkModel: 0 tuples.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:summaryModel: 0 tuples.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:neutralModel: 0 tuples.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:typeModel: 0 tuples.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:typeVariableModel: 0 tuples.
+[2024-11-21 19:16:33] [PROGRESS] resolve extensions-by-pack> Loading data extensions in C:\Users\LightSmile\.codeql\packages\codeql\python-all\2.1.1\semmle\python\frameworks\data\internal\subclass-capture\ALL.model.yml.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/python-all:typeModel: 58275 tuples.
+[2024-11-21 19:16:33] [PROGRESS] resolve extensions-by-pack> Loading data extensions in C:\Users\LightSmile\.codeql\packages\codeql\threat-models\1.0.10\ext\supported-threat-models.model.yml.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/threat-models:threatModelConfiguration: 1 tuples.
+[2024-11-21 19:16:33] [PROGRESS] resolve extensions-by-pack> Loading data extensions in C:\Users\LightSmile\.codeql\packages\codeql\threat-models\1.0.10\ext\threat-model-grouping.model.yml.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/threat-models:threatModelGrouping: 14 tuples.
+[2024-11-21 19:16:33] [PROGRESS] resolve extensions-by-pack> Loading data extensions in C:\Users\LightSmile\.codeql\packages\codeql\util\1.0.10\ext\default-alert-filter.yml.
+[2024-11-21 19:16:33] [DETAILS] resolve extensions-by-pack>   Found extension targeting codeql/util:restrictAlertsTo: 0 tuples.
+[2024-11-21 19:16:33] Plumbing command codeql resolve extensions-by-pack completed:
+                      {
+                        "models" : [ ],
+                        "data" : {
+                          "F:\\projects\\git_clone\\LLMScheduling\\codeql-custom-queries-python" : [
+                            {
+                              "predicate" : "threatModelConfiguration",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\ext\\default-threat-models-fixup.model.yml",
+                              "index" : 0,
+                              "firstRowId" : 0,
+                              "rowCount" : 1,
+                              "predicateHasOrigin" : false,
+                              "locations" : {
+                                "lineNumbers" : "A=8",
+                                "columnNumbers" : "A=9"
+                              }
+                            },
+                            {
+                              "predicate" : "sinkModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\Asyncpg.model.yml",
+                              "index" : 0,
+                              "firstRowId" : 1,
+                              "rowCount" : 5,
+                              "predicateHasOrigin" : true,
+                              "locations" : {
+                                "lineNumbers" : "A=7+1+2+1+2",
+                                "columnNumbers" : "A=9*5"
+                              }
+                            },
+                            {
+                              "predicate" : "typeModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\Asyncpg.model.yml",
+                              "index" : 1,
+                              "firstRowId" : 6,
+                              "rowCount" : 6,
+                              "predicateHasOrigin" : false,
+                              "locations" : {
+                                "lineNumbers" : "A=20+4+1*2+2+1",
+                                "columnNumbers" : "A=9*6"
+                              }
+                            },
+                            {
+                              "predicate" : "sourceModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\Stdlib.model.yml",
+                              "index" : 0,
+                              "firstRowId" : 12,
+                              "rowCount" : 12,
+                              "predicateHasOrigin" : true,
+                              "locations" : {
+                                "lineNumbers" : "A=6+1*4+2+1+2+1*2+4+2",
+                                "columnNumbers" : "A=9*12"
+                              }
+                            },
+                            {
+                              "predicate" : "sinkModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\Stdlib.model.yml",
+                              "index" : 1,
+                              "firstRowId" : 24,
+                              "rowCount" : 1,
+                              "predicateHasOrigin" : true,
+                              "locations" : {
+                                "lineNumbers" : "A=29",
+                                "columnNumbers" : "A=9"
+                              }
+                            },
+                            {
+                              "predicate" : "summaryModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\Stdlib.model.yml",
+                              "index" : 2,
+                              "firstRowId" : 25,
+                              "rowCount" : 66,
+                              "predicateHasOrigin" : true,
+                              "locations" : {
+                                "lineNumbers" : "A=37+1+2+4+2*2+4+2*3+1+2+1+2+1+2+4+2+4+2*2+3+2*2+3+1+2*4+4+1+4+1+4+1*5+2*4+4+1+2*11+3+2+3+4+1+2*2+1+2",
+                                "columnNumbers" : "A=9*66"
+                              }
+                            },
+                            {
+                              "predicate" : "neutralModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\Stdlib.model.yml",
+                              "index" : 3,
+                              "firstRowId" : 91,
+                              "rowCount" : 0,
+                              "predicateHasOrigin" : false,
+                              "locations" : {
+                                "lineNumbers" : "A",
+                                "columnNumbers" : "A"
+                              }
+                            },
+                            {
+                              "predicate" : "typeModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\Stdlib.model.yml",
+                              "index" : 4,
+                              "firstRowId" : 91,
+                              "rowCount" : 0,
+                              "predicateHasOrigin" : false,
+                              "locations" : {
+                                "lineNumbers" : "A",
+                                "columnNumbers" : "A"
+                              }
+                            },
+                            {
+                              "predicate" : "typeVariableModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\Stdlib.model.yml",
+                              "index" : 5,
+                              "firstRowId" : 91,
+                              "rowCount" : 0,
+                              "predicateHasOrigin" : false,
+                              "locations" : {
+                                "lineNumbers" : "A",
+                                "columnNumbers" : "A"
+                              }
+                            },
+                            {
+                              "predicate" : "sourceModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\data\\internal\\empty.model.yml",
+                              "index" : 0,
+                              "firstRowId" : 91,
+                              "rowCount" : 0,
+                              "predicateHasOrigin" : true,
+                              "locations" : {
+                                "lineNumbers" : "A",
+                                "columnNumbers" : "A"
+                              }
+                            },
+                            {
+                              "predicate" : "sinkModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\data\\internal\\empty.model.yml",
+                              "index" : 1,
+                              "firstRowId" : 91,
+                              "rowCount" : 0,
+                              "predicateHasOrigin" : true,
+                              "locations" : {
+                                "lineNumbers" : "A",
+                                "columnNumbers" : "A"
+                              }
+                            },
+                            {
+                              "predicate" : "summaryModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\data\\internal\\empty.model.yml",
+                              "index" : 2,
+                              "firstRowId" : 91,
+                              "rowCount" : 0,
+                              "predicateHasOrigin" : true,
+                              "locations" : {
+                                "lineNumbers" : "A",
+                                "columnNumbers" : "A"
+                              }
+                            },
+                            {
+                              "predicate" : "neutralModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\data\\internal\\empty.model.yml",
+                              "index" : 3,
+                              "firstRowId" : 91,
+                              "rowCount" : 0,
+                              "predicateHasOrigin" : false,
+                              "locations" : {
+                                "lineNumbers" : "A",
+                                "columnNumbers" : "A"
+                              }
+                            },
+                            {
+                              "predicate" : "typeModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\data\\internal\\empty.model.yml",
+                              "index" : 4,
+                              "firstRowId" : 91,
+                              "rowCount" : 0,
+                              "predicateHasOrigin" : false,
+                              "locations" : {
+                                "lineNumbers" : "A",
+                                "columnNumbers" : "A"
+                              }
+                            },
+                            {
+                              "predicate" : "typeVariableModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\data\\internal\\empty.model.yml",
+                              "index" : 5,
+                              "firstRowId" : 91,
+                              "rowCount" : 0,
+                              "predicateHasOrigin" : false,
+                              "locations" : {
+                                "lineNumbers" : "A",
+                                "columnNumbers" : "A"
+                              }
+                            },
+                            {
+                              "predicate" : "typeModel",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\python-all\\2.1.1\\semmle\\python\\frameworks\\data\\internal\\subclass-capture\\ALL.model.yml",
+                              "index" : 0,
+                              "firstRowId" : 91,
+                              "rowCount" : 58275,
+                              "predicateHasOrigin" : false,
+                              "locations" : {
+                                "lineNumbers" : "A=7+3*58274",
+                                "columnNumbers" : "A=5*58275"
+                              }
+                            },
+                            {
+                              "predicate" : "threatModelConfiguration",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\threat-models\\1.0.10\\ext\\supported-threat-models.model.yml",
+                              "index" : 0,
+                              "firstRowId" : 58366,
+                              "rowCount" : 1,
+                              "predicateHasOrigin" : false,
+                              "locations" : {
+                                "lineNumbers" : "A=6",
+                                "columnNumbers" : "A=9"
+                              }
+                            },
+                            {
+                              "predicate" : "threatModelGrouping",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\threat-models\\1.0.10\\ext\\threat-model-grouping.model.yml",
+                              "index" : 0,
+                              "firstRowId" : 58367,
+                              "rowCount" : 14,
+                              "predicateHasOrigin" : false,
+                              "locations" : {
+                                "lineNumbers" : "A=8+3+1+3+1*5+3+1+5+1*2",
+                                "columnNumbers" : "A=9*14"
+                              }
+                            },
+                            {
+                              "predicate" : "restrictAlertsTo",
+                              "file" : "C:\\Users\\LightSmile\\.codeql\\packages\\codeql\\util\\1.0.10\\ext\\default-alert-filter.yml",
+                              "index" : 0,
+                              "firstRowId" : 58381,
+                              "rowCount" : 0,
+                              "predicateHasOrigin" : false,
+                              "locations" : {
+                                "lineNumbers" : "A",
+                                "columnNumbers" : "A"
+                              }
+                            }
+                          ]
+                        },
+                        "threatModels" : {
+                          "F:\\projects\\git_clone\\LLMScheduling\\codeql-custom-queries-python" : {
+                            "extensions" : [
+                              {
+                                "data" : [ ],
+                                "addsTo" : {
+                                  "extensible" : "threatModelConfiguration",
+                                  "packName" : "codeql/threat-models"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "extensionPacks" : [ ]
+                      }
+[2024-11-21 19:16:34] Starting evaluation of f:\projects\git_clone\LLMScheduling\codeql-custom-queries-python\new_global.ql
+[2024-11-21 19:16:34] Inferred that TypeTrackingImpl::Cached::WithoutContent#16d81881/2@5eae15v2 is empty, due to TypeTrackingImpl::Cached::WithoutContent#16d81881/2@e373e3np.
+[2024-11-21 19:16:34] Inferred that TypeTrackingImpl::Cached::LoadStoreStep#ca0e7fcb/3@c6e512e4 is empty, due to TypeTrackingImpl::Cached::LoadStoreStep#ca0e7fcb/3@f8d7786g.
+[2024-11-21 19:16:34] Inferred that TypeTrackingImpl::Cached::WithContent#fdf14f7b/2@dd80efqj is empty, due to TypeTrackingImpl::Cached::WithContent#fdf14f7b/2@8b751dlt.
+[2024-11-21 19:16:34] Inferred that DataFlowImplCommon::Cached::UnreachableSet.toString/0#dispred#0bd92907/2@bdb5a5gs is empty, due to DataFlowImplCommon::Cached::UnreachableSet.toString/0#dispred#0bd92907/2@39df17f9.
+[2024-11-21 19:16:34] Inferred that DataFlowImplCommon::Cached::UnreachableSet#1b7f4bfd/1@ed38f730 is empty, due to DataFlowImplCommon::Cached::UnreachableSet#1b7f4bfd/1@065717fb.
+[2024-11-21 19:16:34] Inferred that DataFlowImplCommon::Cached::castNode/1#73c54309/1@d72f121i is empty, due to DataFlowImplCommon::Cached::castNode/1#73c54309/1@04fe93g3.
+[2024-11-21 19:16:34] (0s) Start query execution
+[2024-11-21 19:16:34] (0s) Beginning execution of new_global.ql
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Files::Impl::Container.splitAbsolutePath/2#dispred#324a3985/3@27a41art with 3019 rows and digest 4b9b5e0as0eovh07gb15aolm187.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Module::moduleNameFromFile/1#a01d5f51/2@e6c8ebe5 with 809 rows and digest f88196h6le543qb9r6a16s58sp5.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphModels::ModelOutput::relevantSummaryModel/6#53d509c9/6@d325122s with 34 rows and digest b49960j7ggsrugh1c56b1a5up8c.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Flow::SequenceNode.getElement/1#dispred#4cc4068f/3@cd4382go with 20465 rows and digest 74827ciut72ajgo7nmdegogpjbb.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Flow::BasicBlock.strictlyDominates/1#dispred#65ae2ca3/2@5f3c9164 with 2222091 rows and digest d29e7du7tn5gmc846ldh869jmbc.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::getContentApproxCached/1#655c9a2e/2@4aa6a8tj with 5648 rows and digest 114ffe5ikn8293ggq67h56qbvlb.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TApproxFrontHead#734001bd/2@d052b47t with 1 rows and digest 52e0bdo7e2rh65bhgmq4lc1b6g3.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit AstExtended::AstNode.getAFlowNode/0#dispred#fcebb9ee/2@436e3539 with 660610 rows and digest e6c39cv2ltqtiip889r5ppi3tqb.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Import::ImportStar.getModuleExpr/0#dispred#8ab9ce73/2@c8be2d1i with 60 rows and digest 0139275jsoi3alsjpimbe0c8vpb.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Flow::ControlFlowNode.getScope/0#dispred#b061daac/2@6b82a94o with 660610 rows and digest 11d5dbv5ktionpueeqlb5b2fi0e.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Flow::BasicBlock.getASuccessor/0#dispred#7249dd96/2@17a98fn0 with 188488 rows and digest 05bf9bp0oiiutpfp9vns0tnmac2.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Flow::DefinitionNode#e8809c3b/1@c7d7a04h with 59237 rows and digest a7a131fi0ilqh69jc9rdk4motsc.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Flow::BasicBlock.getImmediateDominator/0#dispred#0f15e8ec/2@242063vd with 99301 rows and digest df2e80c3hetq9g2ls2env21l27f.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit VariableCapture::Flow::CaptureSsa::TPhiReadNode#57c8fe08/3@edc0bb1p with 496 rows and digest 123374p7q8ompc4nugtmsubhnf2.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit VariableCapture::Flow::CaptureSsa::TPhiNode#04d597fb/3@d91aa2b4 with 27 rows and digest ebd62db9ir9n0u9138cuks246uc.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Essa::TEssaNodeDefinition#96e9ebfe/4@499ec3eh with 111684 rows and digest d0f63ffi48lc0tbn91g50nmmab0.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaDefinitions::SsaSource::parameter_definition/2#40b2fede/2@fde3ccb7 with 14049 rows and digest a814448s3tb0mu3i9icn9bcaone.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaDefinitions::SsaSource::init_module_submodule_defn/2#64b1af7d/2@2b6ed3ab with 3 rows and digest 88fdb34gm7h0hjgfb8nhc4f5hb7.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::AdjacentUses::firstUse/2#ca053ce0/2@fa8591sc with 81110 rows and digest d69da6ln9oqq0nvclsgaqf4kk22.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::AdjacentUses::adjacentUseUse/2#c094915e/2@20a4fa4n with 138497 rows and digest 43ab8a4to2pkff1esed764oo412.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit VariableCapture::Flow::CaptureSsa::TWriteDef#038f202f/4@800171fk with 542 rows and digest 2aafeeltte6hor24glumnmdg91c.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit SsaDefinitions::SsaSource::pattern_alias_definition/2#e55586af/2@4df94flq with empty relation.
+[2024-11-21 19:16:34] (0s) Inferred that Essa::PatternAliasDefinition#9de11591/1@9c665dff is empty, due to SsaDefinitions::SsaSource::pattern_alias_definition/2#e55586af/2@4df94flq.
+[2024-11-21 19:16:34] (0s) Inferred that Essa::PatternAliasDefinition#9de11591/1@0332cau1 is empty, due to SsaDefinitions::SsaSource::pattern_alias_definition/2#e55586af/2@4df94flq.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit SsaDefinitions::SsaSource::pattern_capture_definition/2#77b3ae42/2@ee9d8cap with empty relation.
+[2024-11-21 19:16:34] (0s) Inferred that Essa::PatternCaptureDefinition#26207ec8/1@1d29266q is empty, due to SsaDefinitions::SsaSource::pattern_capture_definition/2#77b3ae42/2@ee9d8cap.
+[2024-11-21 19:16:34] (0s) Inferred that Essa::PatternCaptureDefinition#26207ec8/1@a4e7789a is empty, due to SsaDefinitions::SsaSource::pattern_capture_definition/2#77b3ae42/2@ee9d8cap.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaDefinitions::SsaSource::with_definition/2#e1888ceb/2@fbbf2aks with 519 rows and digest 69c057m7ri5m4q5lf8nn6lnf677.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaDefinitions::SsaSource::assignment_definition/3#a5ba4d99/3@393f4283 with 47120 rows and digest 73e9d66hqd1gtb70p4v46iodk29.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaDefinitions::SsaSource::multi_assignment_definition/4#1d17889e/4@e1c558ps with 2666 rows and digest fe5c59q511s0991nc9f133e55o9.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit AstExtended::AstNode.getLocation/0#dispred#6b4dcb62/2@e8de4cs8 with 660967 rows and digest eab93cdntu3t4ulgvofpuipem1e.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Essa::TEssaNodeRefinement#8de2de42/4@405fbag2 with 170452 rows and digest 58809a4e5pbl4sulq66pkn6d7b3.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Essa::TEssaEdgeDefinition#be4738bc/4@a9cd37re with 45714 rows and digest a50603np84qc4b1dicofie850s1.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Essa::TPhiFunction#dfb6fe3b/3@43303ao5 with 69288 rows and digest f39869l0k8gmqqp4c4eb8rpuq0f.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::SsaDefinitions::reachesUse/4#216dc4f6/4@564d0e8k with 749890 rows and digest 161dfdlde53on6bci26p02rhahb.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaDefinitions::SsaSource::import_star_refinement/3#1675f8e2/3@4d006926 with 6485 rows and digest b7ed67qrv5vo5k84ld8d6h2k21f.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaDefinitions::SsaSource::attribute_assignment_refinement/3#5f777592/3@bf82eadm with 3258 rows and digest 99d94bltj9cag1qavp3onaqrfs5.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaDefinitions::SsaSource::attribute_deletion_refinement/3#7de1bd7a/3@0cdda7os with 2 rows and digest 2963b0co2496n7tuj7ncimp1ga9.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaDefinitions::SsaSource::method_call_refinement/3#3634d2a9/3@5b6c9frk with 18567 rows and digest 3334603qejqjhptpescaioaksd3.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaDefinitions::SsaSource::argument_refinement/3#615fb3a9/3@c4d74cbg with 7747 rows and digest 5a02dd4viqdhr8rpqu86luln7pe.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaDefinitions::SsaSource::test_refinement/3#2cbdf557/3@db06ed6h with 871 rows and digest 5a783fppmusndvq19mfq80fvck6.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit SsaDefinitions::SsaSource::deletion_definition/2#e74a17e3/2@71864aoa with empty relation.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit SsaDefinitions::SsaSource::exception_group_capture/2#d53f492d/2@a55212do with empty relation.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaDefinitions::SsaSource::exception_capture/2#fd0779df/2@ddd43d6v with 1706 rows and digest 48eff49sn6s7u0kp3pesldue3b6.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Essa::PhiFunction.getInput/1#dispred#f797e1b9/3@f7d193n7 with 860236 rows and digest c92649snjmldcvt7btvjvo3b303.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::edge/3#8453bf65/3@1291e3jb with 872798 rows and digest 2a610dd3eps6mhnb80iq49gie83.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit LocalSources::LocalSourceNode#2491029a/1@2f2b2851 with 468203 rows and digest 83d2737q0anr87oeo6f0dentlgd.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::use/2#d5fdb6f7#origOrder/2@2032fdmb with 179230 rows and digest 92990442avmclvfgi3tk22cvpn8.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ImportStar::ImportStar::globalNameDefinedInModule/2#83dd766e/2@2c7a30ue with 14980 rows and digest 21982c7ecabf4rcjh4ch3hsnd81.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::prefix_member/3#2bc325da/3@7f7d8b9c with 498 rows and digest 89fd47e001p0ibv2ou99aueglh2.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ImportStar::ImportStar::namePossiblyDefinedInImportStar/3#59306aa3/3@9de3746e with 1046 rows and digest fcb3a1v3s4kj2rp4spdgb3u75o0.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::MkModuleImport#28fb9873/2@eeb468dq with 655 rows and digest 7b7338d6j2r4naqftfsfchh9kj0.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ImportStar::ImportStar::getStarImported/1#fb356881/2@d6312bnq with 59 rows and digest 63fb981sbvhedc4t1oo1fa9qrme.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TNodeNormal#98558652/2@ed9d6bj9 with 948741 rows and digest d40fc3r8pci335olsfagnvi2c00.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowDispatch::resolveCall/3#454c02d8#origOrder/3@77cb34gj with 14893 rows and digest ccaefa0lsf8kb2t12ctfadf8ppa.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowDispatch::getCallArg/5#21589076/5@eeba11h6 with 55105 rows and digest 9f4c5ak2noqsb88rtd60vf6mmr6.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowDispatch::normalCallArg/3#148d8505/3@d8b1b7cu with 98566 rows and digest 1899b1dufbfvicj8cd17ofg43k7.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit LocalSources::Cached::hasLocalSource/2#8b3ee0ec/2@68c282nl with 669217 rows and digest be870be88popfisr4sgj1dfb43d.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphModels::ModelOutput::resolvedSummaryBase/3#92186d2b/3@c0882apj with 119 rows and digest c8976anf2521jb0s580pa1kj3ld.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphModels::ModelOutput::resolvedSummaryRefBase/3#baf53b9e/3@291391im with 107 rows and digest 480b702lqlousn5v5ikc506r8qf.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::trackUseNode/1#1af3a9ea/2@7f9527lh with 656293 rows and digest f52a0f3dbsq9ppt5bitflaajf72.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ImportStar::ImportStar::importStarResolvesTo/2#0505d926/2@e85b31p4 with 1040 rows and digest cf3ffek15bb9kp3ssdc03q4v2od.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphModels::ModelOutput::getATypeNode/1#7c79b7e3/2@41f58974 with 1104 rows and digest bb7618callmltlf64pfg2tuc6ue.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::MkTypeTracker#ff50e2d8/3@195c91j9 with 7348 rows and digest 9a790abjmfbt8buj179h9ebvt8e.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::stepNoCall/3#738db09e/3@02f9e0q7 with 243201 rows and digest c6b912b503dpf9016puu52e27f4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::stepCall/3#6fb30736#origOrder/3@ea7619tm with 205484 rows and digest f1fd13k0anprlbpt9u16a6db0h5.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::append/2#8b389f01/3@c3b0bdfv with 38064 rows and digest fb3766b6o8efb9a3g4m8ok821hf.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::viableReturnPosOut/3#b5716bfe/3@5e975djc with 49997 rows and digest c26322pfk3m2s2s539fabu1dsd6.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a/3@0b10aak8 with empty relation.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_102#join_rhs/3@4854f570 is empty, due to DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a/3@0b10aak8.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_021#join_rhs/3@59fa37sd is empty, due to DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a/3@0b10aak8.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage1::viableImplInSomeFwdFlowCallContextExt/1#15555e59/2@ce4d0x5l is empty, due to DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_102#join_rhs/3@4854f570.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a/5@93775512 is empty, due to DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_021#join_rhs/3@59fa37sd.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#d243b085/3@abeb8eal is empty, due to DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_021#join_rhs/3@59fa37sd.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3cc30f11/3@60391ct3 is empty, due to DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_021#join_rhs/3@59fa37sd.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#fcabedb8/3@b73bbdk2 is empty, due to DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_021#join_rhs/3@59fa37sd.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3daabca5/3@e71448rd is empty, due to DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_021#join_rhs/3@59fa37sd.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#9407d476/3@2ac71e4v is empty, due to DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_021#join_rhs/3@59fa37sd.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#9888f908/3@84685fqu is empty, due to DataFlowImplCommon::Cached::viableImplInCallContextExt/2#542bd80a_021#join_rhs/3@59fa37sd.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a/3@56e4aeta is empty, due to DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a/5@93775512.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a_23401_1#count_range/6@241c90nb is empty, due to DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a/5@93775512.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#d243b085/2@1d01eecc is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#d243b085/3@abeb8eal.
+[2024-11-21 19:16:34] (0s) Inferred that _DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::__#join_rhs/3@cee567js is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#d243b085/3@abeb8eal.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getAReducedViableEdge/1#5e365a70/2@38c12aqn is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#d243b085/3@abeb8eal.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3cc30f11/2@ed37a52b is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3cc30f11/3@60391ct3.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3cc30f11_021#count_range/3@16a5a3ng is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3cc30f11/3@60391ct3.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#fcabedb8/2@ebc3b10h is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#fcabedb8/3@b73bbdk2.
+[2024-11-21 19:16:34] (0s) Inferred that _DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::__#join_rhs/3@e18d6e7l is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#fcabedb8/3@b73bbdk2.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getAReducedViableEdge/1#9b6891c1/2@8558a7hu is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#fcabedb8/3@b73bbdk2.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3daabca5/2@845dbcdd is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3daabca5/3@e71448rd.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3daabca5_021#count_range/3@fde4cati is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3daabca5/3@e71448rd.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#9407d476/2@253460dm is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#9407d476/3@2ac71e4v.
+[2024-11-21 19:16:34] (0s) Inferred that _DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::__#join_rhs/3@f8101abe is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#9407d476/3@2ac71e4v.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getAReducedViableEdge/1#4d2e336e/2@d940c6la is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtIn/2#9407d476/3@2ac71e4v.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#9888f908/2@e6841cco is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#9888f908/3@84685fqu.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#9888f908_021#count_range/3@1878e5hf is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#9888f908/3@84685fqu.
+[2024-11-21 19:16:34] (0s) Inferred that _DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a_23401_1#count_range#join_rhs/4@d98255n6 is empty, due to DataFlowImpl::Impl<new_global::MyFlow::C>::returnCallEdgeInCtx1/5#61d3680a_23401_1#count_range/6@241c90nb.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSets::getSet#f621d125/2@92f8a70j is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getAReducedViableEdge/1#5e365a70/2@38c12aqn.
+[2024-11-21 19:16:34] (0s) Inferred that _DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::__#join_rhs#1/3@4c5e4cdh is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3cc30f11_021#count_range/3@16a5a3ng.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#fa8ee45b/3@90b1caej is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3cc30f11_021#count_range/3@16a5a3ng.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSets::getSet#a6792fca/2@1069ce6u is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getAReducedViableEdge/1#9b6891c1/2@8558a7hu.
+[2024-11-21 19:16:34] (0s) Inferred that _DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::__#join_rhs#1/3@34945193 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3daabca5_021#count_range/3@fde4cati.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#2912bb7d/3@f3b6b72t is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#3daabca5_021#count_range/3@fde4cati.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSets::getSet#84fb721a/2@6cefb3vg is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getAReducedViableEdge/1#4d2e336e/2@d940c6la.
+[2024-11-21 19:16:34] (0s) Inferred that _DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::__#join_rhs#1/3@cf0c37ul is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#9888f908_021#count_range/3@1878e5hf.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#d7d880d6/3@a1e668lc is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::viableImplInCallContextExtOut/2#9888f908_021#count_range/3@1878e5hf.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSets::Set.contains#d1551d2c/2@96f7a6pc is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSets::getSet#f621d125/2@92f8a70j.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#dom#2a0c98df/1@f170f8uf is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSets::getSet#f621d125/2@92f8a70j.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSets::getSet#f621d125_0#antijoin_rhs/1@af767b8k is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSets::getSet#f621d125/2@92f8a70j.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#fa8ee45b_021#join_rhs/3@cee7e9b5 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#fa8ee45b/3@90b1caej.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSets::Set.contains#0e53ca1b/2@fe28aba4 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSets::getSet#a6792fca/2@1069ce6u.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#dom#10805dfb/1@5c8f73g2 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSets::getSet#a6792fca/2@1069ce6u.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSets::getSet#a6792fca_0#antijoin_rhs/1@d22685m4 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSets::getSet#a6792fca/2@1069ce6u.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#2912bb7d_021#join_rhs/3@ace7c54u is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#2912bb7d/3@f3b6b72t.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSets::Set.contains#ac8a7411/2@0c1042u7 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSets::getSet#84fb721a/2@6cefb3vg.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#dom#452f8be8/1@220b321k is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSets::getSet#84fb721a/2@6cefb3vg.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSets::getSet#84fb721a_0#antijoin_rhs/1@a111a0vq is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSets::getSet#84fb721a/2@6cefb3vg.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#d7d880d6_021#join_rhs/3@8ff4a8pm is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#d7d880d6/3@a1e668lc.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#f2297ab4/3@89fe29cm is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSets::Set.contains#d1551d2c/2@96f7a6pc.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#0f7da28e/2@a64bb7b7 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#dom#2a0c98df/1@f170f8uf.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3::viableImplCallContextReducedReverseRestricted/2#0d322359/3@bf79be6k is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#fa8ee45b_021#join_rhs/3@cee7e9b5.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#8630df8d/3@4ec047g0 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSets::Set.contains#0e53ca1b/2@fe28aba4.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#8342b6a2/2@6c9ce1e4 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#dom#10805dfb/1@5c8f73g2.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5::viableImplCallContextReducedReverseRestricted/2#696b06cf/3@afcb5cot is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#2912bb7d_021#join_rhs/3@ace7c54u.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#bb172fb3/3@8dccc8cd is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSets::Set.contains#ac8a7411/2@0c1042u7.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#37002aab/2@9f5d8488 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#dom#452f8be8/1@220b321k.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6::viableImplCallContextReducedReverseRestricted/2#3782d44e/3@f24cc1co is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReducedReverse/2#d7d880d6_021#join_rhs/3@8ff4a8pm.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#abbfbdbe/2@892210u5 is empty, due to num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#0f7da28e/2@a64bb7b7.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3::FwdFlowInNoThrough::viableImplCallContextReducedRestricted/2#9c7f28b5/3@d14d25im is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#f2297ab4/3@89fe29cm.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3::FwdFlowInThrough::viableImplCallContextReducedRestricted/2#ffd2f050/3@53f635hd is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#f2297ab4/3@89fe29cm.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#09936626/2@72a1c7cm is empty, due to num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#8342b6a2/2@6c9ce1e4.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5::FwdFlowInNoThrough::viableImplCallContextReducedRestricted/2#36dc5d7f/3@7955cf35 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#8630df8d/3@4ec047g0.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5::FwdFlowInThrough::viableImplCallContextReducedRestricted/2#e4e8a2af/3@3ce93115 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#8630df8d/3@4ec047g0.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#1662d125/2@5c9f6dvt is empty, due to num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSetsOption::TSome#37002aab/2@9f5d8488.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6::FwdFlowInNoThrough::viableImplCallContextReducedRestricted/2#a685727d/3@2f118a73 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#bb172fb3/3@8dccc8cd.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6::FwdFlowInThrough::viableImplCallContextReducedRestricted/2#c83d8a3f/3@71a791sn is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::viableImplCallContextReduced/2#bb172fb3/3@8dccc8cd.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#abbfbdbe_10#join_rhs/2@375fc4r9 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#abbfbdbe/2@892210u5.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#09936626_10#join_rhs/2@96a61dqo is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#09936626/2@72a1c7cm.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#1662d125_10#join_rhs/2@2b959ds9 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::DispatchSet.asSome/0#dispred#1662d125/2@5c9f6dvt.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::readSet/3#5eccc2af/3@c2fb50ee with 191818 rows and digest 5bc10etdbnchn3k55h7dr9qv998.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::store/5#14a39b82/5@b4b510q1 with 150200 rows and digest ded2a7hc1c2ua3ok7rbfvco0o2a.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::argumentNode/3#216ac396/3@911b1152 with 185623 rows and digest 673544jlomatk25bbl09eg5goh1.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::viableParamArg/3#d616dbd4/3@d66bd5v9 with 70639 rows and digest f6e7bekes51flbcmkoqkfu5jb44.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::parameterNode/3#b3273c8e/3@bb4052va with 46474 rows and digest 783837ao9jee9p1necgbgkbunle.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::jumpStepCached/2#b974c0dc/2@5930f99g with 98194 rows and digest 3ff245s7ee29h7eaespt9dcd03f.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TNodeImplicitRead#9bd6e348/2@c101ff6c with 948741 rows and digest 5bdeffpmr7ntef6g4u4utalfo99.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::getAnOutNodeExt/2#ef26de27/3@71d31fkk with 294516 rows and digest b89d49op98euns16poogbairkkd.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TParamUpdate#20ddffb6/2@34175bkl with 2922 rows and digest 7e1ad5dbtj73mbdtss9t5v1jpg0.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TValueReturn#beec3496/2@367f24rq with 1 rows and digest 52e0bdo7e2rh65bhgmq4lc1b6g3.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit LocalSources::Cached::namedAttrRef/3#338b0f13/3@aae08aem with 71388 rows and digest 4ce3d53tmpoala7bs07cte4lsf2.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit LocalSources::Cached::call/2#510bc692/2@431650se with 52417 rows and digest 683331teu26k686v0qen5lrg0t9.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::rhs/2#a616b63f/2@687dcaci with 163186 rows and digest 5830003srh381os6odj1ej8g0m2.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::trackDefNode/1#7e78e336/2@cb987ako with 1141665 rows and digest 17d5a9bg9je5sh2qmtuohl4s13c.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::MkTypeBackTracker#9a736cf0/3@263fe84o with 6828 rows and digest ee9f17i8297km8ov15hujttfhte.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::prepend/2#dd9d3b63/3@8543daev with 35724 rows and digest 4aac10chfutu0d78qkv3l42gcb8.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowPublic::Node.getLocation/0#dispred#039fdc34/2@839c8bpq with 898660 rows and digest c3acdbqsfa3l2lnvet94d138fu9.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TaintTrackingPrivate::localAdditionalTaintStep/3#088b9750/3@de8b559n with 102095 rows and digest e282a9n29icd23nlo4itb76763b.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TaintTrackingPrivate::defaultAdditionalTaintStep/3#eecc3690/3@6b2f1dj9 with 103954 rows and digest d1d4f408kavfnk6fjrptsarv9u4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::nodeEnclosingCallable/2#dfa5b091/2@565fbfop with 948741 rows and digest b91b2f81fc27nib2imfmeclgf41.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::localFlowStepExImpl/3#5949d868/3@27fc47kp with 444440 rows and digest 8c752dd9c5mgpfbusathjimno06.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::getReturnPositionEx/1#759b108c/2@1c4878ph with 30280 rows and digest 5bb081fnske39bpkpqc0d88psi8.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TParamReturnNode#c77603f5/3@1dceafhq with 9140 rows and digest 889bedgbpmubt67u1s9js96lc10.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf/3@ec9b330f with empty relation.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<Cached::CachedCallContextSensitivity::CallContextSensitivityInput>::PrunedViableImpl<Cached::CachedCallContextSensitivity::PrunedViableImplInput>::recordDataFlowCallSiteDispatch/2#ce18b3e9/2@803969v8 is empty, due to DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf/3@ec9b330f.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf/1@d36c57nr is empty, due to DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf/3@ec9b330f.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf#2/2@2f8683sb is empty, due to DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf/3@ec9b330f.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba/3@4c16beeu is empty, due to DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf/3@ec9b330f.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage1::fwdFlowInReducedViableImplInSomeCallContext/4#4bfb1184#reorder_0_3_1_2/4@ce4d01wl is empty, due to project#DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInCallContext/3#27a0fecf/1@d36c57nr.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::recordDataFlowCallSiteDispatch/2#5caf98d4/2@2712834g is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba/3@4c16beeu.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba_120#join_rhs/3@6f73c48v is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba/3@4c16beeu.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba/2@30e7dejt is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba/3@4c16beeu.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a/3@bbea9ai7 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba/3@4c16beeu.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getACallWithReducedViableImpl/1#991d2fc0/2@8310e22u is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d9226cba_120#join_rhs/3@6f73c48v.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::recordDataFlowCallSiteDispatch/2#6f1e5301/2@309c4edg is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a/3@bbea9ai7.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a_120#join_rhs/3@f724f2ib is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a/3@bbea9ai7.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a/2@4eb9fcj7 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a/3@bbea9ai7.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#0e29c362/3@4ccc3esj is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a/3@bbea9ai7.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::getSet#133f3abe/2@3beeed5f is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getACallWithReducedViableImpl/1#991d2fc0/2@8310e22u.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getACallWithReducedViableImpl/1#3cde0fb4/2@a7fcb3el is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#d01c3f1a_120#join_rhs/3@f724f2ib.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::PrunedViableImpl<DefaultPrunedViableImplInput>::recordDataFlowCallSiteDispatch/2#cc2620d4/2@020513th is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#0e29c362/3@4ccc3esj.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#0e29c362_120#join_rhs/3@93c382c9 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#0e29c362/3@4ccc3esj.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::Set.contains#95f794c9/2@8adc07oa is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::getSet#133f3abe/2@3beeed5f.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSetOption::TSome#dom#c2fd184e/1@eb24059u is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::getSet#133f3abe/2@3beeed5f.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::getSet#133f3abe_0#antijoin_rhs/1@ee6b18iq is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::getSet#133f3abe/2@3beeed5f.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::hasCtx/4#178bbaa5/4@d9d45bfn is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::getSet#133f3abe/2@3beeed5f.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::getSet#607cae72/2@702da1ve is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getACallWithReducedViableImpl/1#3cde0fb4/2@a7fcb3el.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getACallWithReducedViableImpl/1#c621a78d/2@b1cf9d7d is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::reducedViableImplInCallContext/3#0e29c362_120#join_rhs/3@93c382c9.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::callContextAffectsDispatch/2#d82a9bdd/2@b2095c0j is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSets::Set.contains#95f794c9/2@8adc07oa.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSetOption::TSome#b93ddb89/2@d682cfeu is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSetOption::TSome#dom#c2fd184e/1@eb24059u.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TSpecificCall#dom#b7ac0d4c/3@7ea030iu is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::hasCtx/4#178bbaa5/4@d9d45bfn.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::Set.contains#99e4fc40/2@c1e30avr is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::getSet#607cae72/2@702da1ve.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSetOption::TSome#dom#8358a448/1@5725f87b is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::getSet#607cae72/2@702da1ve.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::getSet#607cae72_0#antijoin_rhs/1@fe9d2bsk is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::getSet#607cae72/2@702da1ve.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::hasCtx/4#4c071a4f/4@d455d04r is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::getSet#607cae72/2@702da1ve.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::getSet#01139cf3/2@d4e638li is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getACallWithReducedViableImpl/1#c621a78d/2@b1cf9d7d.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TSpecificCall#680a4f87/4@7dc031b6 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TSpecificCall#dom#b7ac0d4c/3@7ea030iu.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#5a9bebbc/2@07760c6v is empty, due to num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSetOption::TSome#b93ddb89/2@d682cfeu.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::callContextAffectsDispatch/2#e77a0adb/2@427d5503 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSets::Set.contains#99e4fc40/2@c1e30avr.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSetOption::TSome#1a594323/2@cc4a144r is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSetOption::TSome#dom#8358a448/1@5725f87b.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TSpecificCall#dom#3c8352c0/3@2349d38o is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::hasCtx/4#4c071a4f/4@d455d04r.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::Set.contains#4885011b/2@e625c5bh is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::getSet#01139cf3/2@d4e638li.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSetOption::TSome#dom#1edb5982/1@27d94a0m is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::getSet#01139cf3/2@d4e638li.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::getSet#01139cf3_0#antijoin_rhs/1@d77aaclt is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::getSet#01139cf3/2@d4e638li.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::hasCtx/4#fe42fd26/4@733cf5tb is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::getSet#01139cf3/2@d4e638li.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#96079354/3@a6bdfa17 is empty, due to num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TSpecificCall#680a4f87/4@7dc031b6.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#5a9bebbc_10#join_rhs/2@3dbd6feu is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#5a9bebbc/2@07760c6v.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TSpecificCall#4005a11f/4@7ffcc4f1 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TSpecificCall#dom#3c8352c0/3@2349d38o.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#63c7eaf0/2@e74c8c0k is empty, due to num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSetOption::TSome#1a594323/2@cc4a144r.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::callContextAffectsDispatch/2#730bf936/2@ffb77daf is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSets::Set.contains#4885011b/2@e625c5bh.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSetOption::TSome#bc49e3f6/2@1a76b32c is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSetOption::TSome#dom#1edb5982/1@27d94a0m.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TSpecificCall#dom#f2c86d9f/3@b39f86id is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::hasCtx/4#fe42fd26/4@733cf5tb.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#96079354/2@1a39c08d is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#96079354/3@a6bdfa17.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#c12065c1/3@e1c08bm1 is empty, due to num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TSpecificCall#4005a11f/4@7ffcc4f1.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#63c7eaf0_10#join_rhs/2@5d33c830 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#63c7eaf0/2@e74c8c0k.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TSpecificCall#0a981d08/4@8fb317hk is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TSpecificCall#dom#f2c86d9f/3@b39f86id.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#b326ce34/2@ab589c7f is empty, due to num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSetOption::TSome#bc49e3f6/2@1a76b32c.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#c12065c1/2@b1fa28md is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#c12065c1/3@e1c08bm1.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#a891e809/3@9c824e58 is empty, due to num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TSpecificCall#0a981d08/4@8fb317hk.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#b326ce34_10#join_rhs/2@c4b00cbk is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::CallSet.asSome/0#dispred#b326ce34/2@ab589c7f.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#a891e809/2@d10931ot is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::getSpecificCallContextCall/2#a891e809/3@9c824e58.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::nodeDataFlowType/2#6e9c065f/2@23b1b5f9 with 948741 rows and digest 51e5440l61psiaetuhgddvtmhla.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::allowParameterReturnInSelfCached/1#3e97fb3a/1@bd692c8s with 65 rows and digest 3f944b4ggdapc6di0tkmatsuqfb.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TReturnPosition0#c6ee188f/3@9d3207a2 with 28369 rows and digest 539757gkv02ugi90b8mple9nlt6.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::compatibleTypesCached/2#6fe2a79c/2@21c7ffll with 1 rows and digest 52e0bdo7e2rh65bhgmq4lc1b6g3.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::isTopType/1#5d44f660/1@1d3618oc with 1 rows and digest 19f2cevarof1fbaqkctt3t43if4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::castingNode/1#7aa1ab20/1@556a2a9h with 300186 rows and digest f3777bnigsuur4b7n6s2vu4fpcd.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::getSecondLevelScopeCached/1#a0ee2dd7/2@6269bf47 with 948741 rows and digest 51e5440l61psiaetuhgddvtmhla.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit DataFlowImplCommon::Cached::mayBenefitFromCallContextExt/2#acb3f917/2@b45063am with empty relation.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::Cached::mayBenefitFromCallContextExt/2#acb3f917/1@0aa0cbu7 is empty, due to DataFlowImplCommon::Cached::mayBenefitFromCallContextExt/2#acb3f917/2@b45063am.
+[2024-11-21 19:16:34] (0s) Inferred that _DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs___#shared/3@1d4c4cfk is empty, due to project#DataFlowImplCommon::Cached::mayBenefitFromCallContextExt/2#acb3f917/1@0aa0cbu7.
+[2024-11-21 19:16:34] (0s) Inferred that __DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs__#shared/3@cb7c312j is empty, due to _DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs___#shared/3@1d4c4cfk.
+[2024-11-21 19:16:34] (0s) Inferred that __DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs__#max_range/3@df8cf0as is empty, due to _DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs___#shared/3@1d4c4cfk.
+[2024-11-21 19:16:34] (0s) Inferred that __DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs__#max_term/4@d40c907k is empty, due to _DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs___#shared/3@1d4c4cfk.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::ctxDispatchFanoutOnReturn/1#70e4b8b5/2@4d3ff0st is empty, due to __DataFlowDispatch::LibraryCallableValue#71031e45_DataFlowDispatch::SummaryCall#ef508bd7_10#join_rhs__#max_range/3@df8cf0as.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::ctxDispatchFanoutOnReturn/1#70e4b8b5_0#antijoin_rhs/1@efc2e35a is empty, due to DataFlowImpl::Impl<new_global::MyFlow::C>::ctxDispatchFanoutOnReturn/1#70e4b8b5/2@4d3ff0st.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TNodeEx#ebee9ee3/1@9b09fc0s with 1906622 rows and digest 65de9df7f4o88et1eihe9bhvov8.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit DataFlowImplCommon::Cached::CachedCallContextSensitivity::viableImplCallContextReducedReverse/2#a7c034e7/3@151461av with empty relation.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::Cached::CachedCallContextSensitivity::viableImplCallContextReducedReverse/2#a7c034e7_021#join_rhs/3@fbb93fr2 is empty, due to DataFlowImplCommon::Cached::CachedCallContextSensitivity::viableImplCallContextReducedReverse/2#a7c034e7/3@151461av.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage2::viableImplCallContextReducedReverseRestricted/2#496f859b/3@edff37jj is empty, due to DataFlowImplCommon::Cached::CachedCallContextSensitivity::viableImplCallContextReducedReverse/2#a7c034e7_021#join_rhs/3@fbb93fr2.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::CachedCallContextSensitivity::instanceofCcNoCall/1#06def289/1@59eae2je with 1 rows and digest 14d190jcpgdl411cck5pgml3dof.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextCall/2#b1ec491c/3@4a3bac1k with empty relation.
+[2024-11-21 19:16:34] (0s) Inferred that project#DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextCall/2#b1ec491c/2@811efeso is empty, due to DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextCall/2#b1ec491c/3@4a3bac1k.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TAnyLocalCall#e6933739/1@d1c4d4v3 with 1 rows and digest 19f2cevarof1fbaqkctt3t43if4.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextReturn/2#8dfbacac/3@9d08b7od with empty relation.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextReturn/2#8dfbacac_01#antijoin_rhs/2@17dbcb7q is empty, due to DataFlowImplCommon::Cached::CachedCallContextSensitivity::getSpecificCallContextReturn/2#8dfbacac/3@9d08b7od.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit DataFlowImplCommon::Cached::CachedCallContextSensitivity::viableImplCallContextReduced/2#e3a6fd25/3@7a5ec15g with empty relation.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage2::FwdFlowInNoThrough::viableImplCallContextReducedRestricted/2#5aa814c5/3@acfb81ll is empty, due to DataFlowImplCommon::Cached::CachedCallContextSensitivity::viableImplCallContextReduced/2#e3a6fd25/3@7a5ec15g.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImpl::Impl<new_global::MyFlow::C>::Stage2::FwdFlowInThrough::viableImplCallContextReducedRestricted/2#c5fea380/3@48b3896n is empty, due to DataFlowImplCommon::Cached::CachedCallContextSensitivity::viableImplCallContextReduced/2#e3a6fd25/3@7a5ec15g.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit DataFlowImplCommon::Cached::CachedCallContextSensitivity::callContextAffectsDispatch/2#3d71b27d/2@047cfbge with empty relation.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::CachedCallContextSensitivity::instanceofCc/1#f272ab56/1@987575fi with 2 rows and digest 8077edibunvleb7g75bfbjhteec.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::CachedCallContextSensitivity::instanceofCcCall/1#de1cfd58/1@596232vh with 1 rows and digest 19f2cevarof1fbaqkctt3t43if4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TBooleanNone#56347b08/1@3f02037m with 1 rows and digest 19f2cevarof1fbaqkctt3t43if4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TReturnCtxNone#88749d9f/1@9e24c0pr with 1 rows and digest 14d190jcpgdl411cck5pgml3dof.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TReturnCtxNoFlowThrough#3f4bfe30/1@1cafdf3u with 1 rows and digest 19f2cevarof1fbaqkctt3t43if4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TBooleanSome#84d19974/2@1b3cf2u9 with 2 rows and digest cad59d1f424i34evjnuchesu99c.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TReturnCtxMaybeFlowThrough#73202d32/2@3a7cd535 with 28369 rows and digest d18b3b3rt6d3nkt8fhcbe2kkjrd.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TApproxFrontNil#30098feb/1@131b53ov with 1 rows and digest 14d190jcpgdl411cck5pgml3dof.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TMkCallEdge#fe395858/3@320884gh with 27516 rows and digest 79355bu1qppq61apfavjp9sil0e.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::outNodeExt/1#5035155b/1@a2065ctu with 166168 rows and digest 4f3319fh2t2i6naj0hrutn61mm4.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInReturn/2#ce934fea/2@7f22a2no with empty relation.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::clearsContentCached/2#ecbe0d21/2@dd66951c with 8337 rows and digest 588f24i4vt7j54ac4h6b59kic70.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInReturn/2#ce934fea_10#join_rhs/2@956600ds is empty, due to DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInReturn/2#ce934fea/2@7f22a2no.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#50fc4ae0/2@d9a889dc is empty, due to DataFlowImplCommon::Cached::CachedCallContextSensitivity::reducedViableImplInReturn/2#ce934fea_10#join_rhs/2@956600ds.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TReturn#dc130454/3@08b6b6mf is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#50fc4ae0/2@d9a889dc.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#50fc4ae0_10#join_rhs/2@49f412hb is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#50fc4ae0/2@d9a889dc.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TReturn#dc130454_01#antijoin_rhs/2@e35b4390 is empty, due to num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::TReturn#dc130454/3@08b6b6mf.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#c58236f3/2@03db63ce is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage3Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#50fc4ae0_10#join_rhs/2@49f412hb.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TReturn#cff43547/3@146d1d7f is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#c58236f3/2@03db63ce.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#c58236f3_10#join_rhs/2@f1d6c98n is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#c58236f3/2@03db63ce.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TReturn#cff43547_01#antijoin_rhs/2@01ba8d5r is empty, due to num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::TReturn#cff43547/3@146d1d7f.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#07da5094/2@1db4ab01 is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage5Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#c58236f3_10#join_rhs/2@f1d6c98n.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TReturn#5c9b2bb3/3@324946fq is empty, due to DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::reducedViableImplInReturn/2#07da5094/2@1db4ab01.
+[2024-11-21 19:16:34] (0s) Inferred that num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TReturn#5c9b2bb3_01#antijoin_rhs/2@98bb18qj is empty, due to num#DataFlowImplCommon::CallContextSensitivity<DataFlowImpl::Impl<new_global::MyFlow::C>::Stage6Param::CallContextSensitivityInput>::TReturn#5c9b2bb3/3@324946fq.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::callEnclosingCallable/2#76ac3511/2@003810ck with 67685 rows and digest 5266f29pf3bi2qbachtfr8f9tl3.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TApproxAccessPathFrontNone#65247674/1@242473bk with 1 rows and digest 19f2cevarof1fbaqkctt3t43if4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TApproxAccessPathFrontSome#009446fb/2@00b565r6 with 2 rows and digest ca5773a39dgbfnrmkoibrvcjhu4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TFrontHead#317ae733/2@b2c0d6mr with 5648 rows and digest d2b5954ks3frbqevmmc5he4gv39.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TFrontNil#44ee2a6c/1@dbecb5mf with 1 rows and digest 19f2cevarof1fbaqkctt3t43if4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TAccessPathFrontNone#2eadd0b5/1@0656754t with 1 rows and digest 19f2cevarof1fbaqkctt3t43if4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TAccessPathFrontSome#918be2d2/2@b8a926re with 5649 rows and digest e85b29bmgkpu2ls9j74i43suo4d.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit ApiGraphModels::ModelOutput::getASinkNode/2#ca35e673/3@306eb2r0 with empty relation.
+[2024-11-21 19:16:34] (0s) Inferred that ApiGraphModels::ModelOutput::getASinkNode/2#ca35e673_21#join_rhs/2@d93d0bnc is empty, due to ApiGraphModels::ModelOutput::getASinkNode/2#ca35e673/3@306eb2r0.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowPrivate::knownSinkModel/2#7975241c#bf/2@49ed2197 is empty, due to ApiGraphModels::ModelOutput::getASinkNode/2#ca35e673_21#join_rhs/2@d93d0bnc.
+[2024-11-21 19:16:34] (0s) Inferred that DataFlowPrivate::knownSinkModel/2#7975241c#bf_0#antijoin_rhs/1@cf3239hk is empty, due to DataFlowPrivate::knownSinkModel/2#7975241c#bf/2@49ed2197.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphModels::ModelOutput::getASourceNode/2#48850f6b/3@c76e932a with 1814 rows and digest cd1646g2qcamtpo3ejkai7aaetf.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::hiddenNode/1#f3158297/1@264cb36c with 83738 rows and digest 0d1826s15gqk1p7d2jse1juanf0.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Flow::ControlFlowNode.toString/0#dispred#e1af144b/2@f85de7ov with 660748 rows and digest 2ba28ccbprdveaiq7en78fn6er7.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowPublic::Node.toString/0#dispred#af9c307a/2@0ef7b38s with 948741 rows and digest 7299b1h37t8jf1dr5va5q1m0nj8.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit CachedStages::Stages::AST::ref/0#e52d92b5/0@1a5c136n with 1 rows and digest ac90f0ei322hhreshlvdl215c38.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit #select#query/22@24b995ov with 700 rows and digest d5c8a0ovi7546ueop0scuvg13ha.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit subpaths#query/28@3a4613qc with 388 rows and digest b7663219ag9tt6mst6fl7olpuf7.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit nodes#query/9@cc4ad45k with 1947 rows and digest 0ed674129m8psoo1bs7kvsovlge.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit edges#query/16@5eb784g1 with 2863 rows and digest bc3322quadb374r2i2utjuu9sv5.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::viableCallableCached/1#55306cc1/2@088ec4u9 with 27516 rows and digest 955e638ehjtrfavev94hkqodbub.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit DataFlowImplCommon::Cached::viableCallableLambda/2#e32bc09c/3@11d172ga with empty relation.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TDataFlowCallNone#2015ab4f/1@4fcf89k2 with 1 rows and digest 19f2cevarof1fbaqkctt3t43if4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TDataFlowCallOption#caaf932c/1@3fd168c8 with 67686 rows and digest 8a38b35grh4j91pvct35qd8fc1c.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TDataFlowCallSome#b3918bcc/2@18ab52rn with 67685 rows and digest 4e25c3cmmskrv3q0qti7tfpp78d.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TReturnKindExt#2df5b084/1@ab93c2u2 with 2923 rows and digest 41ac12af1jr9nk0grbl1oii38p8.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TCallEdge#1d81b179/1@5b7672p0 with 27516 rows and digest 99c581cmiu22a7m6fqc60i3m48f.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TAccessPathFront#17403fb6/1@649a8748 with 5649 rows and digest d0cdeeccaa23jor067lr3aarq51.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TAccessPathFrontOption#ebff32a3/1@778258f2 with 5650 rows and digest 2725f0blhncdffvknmq6k2db9a2.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TApproxAccessPathFront#b9346c9a/1@a2c0a7hs with 2 rows and digest 8077edibunvleb7g75bfbjhteec.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TApproxAccessPathFrontOption#fff62e68/1@beb77fhv with 3 rows and digest 1e437594k4lrub4j1rp8ks3g8h1.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TBooleanOption#6f23d0e8/1@e287b0uv with 3 rows and digest 1e437594k4lrub4j1rp8ks3g8h1.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TLocalFlowCallContext#4fabb357/1@520506sr with 1 rows and digest 19f2cevarof1fbaqkctt3t43if4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::FlowThrough::Final::argumentValueFlowsThrough/4#5460be1a/4@3b296bc9 with 13997 rows and digest e18939asur3fj2ga952ulme69j4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TReturnCtx#1880ad61/1@c9c7e0me with 28371 rows and digest 83477d38oah7hgf65o4k1s3ofg4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::TReturnPosition#387dfb5c/1@570991bn with 28369 rows and digest a948afkdfsun4479igual77gvg5.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit CachedStages::Stages::AST::backref/0#dddb3000/0@9ce1df36 with 1 rows and digest ac90f0ei322hhreshlvdl215c38.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::getParamReturnPosition/2#6216ef66/3@0f008a0k with 55555 rows and digest 78b4d0bpbgnj59th682fod95i96.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::getValueReturnPosition/1#fb81402e/2@81d9ac6o with 12439 rows and digest 731487blh17ke5afghkdvmssfd2.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::simpleLocalFlowStepExt/3#e5158f99/3@f452d4n6 with 415936 rows and digest b952857drplgrcc6m33vhfg79v1.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit DataFlowImplCommon::Cached::storeSet/5#bf1f42af/5@43d97aqd with 150200 rows and digest ded2a7hc1c2ua3ok7rbfvco0o2a.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::CallStep#8242b00f/1@3dd957mk with 1 rows and digest 14d190jcpgdl411cck5pgml3dof.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::JumpStep#b59a2ca6/1@339c72lb with 1 rows and digest a28a4c33kuncpc8g6b5si5p502b.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::LevelStep#18f3a03d/1@8c3da9rj with 1 rows and digest 10952drg6dialitmaeap0ujtdf7.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::LoadStep#a52af285/2@f862cbuf with 3673 rows and digest b29aa0albrk26bmtm8m99jtf21c.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::isImported/1#f726a2da/1@e9ed686g with 655 rows and digest 93611fug5j76hiuma3qts7kg2m2.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::MkDef#51c2f877/2@136d5f9e with 163186 rows and digest e7a457au0ehn0dqtbgvo4kkv6c3.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ImportStar::ImportStar::isDefinedLocally/1#ff167f35/1@91b8e9et with 226267 rows and digest 7aaeae61dafoda2onut4vn01e6a.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ImportStar::ImportStar::potentialImportStarBase/1#920b005f/2@3792ba3i with 60 rows and digest 3c53c7v1vivdulo7m41fkvain1f.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::MkRoot#91562bd2/1@90a2d2l2 with 1 rows and digest 19f2cevarof1fbaqkctt3t43if4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::MkUse#871807e5/2@281097uu with 167501 rows and digest 019b314e8pk9jpdtfldoj5j3k20.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::use/3#e6c88b66/3@41509bil with 389906 rows and digest 105b3c3q26qp398jpb8b1rig3la.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::TApiNode#88a31bd8/1@4f3c61k1 with 331343 rows and digest ffd799q69b6livas3pe582rlb75.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::ReturnStep#baca7cda/1@476cf5dh with 1 rows and digest 19f2cevarof1fbaqkctt3t43if4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::TTypeTracker#23982e38/1@c9911ele with 7348 rows and digest c8f053vvt7jas2fgma802ke77m3.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit LocalSources::Cached::await/2#6dc34707/2@4effb2n4 with 4653 rows and digest 49d25amv76i5v2hjiqgaffdbnr0.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit LocalSources::Cached::dynamicAttrRef/2#d301c648/2@e23e3dgq with 182 rows and digest e9862com2ovu80ou4o4717fvaq5.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit LocalSources::Cached::subscript/3#c2c816b7/3@455256j2 with 21044 rows and digest 1cb59948jmgdiehu2dojm892kh8.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Awaited::awaited/1#2f6a02a1/2@2262d4ml with 4552 rows and digest 8862a14utb1sfctr4kre2uaubea.
+[2024-11-21 19:16:34] (0s)  >>> First-level cache hit TypeTrackingImpl::Cached::standardFlowsTo/2#6f90b79a/2@e2edf7lr with empty relation.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::smallStepNoCall/3#08e637dc/3@ac2a9frc with 240091 rows and digest 243e695th5m5mrl3b9jbr4bfsjc.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::StoreStep#b28a362b/2@1a30ee83 with 3413 rows and digest 36b60465ifi89tamj2ddr34avb6.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::TStepSummary#2eed3c0a/1@e66652oi with 7090 rows and digest 0c6c9a2gkj5pqn19jbbmeu1mkb7.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::smallStepCall/3#f8660c49/3@efb19er5 with 145532 rows and digest d1433fp769a86p4j8q8n52l281c.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::rhs/3#2255afc6/3@bef36f2c with 484975 rows and digest 4a1cc7a8kh31a174ceg2t5abs40.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit TypeTrackingImpl::Cached::TTypeBackTracker#c637f0a8/1@671bdfav with 6828 rows and digest 50211eeme23oh80dsmreqt6n073.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit LocalSources::LocalSourceNodeNotModuleVariableNode#bb09f09b/1@b22448hu with 436484 rows and digest af12d78vtim9ann765ps3podqm1.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit ApiGraphs::API::Impl::distanceFromRoot/1#42f937ef/2@7f49bado with 329299 rows and digest 35203e542eis532vcvro2uc6tq9.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit VariableCapture::Flow::CaptureSsa::TDefinitionExt#64348171/1@b5f654m8 with 1065 rows and digest 1edab9qvdhnc4oiaht24jpaf4da.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Essa::TEssaDefinition#4c062f56/1@8c9039hf with 397138 rows and digest d904c7iko1s58t44dmbp1jrml90.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::EssaDefinitions::piNode/3#b1917f93/3@02d83a9b with 45714 rows and digest af20a10oj9l9jqpjjtj8kibors8.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::AdjacentUses::adjacentUseUseSameVar/2#2eafd7db/2@578245v0 with 138497 rows and digest 43ab8a4to2pkff1esed764oo412.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::AdjacentUses::adjacentVarRefs/5#de1f7cd5/5@61c0def7 with 278822 rows and digest 8887ecr65upo0ev9qu4k0kticv0.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::AdjacentUses::defSourceUseRank/4#ebad7bcb/4@1fcc123k with 299757 rows and digest 080b3apa44rk3vab8r1i8eb4574.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::SsaComputeImpl::variableDefine/4#79261f91/4@58c30d23 with 136635 rows and digest 4301edhumvn08e8enmuv80bm1f3.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit AstExtended::AstNode.getAChildNode/0#dispred#a130356d/2@a4dbc53a with 668351 rows and digest 414dc70kuccsheg1c02jm0c4ra2.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::SsaDefinitions::reachesEndOfBlock/4#214bd902/4@04807bl8 with 2809926 rows and digest 91c0b0s45mksgffq88odbp0usr4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::Liveness::liveAtExit/2#b6aa63f4/2@e74a6bku with 3006668 rows and digest 4c3c3euc7ia861kphcirdbe9fe2.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::Liveness::liveAtEntry/2#bab3ea7c/2@e438c9nd with 3016594 rows and digest e435d0n7mghhh0id37tvacd3946.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::SsaComputeImpl::defUseRank/4#782a2f48/4@9ba049ft with 1094689 rows and digest ac3f8f6e91oubd531i0aouedbee.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::SsaComputeImpl::variableDef/4#38b3ef7e/4@2ebcb1gc with 319786 rows and digest aaf43503r3brarb5bjpltv8okb9.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::SsaComputeImpl::variableRefine/4#b20a3c26/4@6d1349h9 with 183151 rows and digest ff86c9c5639741f1q5de550lhb9.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::SsaComputeImpl::variableUse/4#da62dc30/4@47d71aut with 774903 rows and digest f17b8edb6d13s5otv59oo1ncvs0.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::SsaComputeImpl::defRank/4#f608ea69/4@252cf7m2 with 319786 rows and digest 2d6fd0a54vekrqpnvhspdt44fp1.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::SsaComputeImpl::lastRank/2#6cfcb19d/3@1c1bcasa with 425684 rows and digest 35a194562t9hag2v28tq6i99066.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::EssaDefinitions::phiNode/2#4864b30d/2@3250c3fn with 69288 rows and digest 7d54928k0g0tvap43r9v5jifdp5.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::SsaComputeImpl::ssaDef/2#1ca5a11b/2@978b8cg3 with 298741 rows and digest f13a6escbqgjco6s1jsq116qi28.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::EssaDefinitions::variableUpdate/5#c42159b9/5@3351d1k3 with 282136 rows and digest 8acc9bl6aj4c8u0mtn5f8bp2c2f.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::EssaDefinitions::variableDefinition/5#32b5d84f/5@38dfcb62 with 111684 rows and digest 760b59jajq5brl595fkidm8bmbe.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::EssaDefinitions::variableRefinement/5#4e891107/5@89958f5c with 170452 rows and digest dfae527vjqi5mlcj1dtiuc8id33.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::SsaComputeImpl::ssaDefReachesRank/4#f19c6fee/4@16ae7c5v with 825446 rows and digest 060c590004acfav3d8gcsen63n6.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Exprs::Expr.toString/0#dispred#7435dfcd/2@1f2e021m with 510150 rows and digest da52c59si029d126odfar0s4a34.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit AstExtended::AstNode.getParentNode/0#dispred#c159e3ee/2@f230882v with 668351 rows and digest b1966d1rp8qhg1ur2cr6ldg5il4.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit Flow::BasicBlock.strictlyReaches/1#dispred#12a5aa28/2@2eedb972 with 5216216 rows and digest 1c29e8nbdbfteta6i4prbl5hmq6.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::AdjacentUses::variableSourceUse/4#4525ef19/4@93e612oh with 163122 rows and digest a8c7dd24s6spkji2saiul57ij93.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::AdjacentUses::definesAt/4#68130204/4@1ce569tp with 180972 rows and digest 2bc28e6eo94e783ji9vt1raf3me.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::AdjacentUses::useOfDef/2#16a7ee50/2@b9299e82 with 158217 rows and digest fd3bf6lcep2j3qnkl1k22uofth7.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::SsaDefinitions::reachesExit/3#a534505a/3@541da3b0 with 89691 rows and digest 1ba5521gpj5h4psgiv87jo1sdf7.
+[2024-11-21 19:16:34] (0s)  >>> Full cache hit SsaCompute::SsaComputeImpl::ssaDefReachesUseWithinBlock/4#87a91e15/4@ce8e2duf with 425405 rows and digest d708e2v71ba0tm696aejnpd3qi2.
+[2024-11-21 19:16:34] (0s) Query done
+[2024-11-21 19:16:34] (0s) Pausing evaluation to sync to disk at sequence stamp o+76576
+[2024-11-21 19:16:34] (0s) Unpausing evaluation
+[2024-11-21 19:16:34] Evaluation of f:\projects\git_clone\LLMScheduling\codeql-custom-queries-python\new_global.ql produced BQRS results.
+ --- Evaluator Log Summary --- 
+Completed evaluation of query new_global.ql.
+[2024-11-21 19:16:34] Total evaluation times for this run:
+        * Wall-clock duration of evaluation run: 0.4 seconds
+        * Total time spent evaluating predicates: 0.0 seconds
